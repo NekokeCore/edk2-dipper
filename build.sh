@@ -9,5 +9,5 @@ set -e
 GCC5_AARCH64_PREFIX=aarch64-linux-gnu- build -s -n 0 -a AARCH64 -t GCC5 -p XiaomiMI8Pkg/XiaomiMI8Pkg.dsc
 gzip -c < workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/XIAOMIMI8PKG_UEFI.fd >uefi.img
 cat dipper.dtb >>uefi.img
-rm -rf /mnt/hgfs/HostWorkSpaces/ADB/platform-tools/uefi.img
-cp uefi.img /mnt/hgfs/HostWorkSpaces/ADB/platform-tools/
+#rm -rf /mnt/hgfs/HostWorkSpaces/ADB/platform-tools/uefi.img
+#cp uefi.img /mnt/hgfs/HostWorkSpaces/ADB/platform-tools/

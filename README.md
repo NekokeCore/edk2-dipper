@@ -1,39 +1,88 @@
-Attempt to create a minimal EDK2 for Xiaomi MI8 - dipper.
+# EDK2 UEFI Firmware For Xiaomi MI 8 (Dipper)
+Attempt to create a normal EDK2 for Xiaomi MI8 - dipper.
 
 Based on zhuowei's port for Pixel3XL (https://github.com/Pixel3Dev/edk2-pixel3/).
 
+## The Most Important
+DO NOT FLASH THIS UEFI FIRMWARE IN YOUR MAIN PHONE !!!
+
+It's very unstable and you may lost your data.
+
 ## Status 
+ UFS WORK！
 
-Can load GRUB2 from a fat partition on the emmc.(/firmware is tested,you can also format the useless /vendor for it)
-Can partially boot the Fedora 29 aarch64 kernel: there's no initrd, so the kernel panics when mounting root FS.
+ And can load Windows Recovery.
 
-## Building
-Tested on Ubuntu 18.04.
+## Dev Logs
+2020.1.6 Fix 5 compiler error.
 
-First, clone EDK2.
+2020.1.7 Start work and successfully run on my phone.
+
+2020.1.8 Fix Display.
+
+2020.4.17 Fix UFS drive and Fix MemoryMap（Thanks 5超级菜鸟5）.
+
+## To-Do
+1.Fix SPMI
+
+2.Fix USB drive
+
+3.Fix ACPI table
+
+## Dependencies
+
+Ubuntu 18.04:
 
 ```
-cd ..
+sudo apt update
+sudo apt install build-essential uuid-dev iasl git nasm python3-distutils gcc-aarch64-linux-gnu
+```
+Or
+```
+sudo apt update
+sudo apt install build-essential
+sudo apt install uuid-dev
+sudo apt install iasl
+sudo apt install git
+sudo apt install nasm
+sudo apt install python3-distutils
+sudo apt install gcc-aarch64-linux-gnu
+```
+
+
+## Building
+1.Clone edk2 and edk2-platforms (Place three directories side by side.)
+```
+mkdir workspace
+cd workspace
 git clone https://github.com/tianocore/edk2.git --recursive
 git clone https://github.com/tianocore/edk2-platforms.git
 ```
 
-You should have all three directories side by side.
-
-Next, install dependencies:
-
-18.04:
-
+2.Clone this project
 ```
-sudo apt install build-essential uuid-dev iasl git nasm python3-distutils gcc-aarch64-linux-gnu
+git clone https://github.com/NekokeCore/edk2_dipper_SDM845_Xiaomi_mi_8.git
 ```
 
-Also see [EDK2 website](https://github.com/tianocore/tianocore.github.io/wiki/Using-EDK-II-with-Native-GCC#Install_required_software_from_apt)
+3.Build eenvironment
+```
+bash firstrun.sh
+```
 
-Finally, ./build.sh.
-
-Then fastboot boot uefi.img.
+4.Build this project
+```
+bash build.sh
+```
+5.Debug and use
+```
+fastboot boot uefi.img
+```
 
 # Credits
+MemoryMap thanks 5超级菜鸟5.
+
+Orther edk2 project [EngLearnsh](https://github.com/EngLearnsh/edk2-dipper).
 
 SimpleFbDxe screen driver is from imbushuo's [Lumia950XLPkg](https://github.com/WOA-Project/Lumia950XLPkg).
+
+Also thanks [edk2 website](https://github.com/tianocore/tianocore.github.io/wiki/Using-EDK-II-with-Native-GCC#Install_required_software_from_apt).
