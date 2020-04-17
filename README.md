@@ -20,7 +20,7 @@ It's very unstable and you may lost your data.
 
 2020.1.8 Fix Display.
 
-2020.4.17 Fix UFS drive and Fix MemoryMap（Thanks 5超级菜鸟5）.
+2020.4.17 Fix UFS drive and Fix MemoryMap（Thanks [5超级菜鸟5](https://github.com/sunshuyu)）.
 
 ## To-Do
 1.Fix SPMI
@@ -79,7 +79,7 @@ fastboot boot uefi.img
 ```
 
 # Credits
-MemoryMap thanks 5超级菜鸟5.
+MemoryMap thanks [5超级菜鸟5](https://github.com/sunshuyu).
 
 Orther edk2 project [EngLearnsh](https://github.com/EngLearnsh/edk2-dipper).
 
