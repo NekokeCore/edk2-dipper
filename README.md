@@ -23,11 +23,8 @@ It's very unstable and you may lost your data.
 2020.1.8 Fix Display.
 
 2020.4.17 Fix UFS drive and Fix MemoryMap（Thanks [5超级菜鸟5](https://github.com/sunshuyu)）.
-<<<<<<< HEAD
 
 2020.4.19 Add ACPI etc. Tables and Fix DSDT 24 Errors. （PS.The ACPI and SSDT etc. Tables Provided by [5超级菜鸟5](https://github.com/sunshuyu)）
-=======
->>>>>>> ed8fe1b42e903510331d8546dc3f8634778fba2b
 
 ## To-Do
 1.Check the ACPI Table if it doesn't work
