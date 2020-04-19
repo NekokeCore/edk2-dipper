@@ -16,7 +16,7 @@
 
 [Defines]
   INF_VERSION                    = 0x00010005
-  BASE_NAME                      = MI8AcpiTables
+  BASE_NAME                      = XiaomiMI8AcpiTables
   FILE_GUID                      = 7E374E25-8E01-4FEE-87F2-390C23C606CD # Must be this
   MODULE_TYPE                    = USER_DEFINED
   VERSION_STRING                 = 1.0

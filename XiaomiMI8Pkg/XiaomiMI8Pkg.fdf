@@ -189,8 +189,25 @@ READ_LOCK_STATUS   = TRUE
   INF MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
   INF MdeModulePkg/Universal/Acpi/AcpiPlatformDxe/AcpiPlatformDxe.inf
   INF MdeModulePkg/Universal/Acpi/BootGraphicsResourceTableDxe/BootGraphicsResourceTableDxe.inf
-  INF RuleOverride = ACPITABLE XiaomiMI8Pkg/AcpiTables/AcpiTables.inf
-
+  #INF RuleOverride = ACPITABLE XiaomiMI8Pkg/AcpiTables/AcpiTables.inf
+  FILE FREEFORM = 7E374E25-8E01-4FEE-87F2-390C23C606CD {
+	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/dbg2.aml
+	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/dsdt.aml
+	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/apic.aml
+	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/bgrt.aml
+	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/facp.aml
+	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/fpdt.aml
+	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/gtdt.aml
+	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/iort.aml
+	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/mcfg.aml
+	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/msdm.aml
+	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/pptt.aml
+	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/ssdt.aml
+	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/ssdt1.aml
+	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/tpm2.aml
+	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/xsdt.aml
+	SECTION UI = "AcpiTables"
+  }
   #
   # SMBIOS Support
   #
