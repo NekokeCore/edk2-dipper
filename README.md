@@ -83,11 +83,7 @@ fastboot boot uefi.img
 ```
 
 # Credits
-<<<<<<< HEAD
 MemoryMap and ACPI etc. tables thanks [5超级菜鸟5](https://github.com/sunshuyu).
-=======
-MemoryMap thanks [5超级菜鸟5](https://github.com/sunshuyu).
->>>>>>> ed8fe1b42e903510331d8546dc3f8634778fba2b
 
 Orther edk2 project [EngLearnsh](https://github.com/EngLearnsh/edk2-dipper).
 
