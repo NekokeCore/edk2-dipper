@@ -1,4 +1,5 @@
-# EDK2 UEFI Firmware For Xiaomi MI 8 (Dipper)
+# This repo is STOP development please move to [edk2-dipper](https://github.com/NekokeCore/edk2-dipper)
+## EDK2 UEFI Firmware For Xiaomi MI 8 (Dipper)
 Attempt to create a normal EDK2 for Xiaomi MI8 - dipper.
 
 Based on zhuowei's port for Pixel3XL (https://github.com/Pixel3Dev/edk2-pixel3/).
