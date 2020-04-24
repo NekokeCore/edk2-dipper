@@ -271,9 +271,9 @@
   # ASSERT_BREAKPOINT_ENABLED  0x10
   # ASSERT_DEADLOOP_ENABLED    0x20
 !if $(TARGET) == RELEASE
-  gEfiMdePkgTokenSpaceGuid.PcdDebugPropertyMask|0x00
+  gEfiMdePkgTokenSpaceGuid.PcdDebugPropertyMask|0x0e
 !else
-  gEfiMdePkgTokenSpaceGuid.PcdDebugPropertyMask|0x00
+  gEfiMdePkgTokenSpaceGuid.PcdDebugPropertyMask|0x0f
 !endif
 
   #  DEBUG_INIT      0x00000001  // Initialization
@@ -294,7 +294,7 @@
   #  DEBUG_ERROR     0x80000000  // Error
 
   gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x80000046
-  gEfiMdePkgTokenSpaceGuid.PcdReportStatusCodePropertyMask|0x00
+  gEfiMdePkgTokenSpaceGuid.PcdReportStatusCodePropertyMask|0x06
 
   #
   # Optional feature to help prevent EFI memory map fragments

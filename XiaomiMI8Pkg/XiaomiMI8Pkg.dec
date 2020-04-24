@@ -43,3 +43,5 @@
   gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32|UINT32|0x0000a403
   gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1080|UINT32|0x0000a404
   gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|2248|UINT32|0x0000a405
+  # RTC information
+  gXiaomiMI8PkgTokenSpaceGuid.PcdBootShimInfo1|0xb0000000|UINT64|0x00000a601

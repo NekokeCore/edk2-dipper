@@ -1,5 +1,4 @@
-# This repo is STOP development please move to [edk2-dipper](https://github.com/NekokeCore/edk2-dipper)
-## EDK2 UEFI Firmware For Xiaomi MI 8 (Dipper)
+# EDK2 UEFI Firmware For Xiaomi MI 8 (Dipper)
 Attempt to create a normal EDK2 for Xiaomi MI8 - dipper.
 
 Based on zhuowei's port for Pixel3XL (https://github.com/Pixel3Dev/edk2-pixel3/).
@@ -11,7 +10,11 @@ It's very unstable and you may lost your data.
 
 ## Status 
  UFS WORK！
- 
+
+ Can boot Linux Arm
+
+ Clock WORK!
+
  ACPI etc. tables added.
 
  And can load Windows Recovery.
@@ -27,12 +30,10 @@ It's very unstable and you may lost your data.
 
 2020.4.19 Add ACPI etc. Tables and Fix DSDT 24 Errors. （PS.The ACPI and SSDT etc. Tables Provided by [5超级菜鸟5](https://github.com/sunshuyu)）
 
+2020.4.24 Fix Clock and The Clock is work well && Add SmemDxe SPI SPMI HWIODxeDriver PmicDxe ButtonsDxe ChipInfoDxe to Binary && Add USB driver
+
 ## To-Do
-1.Check the ACPI Table if it doesn't work
-
-2.Fix SPMI
-
-3.Fix USB drive
+1.make Windows PE boot up
 
 ## Dependencies
 
@@ -83,7 +84,7 @@ bash build.sh
 fastboot boot uefi.img
 ```
 
-# Credits
+## Credits
 MemoryMap and ACPI etc. tables thanks [5超级菜鸟5](https://github.com/sunshuyu).
 
 Orther edk2 project [EngLearnsh](https://github.com/EngLearnsh/edk2-dipper).
@@ -91,3 +92,8 @@ Orther edk2 project [EngLearnsh](https://github.com/EngLearnsh/edk2-dipper).
 SimpleFbDxe screen driver is from imbushuo's [Lumia950XLPkg](https://github.com/WOA-Project/Lumia950XLPkg).
 
 Also thanks [edk2 website](https://github.com/tianocore/tianocore.github.io/wiki/Using-EDK-II-with-Native-GCC#Install_required_software_from_apt).
+
+## Preview
+<center class="half">
+    <img src="img/1.jpg" width="200"/><img src="img/2.jpg" width="200"/><img src="img/3.jpg" width="200"/><img src="img/4.jpg" width="200"/><img src="img/5.jpg" width="200"/>
+</center>

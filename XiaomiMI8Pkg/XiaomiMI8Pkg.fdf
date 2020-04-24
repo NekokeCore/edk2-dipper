@@ -122,6 +122,24 @@ READ_LOCK_STATUS   = TRUE
   INF EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe.inf
   INF EmbeddedPkg/MetronomeDxe/MetronomeDxe.inf
 
+  FILE DRIVER = af9763a2-033b-4109-8e17-56a98d380c92 {
+    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/HWIODxeDriver/HWIODxeDriver.depex
+    SECTION PE32 = XiaomiMI8Pkg/Binary/HWIODxeDriver/HWIODxeDriver.efi
+    SECTION UI = "HWIODxeDriver"
+  }
+
+  FILE DRIVER = 5776232e-082d-4b75-9a0e-fe1d13f7a5d9 {
+    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/PmicDxe/PmicDxe.depex
+    SECTION PE32 = XiaomiMI8Pkg/Binary/PmicDxe/PmicDxe.efi
+    SECTION UI = "PmicDxe"
+  }
+
+  FILE DRIVER = 5bd181db-0487-4f1a-ae73-820e165611b3 {
+    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/ButtonsDxe/ButtonsDxe.depex
+    SECTION PE32 = XiaomiMI8Pkg/Binary/ButtonsDxe/ButtonsDxe.efi
+    SECTION UI = "ButtonsDxe"
+  }
+
   #
   # Multiple Console IO support
   #
@@ -138,6 +156,36 @@ READ_LOCK_STATUS   = TRUE
 
   INF MdeModulePkg/Universal/PCD/Dxe/Pcd.inf
 
+  FILE DRIVER = 3299a266-15f0-4346-8318-716336736d3e {
+    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/UsbDeviceDxe/UsbDeviceDxe.depex
+    SECTION PE32 = XiaomiMI8Pkg/Binary/UsbDeviceDxe/UsbDeviceDxe.efi
+    SECTION UI = "UsbDeviceDxe"
+  }
+
+  FILE DRIVER = 11faed4c-b21f-4d88-8e48-c4c28a1e50df {
+    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/UsbPwrCtrlDxe/UsbPwrCtrlDxe.depex
+    SECTION PE32 = XiaomiMI8Pkg/Binary/UsbPwrCtrlDxe/UsbPwrCtrlDxe.efi
+    SECTION UI = "UsbPwrCtrlDxe"
+  }
+
+  FILE DRIVER = 5af77f10-90df-4e7e-8325-a17ec09d5443 {
+    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/UsbMsdDxe/UsbMsdDxe.depex
+    SECTION PE32 = XiaomiMI8Pkg/Binary/UsbMsdDxe/UsbMsdDxe.efi
+    SECTION UI = "UsbMsdDxe"
+  }
+
+  FILE DRIVER = 94f8a6a7-dc34-4101-88c1-99179cceae83 {
+    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/UsbfnDwc3Dxe/UsbfnDwc3Dxe.depex
+    SECTION PE32 = XiaomiMI8Pkg/Binary/UsbfnDwc3Dxe/UsbfnDwc3Dxe.efi
+    SECTION UI = "UsbfnDwc3Dxe"
+  }
+
+  FILE DRIVER = cd823a4d-7dec-4531-ae5d-4134fa4127b8 {
+    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/UsbConfigDxe/UsbConfigDxe.depex
+    SECTION PE32 = XiaomiMI8Pkg/Binary/UsbConfigDxe/UsbConfigDxe.efi
+    SECTION UI = "UsbDeviceDxe"
+  }
+
   #
   # GPIO
   #
@@ -149,6 +197,35 @@ READ_LOCK_STATUS   = TRUE
 
   INF XiaomiMI8Pkg/XiaomiMI8Dxe/XiaomiMI8Dxe.inf
   INF XiaomiMI8Pkg/SimpleFbDxe/SimpleFbDxe.inf
+
+  FILE DRIVER = 0d35cd8e-97ea-4f9a-96af-0f0d89f76567 {
+    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/UFSDxe/UFSDxe.depex
+    SECTION PE32 = XiaomiMI8Pkg/Binary/UFSDxe/UFSDxe.efi
+    SECTION UI = "UFSDxe"
+  }
+  FILE DRIVER = 2a7b4bef-80cd-49e1-b473-374ba4d673fc {
+    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/SPMI/SPMI.depex
+    SECTION PE32 = XiaomiMI8Pkg/Binary/SPMI/SPMI.efi
+    SECTION UI = "SPMI"
+  }
+
+  FILE DRIVER = f541d663-4a48-40aa-aabf-ff158ccae34c {
+    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/SmemDxe/SmemDxe.depex
+    SECTION PE32 = XiaomiMI8Pkg/Binary/SmemDxe/SmemDxe.efi
+    SECTION UI = "SmemDxe"
+  }
+    
+  FILE DRIVER = 10e193df-9966-44e7-b17c-59dd831e20fc {
+    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/ChipInfo/ChipInfo.depex
+    SECTION PE32 = XiaomiMI8Pkg/Binary/ChipInfo/ChipInfo.efi
+    SECTION UI = "ChipInfo"
+  }
+
+  FILE DRIVER = 7a32bd23-f735-4f57-aa1a-447d2fe3be0d {
+    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/SPI/SPI.depex
+    SECTION PE32 = XiaomiMI8Pkg/Binary/SPI/SPI.efi
+    SECTION UI = "SPI"
+  }
 
 
   #
@@ -191,22 +268,23 @@ READ_LOCK_STATUS   = TRUE
   INF MdeModulePkg/Universal/Acpi/BootGraphicsResourceTableDxe/BootGraphicsResourceTableDxe.inf
   #INF RuleOverride = ACPITABLE XiaomiMI8Pkg/AcpiTables/AcpiTables.inf
   FILE FREEFORM = 7E374E25-8E01-4FEE-87F2-390C23C606CD {
-	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/dbg2.aml
-	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/dsdt.aml
-	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/apic.aml
-	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/bgrt.aml
-	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/facp.aml
-	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/fpdt.aml
-	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/gtdt.aml
-	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/iort.aml
-	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/mcfg.aml
-	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/msdm.aml
-	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/pptt.aml
-	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/ssdt.aml
-	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/ssdt1.aml
-	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/tpm2.aml
-	SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/xsdt.aml
-	SECTION UI = "AcpiTables"
+	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/dbg2.aml
+	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/dsdt.aml
+    SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/csrt.aml
+	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/apic.aml
+	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/bgrt.aml
+	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/facp.aml
+	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/fpdt.aml
+	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/gtdt.aml
+	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/iort.aml
+	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/mcfg.aml
+	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/msdm.aml
+	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/pptt.aml
+	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/ssdt.aml
+	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/ssdt1.aml
+	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/tpm2.aml
+	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/xsdt.aml
+	  SECTION UI = "AcpiTables"
   }
   #
   # SMBIOS Support
@@ -233,46 +311,6 @@ READ_LOCK_STATUS   = TRUE
   INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
   INF MdeModulePkg/Application/UiApp/UiApp.inf
   INF XiaomiMI8Pkg/Drivers/LogoDxe/LogoDxe.inf
-
-  #
-  #Binary DXE drivers from Lenovo MSM8998
-  #
-
-  FILE DRIVER = 7a32bd23-f735-4f57-aa1a-447d2fe3be0d {
-    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/SPI/SPI.depex
-    SECTION PE32 = XiaomiMI8Pkg/Binary/SPI/SPI.efi
-    SECTION UI = "SPI"
-  }
-
-  FILE DRIVER = 0d35cd8e-97ea-4f9a-96af-0f0d89f76567 {
-    #SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/UFSDxe/UFSDxe.depex
-    SECTION PE32 = XiaomiMI8Pkg/Binary/UFSDxe/UFSDxe.efi
-    SECTION UI = "UFSDxe"
-  }
-
-  #FILE DRIVER = 2a7b4bef-80cd-49e1-b473-374ba4d673fc {
-  #  SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/SPMI/SPMI.depex
-  #  SECTION PE32 = XiaomiMI8Pkg/Binary/SPMI/SPMI.efi
-  #  SECTION UI = "SPMI"
-  #}
-
-  FILE DRIVER = 04de8591-d2b3-4077-bbbe-b12070094eb6 {
-    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/I2C/I2C.depex
-    SECTION PE32 = XiaomiMI8Pkg/Binary/I2C/I2C.efi
-    SECTION UI = "I2C"
-  }
-
-  FILE DRIVER = 3299a266-15f0-4346-8318-716336736d3e {
-    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/UsbDeviceDxe/UsbDeviceDxe.depex
-    SECTION PE32 = XiaomiMI8Pkg/Binary/UsbDeviceDxe/UsbDeviceDxe.efi
-    SECTION UI = "UsbDeviceDxe"
-  }
-
-  FILE DRIVER = 5af77f10-90df-4e7e-8325-a17ec09d5443 {
-    SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/UsbMsdDxe/UsbMsdDxe.depex
-    SECTION PE32 = XiaomiMI8Pkg/Binary/UsbMsdDxe/UsbMsdDxe.efi
-    SECTION UI = "UsbMsdDxe"
-  }
 
 [FV.FVMAIN_COMPACT]
 FvAlignment        = 8
