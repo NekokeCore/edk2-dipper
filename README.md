@@ -17,7 +17,7 @@ It's very unstable and you may lost your data.
 
  ACPI etc. tables added.
 
- And can load Windows to bluescreen.
+ And can load Windows then reboot.
 
 
 ## Dev Logs
@@ -34,6 +34,8 @@ It's very unstable and you may lost your data.
 2020.4.24 Fix Clock and The Clock is work well && Add SmemDxe SPI SPMI HWIODxeDriver PmicDxe ButtonsDxe ChipInfoDxe to Binary && Add USB driver
 
 2020.4.30 Re added MemoryMap and can boot Windows to BlueScreen（Stop Code：Memory Managent） and （Stop Code：IRQL NOT LESS OR EQUAL）
+
+2020.5.6 Fix A Lot but Nothing.
 
 ## To-Do
 1.make Windows PE boot up
