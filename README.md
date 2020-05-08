@@ -17,7 +17,7 @@ It's very unstable and you may lost your data.
 
  ACPI etc. tables added.
 
- And can load Windows Recovery.
+ And can't load Windows PE.
 
 ## Dev Logs
 2020.1.6 Fix 5 compiler error.
@@ -29,6 +29,10 @@ It's very unstable and you may lost your data.
 2020.4.17 Fix UFS drive and Fix MemoryMap（Thanks [5超级菜鸟5](https://github.com/sunshuyu)）.
 
 2020.4.19 Add ACPI etc. Tables and Fix DSDT 24 Errors. （PS.The ACPI and SSDT etc. Tables Provided by [5超级菜鸟5](https://github.com/sunshuyu)）
+
+2020.4.24 Fix Clock and The Clock is work well && Add SmemDxe SPI SPMI HWIODxeDriver PmicDxe ButtonsDxe ChipInfoDxe to Binary && Add USB driver
+
+2020.4.30 Re added MemoryMap and can boot Windows to BlueScreen（Stop Code：Memory Managent） and （Stop Code：IRQL NOT LESS OR EQUAL）
 
 2020.5.6 Fix A Lot but Nothing.
 
