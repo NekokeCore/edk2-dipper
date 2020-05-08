@@ -12,7 +12,7 @@
 
 [Defines]
   INF_VERSION                    = 0x00010019
-  BASE_NAME                      = XiaomiMI8Lib
+  BASE_NAME                      = XiaomiMI8SELib
   FILE_GUID                      = 61620091-45BA-4EFF-8F58-F7ABF228CEBC
   MODULE_TYPE                    = BASE
   VERSION_STRING                 = 1.0
@@ -24,7 +24,6 @@
   EmbeddedPkg/EmbeddedPkg.dec
   MdePkg/MdePkg.dec
   MdeModulePkg/MdeModulePkg.dec
-  XiaomiMI8Pkg/XiaomiMI8Pkg.dec
 
 [LibraryClasses]
   ArmLib

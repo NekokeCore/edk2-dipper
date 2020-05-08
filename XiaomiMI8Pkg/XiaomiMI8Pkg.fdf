@@ -183,7 +183,7 @@ READ_LOCK_STATUS   = TRUE
   FILE DRIVER = cd823a4d-7dec-4531-ae5d-4134fa4127b8 {
     SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/UsbConfigDxe/UsbConfigDxe.depex
     SECTION PE32 = XiaomiMI8Pkg/Binary/UsbConfigDxe/UsbConfigDxe.efi
-    SECTION UI = "UsbDeviceDxe"
+    SECTION UI = "UsbConfigDxe"
   }
 
   #
@@ -325,19 +325,19 @@ READ_LOCK_STATUS   = TRUE
   INF MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
   INF MdeModulePkg/Universal/Acpi/AcpiPlatformDxe/AcpiPlatformDxe.inf
   INF MdeModulePkg/Universal/Acpi/BootGraphicsResourceTableDxe/BootGraphicsResourceTableDxe.inf
-  #INF RuleOverride = ACPITABLE XiaomiMI8Pkg/AcpiTables/AcpiTables.inf
-  FILE FREEFORM = 7E374E25-8E01-4FEE-87F2-390C23C606CD {
-	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/DBG2.aml
-	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/DSDT.aml
-    SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/CSRT.aml
-	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/FADT.aml
-    SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/FACS.aml
-	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/GTDT.aml
-	  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/MCFG.aml
-    SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/MADT.aml
-    SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/PPTT.aml
-	  SECTION UI = "AcpiTables"
-  }
+  INF RuleOverride = ACPITABLE XiaomiMI8Pkg/AcpiTables/AcpiTables.inf
+  #FILE FREEFORM = 7E374E25-8E01-4FEE-87F2-390C23C606CD {
+	#  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/DBG2.aml
+	#  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/DSDT.aml
+  #  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/CSRT.aml
+	#  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/FADT.aml
+  #  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/FACS.aml
+	#  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/GTDT.aml
+	#  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/MCFG.aml
+  #  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/MADT.aml
+  #  SECTION RAW = XiaomiMI8Pkg/AcpiTables/SDM850/PPTT.aml
+	#  SECTION UI = "AcpiTables"
+  #}
 
 
   #
@@ -364,7 +364,8 @@ READ_LOCK_STATUS   = TRUE
   INF MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe.inf
   INF MdeModulePkg/Universal/BdsDxe/BdsDxe.inf
   INF MdeModulePkg/Application/UiApp/UiApp.inf
-  INF XiaomiMI8Pkg/Drivers/LogoDxe/LogoDxe.inf
+  #INF XiaomiMI8Pkg/Drivers/LogoDxe/LogoDxe.inf
+  INF MdeModulePkg/Logo/LogoDxe.inf
 
 [FV.FVMAIN_COMPACT]
 FvAlignment        = 8

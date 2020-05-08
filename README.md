@@ -17,8 +17,7 @@ It's very unstable and you may lost your data.
 
  ACPI etc. tables added.
 
- And can load Windows then reboot.
-
+ And can load Windows Recovery.
 
 ## Dev Logs
 2020.1.6 Fix 5 compiler error.
@@ -31,11 +30,9 @@ It's very unstable and you may lost your data.
 
 2020.4.19 Add ACPI etc. Tables and Fix DSDT 24 Errors. （PS.The ACPI and SSDT etc. Tables Provided by [5超级菜鸟5](https://github.com/sunshuyu)）
 
-2020.4.24 Fix Clock and The Clock is work well && Add SmemDxe SPI SPMI HWIODxeDriver PmicDxe ButtonsDxe ChipInfoDxe to Binary && Add USB driver
-
-2020.4.30 Re added MemoryMap and can boot Windows to BlueScreen（Stop Code：Memory Managent） and （Stop Code：IRQL NOT LESS OR EQUAL）
-
 2020.5.6 Fix A Lot but Nothing.
+
+2020.5.8 Fix A Lot but Nothing.
 
 ## To-Do
 1.make Windows PE boot up
@@ -97,8 +94,3 @@ Orther edk2 project [EngLearnsh](https://github.com/EngLearnsh/edk2-dipper).
 SimpleFbDxe screen driver is from imbushuo's [Lumia950XLPkg](https://github.com/WOA-Project/Lumia950XLPkg).
 
 Also thanks [edk2 website](https://github.com/tianocore/tianocore.github.io/wiki/Using-EDK-II-with-Native-GCC#Install_required_software_from_apt).
-
-## Preview
-<center class="half">
-    <img src="img/1.jpg" width="200"/><img src="img/2.jpg" width="200"/><img src="img/3.jpg" width="200"/><img src="img/4.jpg" width="200"/><img src="img/5.jpg" width="200"/>
-</center>

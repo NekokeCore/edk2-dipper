@@ -30,7 +30,9 @@
 
 [LibraryClasses.common]
   ArmLib|ArmPkg/Library/ArmLib/ArmBaseLib.inf
+
   ArmPlatformLib|XiaomiMI8Pkg/Library/XiaomiMI8Lib/XiaomiMI8Lib.inf
+
   CompilerIntrinsicsLib|ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib.inf
   CapsuleLib|MdeModulePkg/Library/DxeCapsuleLibNull/DxeCapsuleLibNull.inf
   UefiBootManagerLib|MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib.inf
@@ -68,6 +70,8 @@
 
   SerialPortLib|XiaomiMI8Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib.inf
   PlatformBootManagerLib|XiaomiMI8Pkg/Library/PlatformBootManagerLib/PlatformBootManagerLib.inf
+  PlatformPeiLib|XiaomiMI8Pkg/Library/PlatformPeiLib/PlatformPeiLib.inf
+
   MemoryInitPeiLib|XiaomiMI8Pkg/Library/MemoryInitPeiLib/PeiMemoryAllocationLib.inf
   PlatformPeiLib|XiaomiMI8Pkg/Library/PlatformPeiLib/PlatformPeiLib.inf
 
@@ -96,13 +100,13 @@
 [PcdsFixedAtBuild.common]
   gEfiMdePkgTokenSpaceGuid.PcdDefaultTerminalType|4
 
-  gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareVersionString|L"Dipper"
+  gEfiMdeModulePkgTokenSpaceGuid.PcdFirmwareVersionString|L"1.0.1"
 
   # System Memory (4GB)
   gArmTokenSpaceGuid.PcdSystemMemoryBase|0x80000000
-  gArmTokenSpaceGuid.PcdSystemMemorySize|0x100000000
+  gArmTokenSpaceGuid.PcdSystemMemorySize|0x160000000
 
-  # We boot eight processor here!
+  # We boot one processor here!
   gArmPlatformTokenSpaceGuid.PcdCoreCount|1
   gArmPlatformTokenSpaceGuid.PcdClusterCount|1
 
@@ -139,7 +143,9 @@
   #
   gEfiMdeModulePkgTokenSpaceGuid.PcdEmuVariableNvModeEnable|TRUE
   
-  gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x9d400000
+  #gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x9d400000
+  #隐藏刘海
+  gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x9D469780
   gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
   gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2248
 
@@ -244,7 +250,7 @@
   MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
   MdeModulePkg/Universal/Acpi/AcpiPlatformDxe/AcpiPlatformDxe.inf
   MdeModulePkg/Universal/Acpi/BootGraphicsResourceTableDxe/BootGraphicsResourceTableDxe.inf
-  #XiaomiMI8Pkg/AcpiTables/AcpiTables.inf
+  XiaomiMI8Pkg/AcpiTables/AcpiTables.inf
 
   #
   # SMBIOS Support
@@ -272,7 +278,8 @@
       NULL|MdeModulePkg/Library/BootMaintenanceManagerUiLib/BootMaintenanceManagerUiLib.inf
       PcdLib|MdePkg/Library/DxePcdLib/DxePcdLib.inf
   }
-  XiaomiMI8Pkg/Drivers/LogoDxe/LogoDxe.inf
+  #XiaomiMI8Pkg/Drivers/LogoDxe/LogoDxe.inf
+  MdeModulePkg/Logo/LogoDxe.inf
 
   ShellPkg/Application/Shell/Shell.inf {
     <LibraryClasses>
