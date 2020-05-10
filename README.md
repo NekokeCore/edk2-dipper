@@ -1,7 +1,7 @@
 # EDK2 UEFI Firmware For Xiaomi MI 8 (Dipper)
 Attempt to create a normal EDK2 for Xiaomi MI8 - dipper.
 
-Based on zhuowei's port for Pixel3XL (https://github.com/Pixel3Dev/edk2-pixel3/).
+Based on zhuowei's port for [Pixel3XL](https://github.com/Pixel3Dev/edk2-pixel3/).
 
 ## The Most Important
 DO NOT FLASH THIS UEFI FIRMWARE IN YOUR MAIN PHONE !!!
@@ -15,9 +15,9 @@ It's very unstable and you may lost your data.
 
  Clock WORK!
 
- ACPI etc. tables added.
+ Test ACPI etc. tables removeed.
 
- And can't load Windows PE.
+ And can load Windows PE.
 
 ## Dev Logs
 2020.1.6 Fix 5 compiler error.
@@ -26,9 +26,9 @@ It's very unstable and you may lost your data.
 
 2020.1.8 Fix Display.
 
-2020.4.17 Fix UFS drive and Fix MemoryMap（Thanks [5超级菜鸟5](https://github.com/sunshuyu)）.
+2020.4.17 Fix UFS drive and Fix MemoryMap（Thanks [Lemon1Ice](https://github.com/Lemon1Ice)）.
 
-2020.4.19 Add ACPI etc. Tables and Fix DSDT 24 Errors. （PS.The ACPI and SSDT etc. Tables Provided by [5超级菜鸟5](https://github.com/sunshuyu)）
+2020.4.19 Add ACPI etc. Tables and Fix DSDT 24 Errors. （PS.The ACPI and SSDT etc. Tables Provided by [Lemon1Ice](https://github.com/Lemon1Ice)）
 
 2020.4.24 Fix Clock and The Clock is work well && Add SmemDxe SPI SPMI HWIODxeDriver PmicDxe ButtonsDxe ChipInfoDxe to Binary && Add USB driver
 
@@ -38,8 +38,10 @@ It's very unstable and you may lost your data.
 
 2020.5.8 Fix A Lot but Nothing.
 
+2020.5.10 Can boot WindowsPE . Thank for [Lemon1Ice](https://github.com/Lemon1Ice) patience and great help！
+
 ## To-Do
-1.make Windows PE boot up
+1.Fix fts touchscreen
 
 ## Dependencies
 
@@ -91,7 +93,7 @@ fastboot boot uefi.img
 ```
 
 ## Credits
-MemoryMap and ACPI etc. tables thanks [5超级菜鸟5](https://github.com/sunshuyu).
+MemoryMap and ACPI etc. tables thanks [Lemon1Ice](https://github.com/Lemon1Ice).
 
 Orther edk2 project [EngLearnsh](https://github.com/EngLearnsh/edk2-dipper).
 

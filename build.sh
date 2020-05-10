@@ -2,7 +2,7 @@
 # based on the instructions from edk2-platform
 echo cleanning BuidFiles
 rm -rf workspace/*
-rm -rf uefi_withoutramdisk.img
+rm -rf uefi.img
 rm -rf boot.img
 echo Done.
 set -e
