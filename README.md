@@ -94,13 +94,8 @@ commit:cfdc7f907d545b14302295b819ea078bc36c6a40
 ```
 mkdir workspaceedk2
 cd workspaceedk2
-git clone https://github.com/tianocore/edk2.git --recursive
-git clone https://github.com/tianocore/edk2-platforms.git
-cd edk2
-git checkout 3a3713e62cfad00d78bb938b0d9fb1eedaeff314
-cd ..
-cd edk2-platforms
-git checkout cfdc7f907d545b14302295b819ea078bc36c6a40
+git clone https://github.com/tianocore/edk2.git -o 3a3713e62cfad00d78bb938b0d9fb1eedaeff314 --recursive --depth=1
+git clone https://github.com/tianocore/edk2-platforms.git -o cfdc7f907d545b14302295b819ea078bc36c6a40 --recursive --depth=1
 ```
 
 2.Clone this project
