@@ -183,7 +183,7 @@ READ_LOCK_STATUS   = TRUE
   FILE DRIVER = cd823a4d-7dec-4531-ae5d-4134fa4127b8 {
     SECTION DXE_DEPEX = XiaomiMI8Pkg/Binary/UsbConfigDxe/UsbConfigDxe.depex
     SECTION PE32 = XiaomiMI8Pkg/Binary/UsbConfigDxe/UsbConfigDxe.efi
-    SECTION UI = "UsbDeviceDxe"
+    SECTION UI = "UsbConfigDxe"
   }
 
   #
