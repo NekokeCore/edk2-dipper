@@ -99,6 +99,7 @@ git clone https://github.com/NekokeCore/edk2-dipper.git
 
 3.Build eenvironment
 ```
+cd edk2-dipper
 mkdir workspace
 bash firstrun.sh
 ```
