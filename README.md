@@ -18,7 +18,7 @@ It's very unstable and you may lost your data.
 
  Clock WORK!
 
- Test ACPI etc. tables removeed.
+ Test ACPI etc. tables added.
 
  And can load Windows PE.
 
@@ -43,10 +43,14 @@ It's very unstable and you may lost your data.
 
 2020.5.10 Can boot WindowsPE . Thank for [Lemon1Ice](https://github.com/Lemon1Ice) patience and great help！
 
+2020.5.11 Change SMBIOS Information and Add Some Binaries
 ## To-Do
 1.Fix fts touchscreen
+
 2.Fix ACPI tables
+
 3.Partition UFS
+
 4.make USB work
 
 ## Dependencies
@@ -100,7 +104,7 @@ git checkout cfdc7f907d545b14302295b819ea078bc36c6a40
 git clone https://github.com/NekokeCore/edk2-dipper.git
 ```
 
-3.Build eenvironment
+3.Build environment
 ```
 cd edk2-dipper
 mkdir workspace

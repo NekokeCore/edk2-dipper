@@ -294,7 +294,7 @@
   #  DEBUG_ERROR     0x80000000  // Error
 
   gEfiMdePkgTokenSpaceGuid.PcdDebugPrintErrorLevel|0x80000000
-  gEfiMdePkgTokenSpaceGuid.PcdReportStatusCodePropertyMask|0x06
+  gEfiMdePkgTokenSpaceGuid.PcdReportStatusCodePropertyMask|0x00
 
   #
   # Optional feature to help prevent EFI memory map fragments

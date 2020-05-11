@@ -140,6 +140,8 @@
   gEfiMdeModulePkgTokenSpaceGuid.PcdEmuVariableNvModeEnable|TRUE
   
   gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x9d400000
+  #Hide Notch
+  #gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x9d469780
   gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
   gXiaomiMI8PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2248
 
@@ -236,6 +238,7 @@
   MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
   MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf
   FatPkg/EnhancedFatDxe/Fat.inf
+  MdeModulePkg/Universal/FvSimpleFileSystemDxe/FvSimpleFileSystemDxe.inf
 
   #
   # ACPI Support
