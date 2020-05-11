@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/3adf8dda-1850-44c5-8c63-bb991849bc6fFVMAIN/3adf8dda-1850-44c5-8c63-bb991849bc6fSEC1.pe32 /home/core/edk2-dipper/XiaomiMI8Pkg/Binary/HashDxe/HashDxe.efi

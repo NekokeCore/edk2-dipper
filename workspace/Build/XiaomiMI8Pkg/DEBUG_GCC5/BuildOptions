@@ -1,0 +1,4 @@
+gCommandLineDefines: {'ARCH': 'AARCH64'}
+BuildOptionPcd: []
+Active Platform: /home/core/edk2-dipper/XiaomiMI8Pkg/XiaomiMI8Pkg.dsc
+Flash Image Definition: /home/core/edk2-dipper/XiaomiMI8Pkg/XiaomiMI8Pkg.fdf

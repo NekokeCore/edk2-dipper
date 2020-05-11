@@ -1,0 +1,392 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.global ExceptionHandlersEnd ; .type ExceptionHandlersEnd, %function
+.global CommonCExceptionHandler ; .type CommonCExceptionHandler, %function
+.global RegisterEl0Stack ; .type RegisterEl0Stack, %function
+
+.text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section .text.ExceptionHandlersStart,"ax"; .align 11; .org 0x0; .global ExceptionHandlersStart ; .type ExceptionHandlersStart, %function; ExceptionHandlersStart:
+
+
+  .macro ExceptionEntry, val, sp=SPx
+
+
+
+
+
+
+
+
+
+
+
+
+  .ifnc \sp, SPx
+  msr SPsel, xzr
+  .endif
+
+
+  sub sp, sp, #((32 * 16) + ( 6 * 8))
+
+
+  stp x0, x1, [sp, #-(32 * 8)]!
+  stp x2, x3, [sp, #0x10]
+  stp x4, x5, [sp, #0x20]
+  stp x6, x7, [sp, #0x30]
+  stp x8, x9, [sp, #0x40]
+  stp x10, x11, [sp, #0x50]
+  stp x12, x13, [sp, #0x60]
+  stp x14, x15, [sp, #0x70]
+  stp x16, x17, [sp, #0x80]
+  stp x18, x19, [sp, #0x90]
+  stp x20, x21, [sp, #0xa0]
+  stp x22, x23, [sp, #0xb0]
+  stp x24, x25, [sp, #0xc0]
+  stp x26, x27, [sp, #0xd0]
+  stp x28, x29, [sp, #0xe0]
+  add x28, sp, #((32 * 8) + (32 * 16) + ( 6 * 8))
+
+  .ifnc \sp, SPx
+  msr SPsel, #1
+  mov x7, sp
+  msr SPsel, xzr
+  .else
+  mov x7, x28
+  .endif
+
+  stp x30, x7, [sp, #0xf0]
+
+
+  mov x0, #\val
+
+
+
+
+
+
+
+  b CommonExceptionEntry
+
+  .endm
+
+
+
+
+.org 0x000
+SynchronousExceptionSP0:
+  ExceptionEntry 0
+
+.org 0x080
+IrqSP0:
+  ExceptionEntry 1
+
+.org 0x100
+FiqSP0:
+  ExceptionEntry 2
+
+.org 0x180
+SErrorSP0:
+  ExceptionEntry 3
+
+
+
+
+.org 0x200
+SynchronousExceptionSPx:
+  ExceptionEntry 0, SP0
+
+.org 0x280
+IrqSPx:
+  ExceptionEntry 1
+
+.org 0x300
+FiqSPx:
+  ExceptionEntry 2
+
+.org 0x380
+SErrorSPx:
+  ExceptionEntry 3
+
+
+
+
+.org 0x400
+SynchronousExceptionA64:
+  ExceptionEntry 0
+
+.org 0x480
+IrqA64:
+  ExceptionEntry 1
+
+.org 0x500
+FiqA64:
+  ExceptionEntry 2
+
+.org 0x580
+SErrorA64:
+  ExceptionEntry 3
+
+
+
+
+.org 0x600
+SynchronousExceptionA32:
+  ExceptionEntry 0
+
+.org 0x680
+IrqA32:
+  ExceptionEntry 1
+
+.org 0x700
+FiqA32:
+  ExceptionEntry 2
+
+.org 0x780
+SErrorA32:
+  ExceptionEntry 3
+
+.org 0x800; .previous
+
+ExceptionHandlersEnd:
+
+
+CommonExceptionEntry:
+
+  mrs x1, CurrentEL ; cmp x1, #0x8 ; b.gt 3f ; b.eq 2f ; cbnz x1, 1f ; b . ;
+1:mrs x2, elr_el1
+  mrs x3, spsr_el1
+  mrs x5, esr_el1
+  mrs x6, far_el1
+  b 4f
+
+2:mrs x2, elr_el2
+  mrs x3, spsr_el2
+  mrs x5, esr_el2
+  mrs x6, far_el2
+  b 4f
+
+3:mrs x2, elr_el3
+  mrs x3, spsr_el3
+  mrs x5, esr_el3
+  mrs x6, far_el3
+
+4:mrs x4, fpsr
+
+
+  stp x2, x3, [x28, #-( 6 * 8)]!
+  stp x4, x5, [x28, #0x10]
+  str x6, [x28, #0x20]
+
+
+  stp q0, q1, [x28, #-(32 * 16)]!
+  stp q2, q3, [x28, #0x20]
+  stp q4, q5, [x28, #0x40]
+  stp q6, q7, [x28, #0x60]
+  stp q8, q9, [x28, #0x80]
+  stp q10, q11, [x28, #0xa0]
+  stp q12, q13, [x28, #0xc0]
+  stp q14, q15, [x28, #0xe0]
+  stp q16, q17, [x28, #0x100]
+  stp q18, q19, [x28, #0x120]
+  stp q20, q21, [x28, #0x140]
+  stp q22, q23, [x28, #0x160]
+  stp q24, q25, [x28, #0x180]
+  stp q26, q27, [x28, #0x1a0]
+  stp q28, q29, [x28, #0x1c0]
+  stp q30, q31, [x28, #0x1e0]
+
+
+
+  mov x1, sp
+
+
+
+
+
+
+
+
+
+
+  bl CommonCExceptionHandler
+
+
+  ldp x2, x3, [sp, #0x10]
+  ldp x4, x5, [sp, #0x20]
+  ldp x6, x7, [sp, #0x30]
+  ldp x8, x9, [sp, #0x40]
+  ldp x10, x11, [sp, #0x50]
+  ldp x12, x13, [sp, #0x60]
+  ldp x14, x15, [sp, #0x70]
+  ldp x16, x17, [sp, #0x80]
+  ldp x18, x19, [sp, #0x90]
+  ldp x20, x21, [sp, #0xa0]
+  ldp x22, x23, [sp, #0xb0]
+  ldp x24, x25, [sp, #0xc0]
+  ldp x26, x27, [sp, #0xd0]
+  ldp x0, x1, [sp], #0xe0
+
+
+  ldp q2, q3, [x28, #0x20]
+  ldp q4, q5, [x28, #0x40]
+  ldp q6, q7, [x28, #0x60]
+  ldp q8, q9, [x28, #0x80]
+  ldp q10, q11, [x28, #0xa0]
+  ldp q12, q13, [x28, #0xc0]
+  ldp q14, q15, [x28, #0xe0]
+  ldp q16, q17, [x28, #0x100]
+  ldp q18, q19, [x28, #0x120]
+  ldp q20, q21, [x28, #0x140]
+  ldp q22, q23, [x28, #0x160]
+  ldp q24, q25, [x28, #0x180]
+  ldp q26, q27, [x28, #0x1a0]
+  ldp q28, q29, [x28, #0x1c0]
+  ldp q30, q31, [x28, #0x1e0]
+  ldp q0, q1, [x28], #(32 * 16)
+
+
+  ldp x29, x30, [x28]
+  ldr x28, [x28, #0x10]
+  msr fpsr, x28
+
+
+
+
+
+
+  msr daifset, #3
+  isb
+
+  mrs x28, CurrentEL ; cmp x28, #0x8 ; b.gt 3f ; b.eq 2f ; cbnz x28, 1f ; b . ;
+1:msr elr_el1, x29
+  msr spsr_el1, x30
+  b 4f
+2:msr elr_el2, x29
+  msr spsr_el2, x30
+  b 4f
+3:msr elr_el3, x29
+  msr spsr_el3, x30
+4:
+
+
+  ldr x30, [sp, #0xf0 - 0xe0]
+  ldp x28, x29, [sp], #(32 * 8) - 0xe0
+
+
+
+  add sp, sp, #(32 * 16) + ( 6 * 8)
+
+  eret
+
+RegisterEl0Stack:
+  msr sp_el0, x0
+  ret

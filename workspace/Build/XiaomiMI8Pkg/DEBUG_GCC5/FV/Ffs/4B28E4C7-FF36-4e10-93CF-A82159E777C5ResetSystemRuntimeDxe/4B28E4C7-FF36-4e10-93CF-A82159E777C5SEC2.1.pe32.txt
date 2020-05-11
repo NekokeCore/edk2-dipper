@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/4B28E4C7-FF36-4e10-93CF-A82159E777C5ResetSystemRuntimeDxe/4B28E4C7-FF36-4e10-93CF-A82159E777C5SEC2.1.pe32 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/ResetSystemRuntimeDxe/ResetSystemRuntimeDxe/OUTPUT/ResetSystemRuntimeDxe.efi

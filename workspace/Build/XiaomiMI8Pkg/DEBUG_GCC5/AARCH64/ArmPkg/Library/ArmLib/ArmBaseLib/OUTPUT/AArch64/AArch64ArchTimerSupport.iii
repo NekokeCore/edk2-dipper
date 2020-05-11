@@ -1,0 +1,113 @@
+#------------------------------------------------------------------------------
+
+# Copyright (c) 2011 - 2013, ARM Limited. All rights reserved.
+# Copyright (c) 2016, Linaro Limited. All rights reserved.
+
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+
+#------------------------------------------------------------------------------
+
+
+
+.global ArmReadCntFrq ; .section ".text.ArmReadCntFrq", "ax" ; .type ArmReadCntFrq, %function ; ArmReadCntFrq:
+  mrs x0, cntfrq_el0
+  ret
+
+
+# NOTE - Can only write while at highest implemented EL level (EL3 on model). Else ReadOnly (EL2, EL1, EL0)
+.global ArmWriteCntFrq ; .section ".text.ArmWriteCntFrq", "ax" ; .type ArmWriteCntFrq, %function ; ArmWriteCntFrq:
+  msr cntfrq_el0, x0
+  ret
+
+
+.global ArmReadCntPct ; .section ".text.ArmReadCntPct", "ax" ; .type ArmReadCntPct, %function ; ArmReadCntPct:
+  mrs x0, cntpct_el0
+  ret
+
+
+.global ArmReadCntkCtl ; .section ".text.ArmReadCntkCtl", "ax" ; .type ArmReadCntkCtl, %function ; ArmReadCntkCtl:
+  mrs x0, cntkctl_el1
+  ret
+
+
+.global ArmWriteCntkCtl ; .section ".text.ArmWriteCntkCtl", "ax" ; .type ArmWriteCntkCtl, %function ; ArmWriteCntkCtl:
+  msr cntkctl_el1, x0
+  ret
+
+
+.global ArmReadCntpTval ; .section ".text.ArmReadCntpTval", "ax" ; .type ArmReadCntpTval, %function ; ArmReadCntpTval:
+  mrs x0, cntp_tval_el0
+  ret
+
+
+.global ArmWriteCntpTval ; .section ".text.ArmWriteCntpTval", "ax" ; .type ArmWriteCntpTval, %function ; ArmWriteCntpTval:
+  msr cntp_tval_el0, x0
+  ret
+
+
+.global ArmReadCntpCtl ; .section ".text.ArmReadCntpCtl", "ax" ; .type ArmReadCntpCtl, %function ; ArmReadCntpCtl:
+  mrs x0, cntp_ctl_el0
+  ret
+
+
+.global ArmWriteCntpCtl ; .section ".text.ArmWriteCntpCtl", "ax" ; .type ArmWriteCntpCtl, %function ; ArmWriteCntpCtl:
+  msr cntp_ctl_el0, x0
+  ret
+
+
+.global ArmReadCntvTval ; .section ".text.ArmReadCntvTval", "ax" ; .type ArmReadCntvTval, %function ; ArmReadCntvTval:
+  mrs x0, cntv_tval_el0
+  ret
+
+
+.global ArmWriteCntvTval ; .section ".text.ArmWriteCntvTval", "ax" ; .type ArmWriteCntvTval, %function ; ArmWriteCntvTval:
+  msr cntv_tval_el0, x0
+  ret
+
+
+.global ArmReadCntvCtl ; .section ".text.ArmReadCntvCtl", "ax" ; .type ArmReadCntvCtl, %function ; ArmReadCntvCtl:
+  mrs x0, cntv_ctl_el0
+  ret
+
+
+.global ArmWriteCntvCtl ; .section ".text.ArmWriteCntvCtl", "ax" ; .type ArmWriteCntvCtl, %function ; ArmWriteCntvCtl:
+  msr cntv_ctl_el0, x0
+  ret
+
+
+.global ArmReadCntvCt ; .section ".text.ArmReadCntvCt", "ax" ; .type ArmReadCntvCt, %function ; ArmReadCntvCt:
+  mrs x0, cntvct_el0
+  ret
+
+
+.global ArmReadCntpCval ; .section ".text.ArmReadCntpCval", "ax" ; .type ArmReadCntpCval, %function ; ArmReadCntpCval:
+  mrs x0, cntp_cval_el0
+  ret
+
+
+.global ArmWriteCntpCval ; .section ".text.ArmWriteCntpCval", "ax" ; .type ArmWriteCntpCval, %function ; ArmWriteCntpCval:
+  msr cntp_cval_el0, x0
+  ret
+
+
+.global ArmReadCntvCval ; .section ".text.ArmReadCntvCval", "ax" ; .type ArmReadCntvCval, %function ; ArmReadCntvCval:
+  mrs x0, cntv_cval_el0
+  ret
+
+
+.global ArmWriteCntvCval ; .section ".text.ArmWriteCntvCval", "ax" ; .type ArmWriteCntvCval, %function ; ArmWriteCntvCval:
+  msr cntv_cval_el0, x0
+  ret
+
+
+.global ArmReadCntvOff ; .section ".text.ArmReadCntvOff", "ax" ; .type ArmReadCntvOff, %function ; ArmReadCntvOff:
+  mrs x0, cntvoff_el2
+  ret
+
+
+.global ArmWriteCntvOff ; .section ".text.ArmWriteCntvOff", "ax" ; .type ArmWriteCntvOff, %function ; ArmWriteCntvOff:
+  msr cntvoff_el2, x0
+  ret
+
+
+

@@ -1,0 +1,106 @@
+
+# Copyright (c) 2014, ARM Limited. All rights reserved.
+
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.global ArmGicV3GetControlSystemRegisterEnable ; .section ".text.ArmGicV3GetControlSystemRegisterEnable", "ax" ; .type ArmGicV3GetControlSystemRegisterEnable, %function ; ArmGicV3GetControlSystemRegisterEnable:
+        mrs x1, CurrentEL ; cmp x1, #0x8 ; b.gt 3f ; b.eq 2f ; cbnz x1, 1f ; b . ;
+1: mrs x0, S3_0_C12_C12_5
+        b 4f
+2: mrs x0, S3_4_C12_C9_5
+        b 4f
+3: mrs x0, S3_6_C12_C12_5
+4: ret
+
+
+
+
+
+
+.global ArmGicV3SetControlSystemRegisterEnable ; .section ".text.ArmGicV3SetControlSystemRegisterEnable", "ax" ; .type ArmGicV3SetControlSystemRegisterEnable, %function ; ArmGicV3SetControlSystemRegisterEnable:
+        mrs x1, CurrentEL ; cmp x1, #0x8 ; b.gt 3f ; b.eq 2f ; cbnz x1, 1f ; b . ;
+1: msr S3_0_C12_C12_5, x0
+        b 4f
+2: msr S3_4_C12_C9_5, x0
+        b 4f
+3: msr S3_6_C12_C12_5, x0
+4: isb
+        ret
+
+
+
+
+
+.global ArmGicV3EnableInterruptInterface ; .section ".text.ArmGicV3EnableInterruptInterface", "ax" ; .type ArmGicV3EnableInterruptInterface, %function ; ArmGicV3EnableInterruptInterface:
+        mov x0, #1
+        msr S3_0_C12_C12_7, x0
+        ret
+
+
+
+
+
+.global ArmGicV3DisableInterruptInterface ; .section ".text.ArmGicV3DisableInterruptInterface", "ax" ; .type ArmGicV3DisableInterruptInterface, %function ; ArmGicV3DisableInterruptInterface:
+        mov x0, #0
+        msr S3_0_C12_C12_7, x0
+        ret
+
+
+
+
+
+.global ArmGicV3EndOfInterrupt ; .section ".text.ArmGicV3EndOfInterrupt", "ax" ; .type ArmGicV3EndOfInterrupt, %function ; ArmGicV3EndOfInterrupt:
+        msr S3_0_C12_C12_1, x0
+        ret
+
+
+
+
+
+.global ArmGicV3AcknowledgeInterrupt ; .section ".text.ArmGicV3AcknowledgeInterrupt", "ax" ; .type ArmGicV3AcknowledgeInterrupt, %function ; ArmGicV3AcknowledgeInterrupt:
+        mrs x0, S3_0_C12_C12_0
+        ret
+
+
+
+
+
+.global ArmGicV3SetPriorityMask ; .section ".text.ArmGicV3SetPriorityMask", "ax" ; .type ArmGicV3SetPriorityMask, %function ; ArmGicV3SetPriorityMask:
+        msr S3_0_C4_C6_0, x0
+        ret
+
+
+
+
+
+.global ArmGicV3SetBinaryPointer ; .section ".text.ArmGicV3SetBinaryPointer", "ax" ; .type ArmGicV3SetBinaryPointer, %function ; ArmGicV3SetBinaryPointer:
+        msr S3_0_C12_C12_3, x0
+        ret

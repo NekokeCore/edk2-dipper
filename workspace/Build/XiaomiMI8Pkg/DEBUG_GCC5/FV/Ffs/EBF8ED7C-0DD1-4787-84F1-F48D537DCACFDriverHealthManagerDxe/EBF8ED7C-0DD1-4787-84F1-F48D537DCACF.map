@@ -1,0 +1,1034 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe/OUTPUT/DriverHealthManagerDxe.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe/OUTPUT/DriverHealthManagerDxe.lib(DriverHealthManagerDxe.obj)
+                              AutoGen.obj (symbol from plugin) (InitializeDriverHealthManager)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe/OUTPUT/DriverHealthManagerDxe.lib(DriverHealthManagerVfr.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (DriverHealthManagerVfrBin)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe/OUTPUT/DriverHealthManagerDxe.lib(DriverHealthConfigureVfr.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (DriverHealthConfigureVfrBin)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (StrSize)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (ReadUnaligned32)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              Unaligned.obj (symbol from plugin) (RShiftU64)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              Unaligned.obj (symbol from plugin) (LShiftU64)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              String.obj (symbol from plugin) (StrDecimalToUintnS)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              LShiftU64.obj (symbol from plugin) (InternalMathLShiftU64)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes32)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SafeString.obj (symbol from plugin) (SwapBytes16)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              SafeString.obj (symbol from plugin) (MultU64x32)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              SafeString.obj (symbol from plugin) (CopyGuid)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              String.obj (symbol from plugin) (ZeroMem)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (CopyMem)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (UnicodeSPrint)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToString)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (AllocatePool)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (DevicePathFromHandle)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (GetDevicePathSize)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib(HobLib.obj)
+                              AutoGen.obj (symbol from plugin) (HobLibConstructor)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiHiiServicesLibConstructor)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib(DxeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (DxeServicesTableLibConstructor)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (HiiAddPackages)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (HiiSetString)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              HiiString.obj (symbol from plugin) (HiiGetSupportedLanguages)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmDriverHealth.obj)
+                              DriverHealthManagerDxe.obj (symbol from plugin) (EfiBootManagerGetDriverHealthInfo)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              HiiLib.obj (symbol from plugin) (BitFieldRead32)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              HiiLib.obj (symbol from plugin) (InitializeListHead)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMemWrapper.obj)
+                              HiiLib.obj (symbol from plugin) (CompareMem)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DebugLib.obj (symbol from plugin) (SetMem)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                              CompareMemWrapper.obj (symbol from plugin) (InternalMemCompareMem)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/XiaomiMI8Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib/OUTPUT/FrameBufferSerialPortLib.lib(FrameBufferSerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+                              BmDriverHealth.obj (symbol from plugin) (Print)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                              FrameBufferSerialPortLib.obj (symbol from plugin) (ArmGetInterruptState)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                              FrameBufferSerialPortLib.obj (symbol from plugin) (ArmEnableInterrupts)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmCacheMaintenanceLib/ArmCacheMaintenanceLib/OUTPUT/ArmCacheMaintenanceLib.lib(ArmCacheMaintenanceLib.obj)
+                              FrameBufferSerialPortLib.obj (symbol from plugin) (WriteBackInvalidateDataCacheRange)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLib.obj)
+                              ArmCacheMaintenanceLib.obj (symbol from plugin) (ArmDataCacheLineLength)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                              ArmCacheMaintenanceLib.obj (symbol from plugin) (ArmInvalidateDataCacheEntryByMVA)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x31 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .data          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .bss           0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .text          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .data          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .bss           0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadMidr
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetFiqState
+                0x0000000000000000       0x10 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteCpacr
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteAuxCr
+                0x0000000000000000       0x28 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadAuxCr
+                0x0000000000000000       0x28 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmSetTTBR0
+                0x0000000000000000       0x34 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetTTBR0BaseAddress
+                0x0000000000000000       0x30 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetTCR
+                0x0000000000000000       0x34 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmSetTCR
+                0x0000000000000000       0x34 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetMAIR
+                0x0000000000000000       0x34 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmSetMAIR
+                0x0000000000000000       0x34 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmUpdateTranslationTableEntry
+                0x0000000000000000       0x54 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmInvalidateTlb
+                0x0000000000000000       0x38 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteCptr
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteScr
+                0x0000000000000000        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteMVBar
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmCallWFE
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmCallSEV
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadCpuActlr
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteCpuActlr
+                0x0000000000000000       0x10 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadSctlr
+                0x0000000000000000       0x30 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteSctlr
+                0x0000000000000000       0x30 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetPhysicalAddressBits
+                0x0000000000000000       0x24 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .data          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .bss           0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmIsMpCore
+                0x0000000000000000       0x14 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmEnableAsynchronousAbort
+                0x0000000000000000        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableAsynchronousAbort
+                0x0000000000000000        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmEnableIrq
+                0x0000000000000000        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableIrq
+                0x0000000000000000        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmEnableFiq
+                0x0000000000000000        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableFiq
+                0x0000000000000000        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableAllExceptions
+                0x0000000000000000        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ReadCCSIDR
+                0x0000000000000000       0x10 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ReadCLIDR
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .data          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .bss           0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryToPoUByMVA
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateInstructionCacheEntryToPoUByMVA
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanInvalidateDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateInstructionCache
+                0x0000000000000000       0x10 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableMmu
+                0x0000000000000000       0x88 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableMmu
+                0x0000000000000000       0x74 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableCachesAndMmu
+                0x0000000000000000       0x6c /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmMmuEnabled
+                0x0000000000000000       0x34 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableDataCache
+                0x0000000000000000       0x68 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableDataCache
+                0x0000000000000000       0x68 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableInstructionCache
+                0x0000000000000000       0x68 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableInstructionCache
+                0x0000000000000000       0x68 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableAlignmentCheck
+                0x0000000000000000       0x58 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableAlignmentCheck
+                0x0000000000000000       0x68 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableStackAlignmentCheck
+                0x0000000000000000       0x58 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableStackAlignmentCheck
+                0x0000000000000000       0x68 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableBranchPrediction
+                0x0000000000000000        0x4 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableBranchPrediction
+                0x0000000000000000        0x4 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.AArch64AllDataCachesOperation
+                0x0000000000000000       0xa8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDataMemoryBarrier
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInstructionSynchronizationBarrier
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteVBar
+                0x0000000000000000       0x34 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadVBar
+                0x0000000000000000       0x30 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableVFP
+                0x0000000000000000       0x64 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCallWFI
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadMpidr
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadTpidrurw
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteTpidrurw
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmIsArchTimerImplemented
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadIdPfr0
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadIdPfr1
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteHcr
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadHcr
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadCurrentEL
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadCntHctl
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteCntHctl
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+LOAD /tmp/cc7XU0nT.ltrans0.ltrans.o
+START GROUP
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe/OUTPUT/DriverHealthManagerDxe.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmCacheMaintenanceLib/ArmCacheMaintenanceLib/OUTPUT/ArmCacheMaintenanceLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/XiaomiMI8Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib/OUTPUT/FrameBufferSerialPortLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiSortLib/UefiSortLib/OUTPUT/UefiSortLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib/OUTPUT/DxeReportStatusCodeLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesLib/DxeServicesLib/OUTPUT/DxeServicesLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxePerformanceLib/DxePerformanceLib/OUTPUT/DxePerformanceLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000     0x9868
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.InternalAllocatePool.constprop.28
+                0x0000000000001000       0x6c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevicePathFromHandle
+                0x000000000000106c       0x6c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DebugPrintLevelEnabled
+                0x00000000000010d8        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DebugPrintEnabled
+                0x00000000000010e0        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DebugAssertEnabled
+                0x00000000000010e8        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x00000000000010f0       0x34 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.AsciiStrnLenS
+                0x0000000000001124       0x3c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DriverHealthManagerFakeRouteConfig
+                0x0000000000001160       0x24 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DriverHealthManagerFakeExtractConfig
+                0x0000000000001184       0x24 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.LShiftU64.constprop.0
+                0x00000000000011a8        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.BaseDebugLibSerialPortConstructor
+                0x00000000000011b0       0x84 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.FbConFlush
+                0x0000000000001234       0x54 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.SerialPortWrite
+                0x0000000000001288      0x414 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DebugAssert
+                0x000000000000169c       0x7c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.CompareMem
+                0x0000000000001718       0xe4 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevicePathSubType
+                0x00000000000017fc       0x48 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevicePathType
+                0x0000000000001844       0x48 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.StrnLenS
+                0x000000000000188c       0x7c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.WriteUnaligned16
+                0x0000000000001908       0x5c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.WriteUnaligned32
+                0x0000000000001964       0x34 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x0000000000001998       0x68 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevicePathNodeLength
+                0x0000000000001a00       0x50 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.ReadUnaligned32
+                0x0000000000001a50       0x5c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.33
+                0x0000000000001aac     0x1058 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.unlikely.BasePrintLibSPrint.constprop.34
+                0x0000000000002b04       0x9c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.AsciiSPrint.constprop.31
+                0x0000000000002ba0       0xa8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.SPrintLength
+                0x0000000000002c48       0x70 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.UnicodeVSPrint
+                0x0000000000002cb8       0x9c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.UnicodeSPrint
+                0x0000000000002d54       0xa0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.ReadUnaligned64
+                0x0000000000002df4       0x38 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x0000000000002e2c       0xa0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DebugPrint
+                0x0000000000002ecc       0xc4 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.FreePool
+                0x0000000000002f90       0x7c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.GetVariable2.constprop.15
+                0x000000000000300c      0x128 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.HiiFreeOpCodeHandle
+                0x0000000000003134       0x54 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.HiiAllocateOpCodeHandle
+                0x0000000000003188       0x54 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DriverHealthManagerRepairNotify
+                0x00000000000031dc       0x48 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.AsciiStrnCmp
+                0x0000000000003224       0xf0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.StrSize  0x0000000000003314       0xc0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.CopyMem  0x00000000000033d4       0xb0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.InternalAllocateCopyPool.constprop.19
+                0x0000000000003484       0x8c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.CopyGuid
+                0x0000000000003510        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.ZeroMem  0x0000000000003518       0x7c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.InternalReallocatePool.constprop.18
+                0x0000000000003594       0x6c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.InternalHiiCreateOpCodeExtended.constprop.10
+                0x0000000000003600      0x114 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.BmGetSingleControllerHealthStatus.constprop.3
+                0x0000000000003714      0x2b0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.UefiDevicePathLibCatPrint
+                0x00000000000039c4      0x188 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextNodeGeneric
+                0x0000000000003b4c      0x104 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextEndInstance
+                0x0000000000003c50        0xc /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextBBS
+                0x0000000000003c5c       0xec /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathRelativeOffsetRange
+                0x0000000000003d48       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextFvFile
+                0x0000000000003d58       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextFv
+                0x0000000000003d68       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextMediaProtocol
+                0x0000000000003d78       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextFilePath
+                0x0000000000003d88       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextCDROM
+                0x0000000000003d98       0x30 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextHardDrive
+                0x0000000000003dc8       0x8c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextUri
+                0x0000000000003e54       0x94 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextBluetoothLE
+                0x0000000000003ee8       0x44 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextWiFi
+                0x0000000000003f2c       0x6c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextBluetooth
+                0x0000000000003f98       0x24 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextVlan
+                0x0000000000003fbc       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextiSCSI
+                0x0000000000003fcc      0x110 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextUart
+                0x00000000000040dc      0x118 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextInfiniBand
+                0x00000000000041f4       0x1c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.CatIPv6Address
+                0x0000000000004210       0x8c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.CatIPv4Address
+                0x000000000000429c       0x1c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextDns
+                0x00000000000042b8       0xc0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.CatNetworkProtocol
+                0x0000000000004378       0x38 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextIPv6
+                0x00000000000043b0       0xe8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextIPv4
+                0x0000000000004498       0xf0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextMacAddr
+                0x0000000000004588       0x8c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextI2O
+                0x0000000000004614       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextSata
+                0x0000000000004624       0x18 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextUsbClass
+                0x000000000000463c      0x1bc /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextLogicalUnit
+                0x00000000000047f8       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextUsbWWID
+                0x0000000000004808       0xb0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextUsb
+                0x00000000000048b8       0x14 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToText1394
+                0x00000000000048cc       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextEmmc
+                0x00000000000048dc       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextSd
+                0x00000000000048ec       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextUfs
+                0x00000000000048fc       0x14 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextNVMe
+                0x0000000000004910       0x54 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextSasEx
+                0x0000000000004964      0x184 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextFibreEx
+                0x0000000000004ae8       0xa0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextFibre
+                0x0000000000004b88       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextScsi
+                0x0000000000004b98       0x14 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextAtapi
+                0x0000000000004bac       0x60 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextAcpiAdr
+                0x0000000000004c0c       0x90 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextAcpiEx
+                0x0000000000004c9c      0x28c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextAcpi
+                0x0000000000004f28       0xc0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextBmc
+                0x0000000000004fe8       0x3c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextController
+                0x0000000000005024       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextMemMap
+                0x0000000000005034       0x14 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextPccard
+                0x0000000000005048       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextPci
+                0x0000000000005058       0x14 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.HiiCreateGuidOpCode.constprop.4
+                0x000000000000506c       0x78 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.AllocateZeroPool
+                0x00000000000050e4       0x34 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.HiiAddPackages.constprop.26
+                0x0000000000005118      0x1c0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.UefiDevicePathLibConvertDevicePathToText.constprop.17
+                0x00000000000052d8      0x1cc /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.HiiGetSupportedLanguages
+                0x00000000000054a4       0xf4 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.HiiSetString.constprop.6
+                0x0000000000005598      0x198 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.GetBestLanguage
+                0x0000000000005730      0x1e0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.HiiGetString.constprop.5
+                0x0000000000005910      0x1b0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DriverHealthManagerGetComponentNameWorker
+                0x0000000000005ac0      0x128 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DriverHealthManagerGetControllerNameWorker
+                0x0000000000005be8       0xa0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DriverHealthManagerGetDriverNameWorker
+                0x0000000000005c88       0x88 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.CompareGuid
+                0x0000000000005d10       0x6c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.EfiGetSystemConfigurationTable
+                0x0000000000005d7c       0x94 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextRamDisk
+                0x0000000000005e10      0x17c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DevPathToTextVendor
+                0x0000000000005f8c      0x350 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DriverHealthManagerUpdateForm
+                0x00000000000062dc      0xf70 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.DriverHealthManagerCallback
+                0x000000000000724c      0x2e4 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .text.__stack_chk_fail
+                0x0000000000007530       0x34 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                0x0000000000007530                __stack_chk_fail
+ .text._ModuleEntryPoint
+                0x0000000000007564      0x5c0 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                0x0000000000007564                _ModuleEntryPoint
+ .text.memcpy   0x0000000000007b24       0x20 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                0x0000000000007b24                memcpy
+ *fill*         0x0000000000007b44        0xc 
+ .text          0x0000000000007b50      0x200 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x0000000000007b50                InternalMemSetMem16
+                0x0000000000007b5c                InternalMemSetMem32
+                0x0000000000007b68                InternalMemSetMem64
+                0x0000000000007b74                InternalMemZeroMem
+                0x0000000000007b7c                InternalMemSetMem
+ .text          0x0000000000007d50      0x218 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x0000000000007ebc                InternalMemCopyMem
+ *fill*         0x0000000000007f68       0x18 
+ .text          0x0000000000007f80       0x20 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x0000000000007f80                InternalMemCompareGuid
+ *fill*         0x0000000000007fa0       0x20 
+ .text          0x0000000000007fc0       0xe0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x0000000000007fc0                InternalMemCompareMem
+ .text.ArmCacheInfo
+                0x00000000000080a0        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x00000000000080a0                ArmCacheInfo
+ .text.ArmGetInterruptState
+                0x00000000000080a8       0x10 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x00000000000080a8                ArmGetInterruptState
+ .text.ArmEnableInterrupts
+                0x00000000000080b8        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x00000000000080b8                ArmEnableInterrupts
+ .text.ArmDisableInterrupts
+                0x00000000000080c4        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x00000000000080c4                ArmDisableInterrupts
+ .text.ArmCleanInvalidateDataCacheEntryByMVA
+                0x00000000000080d0        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x00000000000080d0                ArmCleanInvalidateDataCacheEntryByMVA
+ .text.ArmDataSynchronizationBarrier
+                0x00000000000080d8        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x00000000000080d8                ArmDataSynchronizationBarrier
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.DevPathToTextBBS
+                0x00000000000080e0        0x6 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ *fill*         0x00000000000080e6        0x2 
+ .rodata.DevPathToTextUart
+                0x00000000000080e8        0x4 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DriverHealthManagerUpdateForm
+                0x00000000000080ec       0x12 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.AsciiStrLen.str1.1
+                0x00000000000080fe       0x7f /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.AsciiStrnCmp.str1.1
+                0x000000000000817d       0x70 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.33.str1.1
+                0x00000000000081ed      0x27f /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.BmGetSingleControllerHealthStatus.constprop.3.str1.1
+                0x000000000000846c       0x8e /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.CSWTCH.42
+                0x00000000000084fa        0x6 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.CatIPv4Address.str2.2
+                0x0000000000008500       0x18 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.CatIPv6Address.str2.2
+                0x0000000000008518       0x90 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.CatNetworkProtocol.str2.2
+                0x00000000000085a8        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                         0x12 (size before relaxing)
+ .rodata.CompareGuid.str1.1
+                0x00000000000085b0       0x70 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.CompareMem.str1.1
+                0x0000000000008620      0x107 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.CopyMem.str1.1
+                0x0000000000008727       0x44 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DebugAssert.str1.1
+                0x000000000000876b       0x2f /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathRelativeOffsetRange.str2.2
+                0x000000000000879a       0x28 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToText1394.str2.2
+                0x00000000000087c2       0x1c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextAcpi.str2.2
+                0x00000000000087de       0xc2 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextAcpiAdr.str2.2
+                0x00000000000088a0       0x26 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextAcpiEx.str2.2
+                0x00000000000088c6      0x12c /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                        0x148 (size before relaxing)
+ .rodata.DevPathToTextAtapi.str2.2
+                0x00000000000089f2       0x72 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextBBS.str2.2
+                0x0000000000008a64       0x72 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                         0x80 (size before relaxing)
+ .rodata.DevPathToTextBluetooth.str2.2
+                0x0000000000008ad6       0x48 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextBluetoothLE.str2.2
+                0x0000000000008b1e       0x5a /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextBmc.str2.2
+                0x0000000000008b78       0x20 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextCDROM.str2.2
+                0x0000000000008b98       0x48 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextController.str2.2
+                0x0000000000008be0       0x16 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextDns.str2.2
+                0x0000000000008bf6        0xa /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextEmmc.str2.2
+                0x0000000000008c00       0x16 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextFibre.str2.2
+                0x0000000000008c16       0x26 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextFibreEx.str2.2
+                0x0000000000008c3c       0x16 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextFilePath.str2.2
+                0x0000000000008c52       0x16 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                          0x6 (size before relaxing)
+ .rodata.DevPathToTextFv.str2.2
+                0x0000000000008c52        0xe /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextFvFile.str2.2
+                0x0000000000008c60       0x16 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextHardDrive.str2.2
+                0x0000000000008c76       0x64 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                         0x7e (size before relaxing)
+ .rodata.DevPathToTextI2O.str2.2
+                0x0000000000008cda       0x14 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextIPv4.str2.2
+                0x0000000000008cee       0x24 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextIPv6.str2.2
+                0x0000000000008d12       0x80 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                         0x8e (size before relaxing)
+ .rodata.DevPathToTextInfiniBand.str2.2
+                0x0000000000008d92       0x4c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextLogicalUnit.str2.2
+                0x0000000000008dde       0x16 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextMacAddr.str2.2
+                0x0000000000008df4        0xa /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextMediaProtocol.str2.2
+                0x0000000000008dfe       0x14 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextMemMap.str2.2
+                0x0000000000008e12       0x3e /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextNVMe.str2.2
+                0x0000000000008e50       0x66 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextNodeGeneric.str2.2
+                0x0000000000008eb6       0x22 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                         0x34 (size before relaxing)
+ .rodata.DevPathToTextPccard.str2.2
+                0x0000000000008ed8       0x1a /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextPci.str2.2
+                0x0000000000008ef2       0x1e /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextRamDisk.str2.2
+                0x0000000000008f10       0xca /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                        0x136 (size before relaxing)
+ .rodata.DevPathToTextSasEx.str2.2
+                0x0000000000008fda       0xb4 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                         0xc0 (size before relaxing)
+ .rodata.DevPathToTextSata.str2.2
+                0x000000000000908e       0x2a /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextScsi.str2.2
+                0x00000000000090b8       0x20 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextSd.str2.2
+                0x00000000000090d8       0x12 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextUart.str2.2
+                0x00000000000090ea       0x5c /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                         0x74 (size before relaxing)
+ .rodata.DevPathToTextUfs.str2.2
+                0x0000000000009146       0x1e /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextUri.str1.1
+                0x0000000000009164       0x17 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ *fill*         0x000000000000917b        0x1 
+ .rodata.DevPathToTextUri.str2.2
+                0x000000000000917c       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextUsb.str2.2
+                0x000000000000918c       0x1e /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextUsbClass.str2.2
+                0x00000000000091aa      0x250 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextUsbWWID.str1.1
+                0x00000000000093fa       0x17 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ *fill*         0x0000000000009411        0x1 
+ .rodata.DevPathToTextUsbWWID.str2.2
+                0x0000000000009412       0x3a /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextVendor.str2.2
+                0x000000000000944c      0x154 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                        0x166 (size before relaxing)
+ .rodata.DevPathToTextVlan.str2.2
+                0x00000000000095a0       0x12 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextWiFi.str2.2
+                0x00000000000095b2       0x14 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DevPathToTextiSCSI.str2.2
+                0x00000000000095c6       0x76 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                         0x90 (size before relaxing)
+ .rodata.DevicePathSubType.str1.1
+                0x000000000000963c       0x5c /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DriverHealthManagerCallback.str1.1
+                0x0000000000009698       0x78 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DriverHealthManagerGetComponentNameWorker.str1.1
+                0x0000000000009710        0xa /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DriverHealthManagerGetComponentNameWorker.str2.2
+                0x000000000000971a       0x76 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                          0xa (size before relaxing)
+ .rodata.DriverHealthManagerRepairNotify.str1.1
+                0x000000000000971a       0x2d /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DriverHealthManagerUpdateForm.str1.1
+                0x0000000000009747      0x211 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.DriverHealthManagerUpdateForm.str2.2
+                0x0000000000009958       0x22 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.FreePool.str1.1
+                0x000000000000997a       0x82 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.GetBestLanguage.str1.1
+                0x00000000000099fc       0x23 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.GetVariable2.constprop.15.str1.1
+                0x0000000000009a1f       0x48 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.HiiFreeOpCodeHandle.str1.1
+                0x0000000000009a67       0x39 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                         0x56 (size before relaxing)
+ .rodata.HiiGetString.constprop.5.str1.1
+                0x0000000000009aa0        0xe /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                          0xf (size before relaxing)
+ .rodata.HiiGetString.constprop.5.str2.2
+                0x0000000000009aae       0x1a /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.HiiGetSupportedLanguages.str1.1
+                0x0000000000009ac8       0x3e /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                         0x58 (size before relaxing)
+ .rodata.HiiSetString.constprop.6.str1.1
+                0x0000000000009b06       0x43 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.InternalAllocateCopyPool.constprop.19.str1.1
+                0x0000000000009b49       0x3f /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.InternalHiiCreateOpCodeExtended.constprop.10.str1.1
+                0x0000000000009b88       0x25 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.SPrintLength.str1.1
+                0x0000000000009bad       0x5e /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.StrSize.str1.1
+                0x0000000000009c0b       0x3a /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.StrnLenS.str1.1
+                0x0000000000009c45       0x57 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.UefiDevicePathLibCatPrint.str1.1
+                0x0000000000009c9c       0x5d /tmp/cc7XU0nT.ltrans0.ltrans.o
+ *fill*         0x0000000000009cf9        0x1 
+ .rodata.UefiDevicePathLibConvertDevicePathToText.constprop.17.str2.2
+                0x0000000000009cfa        0x4 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.UnicodeVSPrint.str1.1
+                0x0000000000009cfe       0x28 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.WriteUnaligned16.str1.1
+                0x0000000000009d26       0x37 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                         0x4e (size before relaxing)
+ .rodata.ZeroMem.str1.1
+                0x0000000000009d5d       0x7a /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata._ModuleEntryPoint.str1.1
+                0x0000000000009dd7      0x2eb /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.__stack_chk_fail.str1.1
+                0x000000000000a0c2       0x2e /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdDriverHealthConfigureForm
+                0x000000000000a0f0       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.mEndOfPakageList
+                0x000000000000a100        0x4 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.mHexStr
+                0x000000000000a104       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ *fill*         0x000000000000a114        0x4 
+ .rodata.mStatusString
+                0x000000000000a118      0x138 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.mUefiDevicePathLibToTextTable
+                0x000000000000a250      0x320 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.mUefiDevicePathLibToTextTableGeneric
+                0x000000000000a570       0x60 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x000000000000a5d0      0x224 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                        0x235 (size before relaxing)
+ .rodata.str2.2
+                0x000000000000a7f4       0x50 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ *(.got .got.*)
+ *fill*         0x000000000000a844        0x4 
+ .got           0x000000000000a848        0x8 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x000000000000a848                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x000000000000a850       0x18 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x000000000000a868        0x0
+ .plt           0x000000000000a868        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x000000000000b000      0x9f0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x000000000000b000        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.DriverHealthConfigureVfrBin
+                0x000000000000b000       0x86 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.DriverHealthManagerDxeStrings
+                0x000000000000b086      0x338 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.DriverHealthManagerVfrBin
+                0x000000000000b3be       0x86 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ *fill*         0x000000000000b444        0x4 
+ .data.__stack_chk_guard
+                0x000000000000b448        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                0x000000000000b448                __stack_chk_guard
+ .data.font5x12
+                0x000000000000b450      0x300 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiCallerIdGuid
+                0x000000000000b750       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiComponentName2ProtocolGuid
+                0x000000000000b760       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiComponentNameProtocolGuid
+                0x000000000000b770       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiDebugPortProtocolGuid
+                0x000000000000b780       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiDevicePathProtocolGuid
+                0x000000000000b790       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiDriverHealthProtocolGuid
+                0x000000000000b7a0       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiDxeServicesTableGuid
+                0x000000000000b7b0       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiGlobalVariableGuid
+                0x000000000000b7c0       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiHiiConfigAccessProtocolGuid
+                0x000000000000b7d0       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x000000000000b7e0       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x000000000000b7f0       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiHiiDriverHealthFormsetGuid
+                0x000000000000b800       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiHiiFontProtocolGuid
+                0x000000000000b810       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x000000000000b820       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x000000000000b830       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiHobListGuid
+                0x000000000000b840       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiIfrTianoGuid
+                0x000000000000b850       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiPcAnsiGuid
+                0x000000000000b860       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiPersistentVirtualCdGuid
+                0x000000000000b870       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiPersistentVirtualDiskGuid
+                0x000000000000b880       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiSasDevicePathGuid
+                0x000000000000b890       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiUartDevicePathGuid
+                0x000000000000b8a0       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiVT100Guid
+                0x000000000000b8b0       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiVT100PlusGuid
+                0x000000000000b8c0       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiVTUTF8Guid
+                0x000000000000b8d0       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiVirtualCdGuid
+                0x000000000000b8e0       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.gEfiVirtualDiskGuid
+                0x000000000000b8f0       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.mDriverHealthManagerConfigAccess
+                0x000000000000b900       0x18 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.mDriverHealthManagerForm
+                0x000000000000b918       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .data.mDriverHealthManagerFormDevicePath
+                0x000000000000b928       0x18 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ *(.bss .bss.*)
+ .bss.gBS       0x000000000000b940        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.gDS       0x000000000000b948        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.gHiiConfigRouting
+                0x000000000000b950        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.gHiiDatabase
+                0x000000000000b958        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.gHiiFont  0x000000000000b960        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.gHiiImage
+                0x000000000000b968        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.gHiiString
+                0x000000000000b970        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.gImageHandle
+                0x000000000000b978        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.gRT       0x000000000000b980        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.gST       0x000000000000b988        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.mDriverHealthManagerDatabase
+                0x000000000000b990        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.mDriverHealthManagerHealthInfo
+                0x000000000000b998        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.mDriverHealthManagerHealthInfoCount
+                0x000000000000b9a0        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.mDriverHealthManagerHiiHandle
+                0x000000000000b9a8        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.mHobList  0x000000000000b9b0        0x8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.m_Color   0x000000000000b9b8       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.m_Initialized
+                0x000000000000b9c8        0x1 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ *fill*         0x000000000000b9c9        0x7 
+ .bss.m_MaxPosition
+                0x000000000000b9d0       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+ .bss.m_Position
+                0x000000000000b9e0       0x10 /tmp/cc7XU0nT.ltrans0.ltrans.o
+
+.dynbss         0x000000000000b9f0        0x0
+ .dynbss        0x000000000000b9f0        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x000000000000b9f0      0x900
+ *(.rela .rela.*)
+ .rela.got      0x000000000000b9f0        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x000000000000b9f0        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x000000000000b9f0        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x000000000000b9f0        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x000000000000b9f0        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mDriverHealthManagerConfigAccess
+                0x000000000000b9f0       0x48 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mStatusString
+                0x000000000000ba38      0x3a8 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mUefiDevicePathLibToTextTable
+                0x000000000000bde0      0x498 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mUefiDevicePathLibToTextTableGeneric
+                0x000000000000c278       0x78 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii
+ *(.hii)
+
+.build-id       0x000000000000c2f0       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x000000000000c2f0       0x24 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DriverHealthManagerDxe/DriverHealthManagerDxe/DEBUG/DriverHealthManagerDxe.dll elf64-littleaarch64)
+
+.debug_info     0x0000000000000000     0xfb47
+ .debug_info    0x0000000000000000     0xfb47 /tmp/cc7XU0nT.ltrans0.ltrans.o
+
+.debug_abbrev   0x0000000000000000      0x6b8
+ .debug_abbrev  0x0000000000000000      0x6b8 /tmp/cc7XU0nT.ltrans0.ltrans.o
+
+.debug_loc      0x0000000000000000     0xeec7
+ .debug_loc     0x0000000000000000     0xeec7 /tmp/cc7XU0nT.ltrans0.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x780
+ .debug_aranges
+                0x0000000000000000      0x780 /tmp/cc7XU0nT.ltrans0.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x1390
+ .debug_ranges  0x0000000000000000     0x1390 /tmp/cc7XU0nT.ltrans0.ltrans.o
+
+.debug_line     0x0000000000000000     0x25aa
+ .debug_line    0x0000000000000000     0x25aa /tmp/cc7XU0nT.ltrans0.ltrans.o
+
+.debug_str      0x0000000000000000     0x4d58
+ .debug_str     0x0000000000000000     0x4d58 /tmp/cc7XU0nT.ltrans0.ltrans.o
+                                       0x550b (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x15e0
+ .debug_frame   0x0000000000000000     0x15e0 /tmp/cc7XU0nT.ltrans0.ltrans.o

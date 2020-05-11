@@ -1,0 +1,5 @@
+/home/core/edk2/MdePkg/Library/BasePeCoffLib/BasePeCoffLibInternals.h
+/home/core/edk2/MdePkg/Library/BasePeCoffLib/BasePeCoffLib.inf
+/home/core/edk2/MdePkg/Library/BasePeCoffLib/PeCoffLoaderEx.c
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePeCoffLib/BasePeCoffLib/DEBUG/AutoGen.h
+/home/core/edk2/MdePkg/Library/BasePeCoffLib/BasePeCoff.c

@@ -1,0 +1,199 @@
+
+
+
+
+
+
+
+
+
+.text
+.align 3
+
+.global InternalSyncCompareExchange16 ; .type InternalSyncCompareExchange16, %function
+.global InternalSyncCompareExchange32 ; .type InternalSyncCompareExchange32, %function
+.global InternalSyncCompareExchange64 ; .type InternalSyncCompareExchange64, %function
+.global InternalSyncIncrement ; .type InternalSyncIncrement, %function
+.global InternalSyncDecrement ; .type InternalSyncDecrement, %function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+InternalSyncCompareExchange16:
+  uxth w1, w1
+  uxth w2, w2
+  dmb sy
+
+InternalSyncCompareExchange16Again:
+  ldxrh w3, [x0]
+  cmp w3, w1
+  bne InternalSyncCompareExchange16Fail
+
+InternalSyncCompareExchange16Exchange:
+  stxrh w4, w2, [x0]
+  cbnz w4, InternalSyncCompareExchange16Again
+
+InternalSyncCompareExchange16Fail:
+  dmb sy
+  mov w0, w3
+  ret
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+InternalSyncCompareExchange32:
+  dmb sy
+
+InternalSyncCompareExchange32Again:
+  ldxr w3, [x0]
+  cmp w3, w1
+  bne InternalSyncCompareExchange32Fail
+
+InternalSyncCompareExchange32Exchange:
+  stxr w4, w2, [x0]
+  cbnz w4, InternalSyncCompareExchange32Again
+
+InternalSyncCompareExchange32Fail:
+  dmb sy
+  mov w0, w3
+  ret
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+InternalSyncCompareExchange64:
+  dmb sy
+
+InternalSyncCompareExchange64Again:
+  ldxr x3, [x0]
+  cmp x3, x1
+  bne InternalSyncCompareExchange64Fail
+
+InternalSyncCompareExchange64Exchange:
+  stxr w4, x2, [x0]
+  cbnz w4, InternalSyncCompareExchange64Again
+
+InternalSyncCompareExchange64Fail:
+  dmb sy
+  mov x0, x3
+  ret
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+InternalSyncIncrement:
+  dmb sy
+TryInternalSyncIncrement:
+  ldxr w1, [x0]
+  add w1, w1, #1
+  stxr w2, w1, [x0]
+  cbnz w2, TryInternalSyncIncrement
+  mov w0, w1
+  dmb sy
+  ret
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+InternalSyncDecrement:
+  dmb sy
+TryInternalSyncDecrement:
+  ldxr w1, [x0]
+  sub w1, w1, #1
+  stxr w2, w1, [x0]
+  cbnz w2, TryInternalSyncDecrement
+  mov w0, w1
+  dmb sy
+  ret

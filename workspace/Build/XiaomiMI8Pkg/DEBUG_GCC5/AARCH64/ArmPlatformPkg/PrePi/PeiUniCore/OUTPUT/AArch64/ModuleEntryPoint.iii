@@ -1,0 +1,116 @@
+
+
+
+
+
+
+
+
+
+.global _ModuleEntryPoint ; .section ".text._ModuleEntryPoint", "ax" ; .type _ModuleEntryPoint, %function ; _ModuleEntryPoint:
+
+  bl ArmPlatformPeiBootAction
+
+
+  bl ArmReadMpidr
+
+  mov x10, x0
+
+_SetSVCMode:
+
+
+
+_SystemMemoryEndInit:
+  ldr x1, mSystemMemoryEnd
+
+_SetupStackPosition:
+
+
+
+  movz x2, (0xd0000000) >> 48, lsl #48 ; movk x2, ((0xd0000000) >> 32) & 0xffff, lsl #32 ; movk x2, ((0xd0000000) >> 16) & 0xffff, lsl #16 ; movk x2, (0xd0000000) & 0xffff
+  movz x3, (0x00200000 - 1) >> 16, lsl #16 ; movk x3, (0x00200000 - 1) & 0xffff
+  sub x3, x3, #1
+  add x3, x3, x2
+
+
+  movz x4, (0x08000000) >> 16, lsl #16 ; movk x4, (0x08000000) & 0xffff
+
+
+
+
+
+
+  subs x0, x1, x3
+  b.mi _SetupStack
+  cmp x0, x4
+  b.ge _SetupStack
+
+
+  mov x1, x2
+
+_SetupStack:
+
+
+
+
+
+  adds x11, x1, #1
+  b.cs _SetupOverflowStack
+
+_SetupAlignedStack:
+  mov x1, x11
+  b _GetBaseUefiMemory
+
+_SetupOverflowStack:
+
+
+  and x1, x1, ~0xFFF
+
+_GetBaseUefiMemory:
+
+  sub x11, x1, x4
+
+_GetStackBase:
+
+
+  movz x2, (0x10000) >> 16, lsl #16 ; movk x2, (0x10000) & 0xffff
+  sub x12, x1, x2
+
+
+  movz x1, ((1 - 1) * 0x1000) >> 16, lsl #16 ; movk x1, ((1 - 1) * 0x1000) & 0xffff
+  sub x12, x12, x1
+
+
+  mov x0, x12
+  mov x1, x10
+
+  movz x2, (0x10000) >> 16, lsl #16 ; movk x2, (0x10000) & 0xffff
+  movz x3, (0x1000) >> 16, lsl #16 ; movk x3, (0x1000) & 0xffff
+  bl ArmPlatformStackSet
+
+
+  mov x0, x10
+  bl ArmPlatformIsPrimaryCore
+  cmp x0, #1
+  bne _PrepareArguments
+
+_PrepareArguments:
+  mov x0, x10
+  mov x1, x11
+  mov x2, x12
+
+
+
+  ldr x4, =CEntryPoint
+
+
+  mov x29, xzr
+
+
+
+
+
+  blr x4
+
+_NeverReturn:
+  b _NeverReturn

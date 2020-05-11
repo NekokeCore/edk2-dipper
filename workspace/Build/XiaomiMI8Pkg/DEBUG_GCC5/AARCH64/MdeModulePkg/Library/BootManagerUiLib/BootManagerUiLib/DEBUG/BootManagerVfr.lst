@@ -1,0 +1,139 @@
+//
+//  VFR compiler version  2.01 (UEFI 2.4) Developer Build based on Revision: Unknown
+//
+extern unsigned char BootManagerUiLibStrings[];
+formset
+>00000000: 0E A7 FE C3 7B 84 74 B9 6D 44 94 49 5A D5 41 2E 99 3B 02 00 03 00 01 F8 09 88 E5 C1 FB E2 48 88 3A A3 0F DC 4B 44 1E 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+  guid = { 0x847bc3fe, 0xb974, 0x446d, 0x94, 0x49, 0x5a, 0xd5, 0x41, 0x2e, 0x99, 0x3b },
+  title = STRING_TOKEN(0x0002),
+  help = STRING_TOKEN(0x0003),
+  classguid = { 0xe58809f8, 0xfbc1, 0x48e2, { 0x88, 0x3a, 0xa3, 0x0f, 0xdc, 0x4b, 0x44, 0x1e } },
+  form formid = 0x1000,
+>00000033: 01 86 00 10 02 00 
+       title = STRING_TOKEN(0x0002);
+    subtitle text = STRING_TOKEN(0x0007);
+>00000039: 02 87 07 00 00 00 00 
+>00000040: 29 02 
+    subtitle text = STRING_TOKEN(0x0005);
+>00000042: 02 87 05 00 00 00 00 
+>00000049: 29 02 
+    subtitle text = STRING_TOKEN(0x0007);
+>0000004B: 02 87 07 00 00 00 00 
+>00000052: 29 02 
+    suppressif TRUE;
+>00000054: 0A 82 
+>00000056: 46 02 
+          text
+              help = STRING_TOKEN(0x0007 ),
+              text = STRING_TOKEN(0x0007 ),
+              flags = INTERACTIVE,
+>00000058: 0C 8F 07 00 07 00 12 12 00 00 FF FF 04 00 00 
+              key = 0x1212;
+>00000067: 29 02 
+     endif;
+>00000069: 29 02 
+    label 0x00;
+>0000006B: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 00 
+    label 0x01;
+>00000080: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 01 00 
+    subtitle text = STRING_TOKEN(0x0007);
+>00000095: 02 87 07 00 00 00 00 
+>0000009C: 29 02 
+    subtitle text = STRING_TOKEN(0x0004);
+>0000009E: 02 87 04 00 00 00 00 
+>000000A5: 29 02 
+  endform;
+>000000A7: 29 02 
+endformset;
+>000000A9: 29 02 
+
+//
+// All Opcode Record List 
+//
+>00000000: 0E A7 FE C3 7B 84 74 B9 6D 44 94 49 5A D5 41 2E 99 3B 02 00 03 00 01 F8 09 88 E5 C1 FB E2 48 88 3A A3 0F DC 4B 44 1E 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+>00000033: 01 86 00 10 02 00 
+>00000039: 02 87 07 00 00 00 00 
+>00000040: 29 02 
+>00000042: 02 87 05 00 00 00 00 
+>00000049: 29 02 
+>0000004B: 02 87 07 00 00 00 00 
+>00000052: 29 02 
+>00000054: 0A 82 
+>00000056: 46 02 
+>00000058: 0C 8F 07 00 07 00 12 12 00 00 FF FF 04 00 00 
+>00000067: 29 02 
+>00000069: 29 02 
+>0000006B: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 00 
+>00000080: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 01 00 
+>00000095: 02 87 07 00 00 00 00 
+>0000009C: 29 02 
+>0000009E: 02 87 04 00 00 00 00 
+>000000A5: 29 02 
+>000000A7: 29 02 
+>000000A9: 29 02 
+
+Total Size of all record is 0x000000AB
+
+
+***************************************************************
+		mPackAlign = 8
+		struct EFI_HII_REF : mAlign [16] mTotalSize [0x16]
+
+		struct EFI_HII_REF {
+			+00000000[00000000] QuestionId <UINT16>
+			+00000002[00000002] FormId <UINT16>
+			+00000004[00000004] FormSetGuid <(null)>
+			+00000020[00000014] DevicePath <EFI_STRING_ID>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_TIME : mAlign [1] mTotalSize [0x3]
+
+		struct EFI_HII_TIME {
+			+00000000[00000000] Hours <UINT8>
+			+00000001[00000001] Minutes <UINT8>
+			+00000002[00000002] Seconds <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_STRING_ID : mAlign [2] mTotalSize [0x2]
+
+		struct EFI_STRING_ID {
+		};
+---------------------------------------------------------------
+		struct EFI_HII_DATE : mAlign [2] mTotalSize [0x4]
+
+		struct EFI_HII_DATE {
+			+00000000[00000000] Year <UINT16>
+			+00000002[00000002] Month <UINT8>
+			+00000003[00000003] Day <UINT8>
+		};
+---------------------------------------------------------------
+		struct BOOLEAN : mAlign [1] mTotalSize [0x1]
+
+		struct BOOLEAN {
+		};
+---------------------------------------------------------------
+		struct UINT8 : mAlign [1] mTotalSize [0x1]
+
+		struct UINT8 {
+		};
+---------------------------------------------------------------
+		struct UINT16 : mAlign [2] mTotalSize [0x2]
+
+		struct UINT16 {
+		};
+---------------------------------------------------------------
+		struct UINT32 : mAlign [4] mTotalSize [0x4]
+
+		struct UINT32 {
+		};
+---------------------------------------------------------------
+		struct UINT64 : mAlign [8] mTotalSize [0x8]
+
+		struct UINT64 {
+		};
+---------------------------------------------------------------
+***************************************************************

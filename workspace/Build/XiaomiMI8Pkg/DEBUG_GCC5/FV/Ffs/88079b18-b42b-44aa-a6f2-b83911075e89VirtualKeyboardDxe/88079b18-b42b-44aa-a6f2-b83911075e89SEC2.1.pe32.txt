@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/88079b18-b42b-44aa-a6f2-b83911075e89VirtualKeyboardDxe/88079b18-b42b-44aa-a6f2-b83911075e89SEC2.1.pe32 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Drivers/VirtualKeyboardDxe/VirtualKeyboardDxe/OUTPUT/VirtualKeyboardDxe.efi

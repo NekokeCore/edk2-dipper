@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .text
+    .align 5
+.globl InternalMemCompareGuid
+InternalMemCompareGuid:
+    mov x2, xzr
+    ldp x3, x4, [x0]
+    cbz x1, 0f
+    ldp x1, x2, [x1]
+0: cmp x1, x3
+    ccmp x2, x4, #0, eq
+    cset w0, eq
+    ret

@@ -1,0 +1,99 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.global ArmPlatformStackSet ; .section ".text.ArmPlatformStackSet", "ax" ; .type ArmPlatformStackSet, %function ; ArmPlatformStackSet:
+
+  mov x26, x3
+  mov x25, x2
+  mov x24, x1
+  mov x23, x0
+
+
+  mov x27, x30
+
+
+  mov x0, x1
+  bl ArmPlatformIsPrimaryCore
+  cmp x0, #1
+
+
+  mov x0, x23
+  mov x1, x24
+  mov x2, x25
+  mov x3, x26
+
+
+  mov x30, x27
+
+  b.ne 0f
+
+  b ArmPlatformStackSetPrimary
+0:b ArmPlatformStackSetSecondary
+
+
+
+
+
+
+
+
+.global ArmPlatformStackSetPrimary ; .section ".text.ArmPlatformStackSetPrimary", "ax" ; .type ArmPlatformStackSetPrimary, %function ; ArmPlatformStackSetPrimary:
+
+  add x0, x0, x2
+
+
+  movz w1, (1 - 1) >> 16, lsl #16 ; movk w1, (1 - 1) & 0xffff
+  mul x3, x3, x1
+
+
+  add sp, x0, x3
+
+  ret
+
+
+
+
+
+
+
+
+.global ArmPlatformStackSetSecondary ; .section ".text.ArmPlatformStackSetSecondary", "ax" ; .type ArmPlatformStackSetSecondary, %function ; ArmPlatformStackSetSecondary:
+
+  mov x24, x30
+  mov sp, x0
+
+
+  mov x0, x1
+  bl ArmPlatformGetCorePosition
+  mov x25, x0
+
+
+  bl ArmPlatformGetPrimaryCoreMpId
+  bl ArmPlatformGetCorePosition
+
+
+  cmp x25, x0
+
+
+  cinc x25, x25, ls
+
+
+  mul x3, x3, x25
+
+
+  add sp, sp, x3
+
+  ret x24

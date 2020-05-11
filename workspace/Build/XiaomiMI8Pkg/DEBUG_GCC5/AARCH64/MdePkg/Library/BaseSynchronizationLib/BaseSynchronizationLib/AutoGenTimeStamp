@@ -1,0 +1,6 @@
+/home/core/edk2/MdePkg/Library/BaseSynchronizationLib/Synchronization.c
+/home/core/edk2/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib.inf
+/home/core/edk2/MdePkg/Library/BaseSynchronizationLib/AArch64/Synchronization.asm
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLib/DEBUG/AutoGen.h
+/home/core/edk2/MdePkg/Library/BaseSynchronizationLib/AArch64/Synchronization.S
+/home/core/edk2/MdePkg/Library/BaseSynchronizationLib/BaseSynchronizationLibInternals.h

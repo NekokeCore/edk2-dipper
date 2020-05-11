@@ -1,0 +1,181 @@
+//
+//  VFR compiler version  2.01 (UEFI 2.4) Developer Build based on Revision: Unknown
+//
+extern unsigned char FileExplorerLibStrings[];
+formset
+>00000000: 0E A7 96 15 56 FE BF E6 A6 41 83 76 C7 2B 71 98 74 D0 03 00 02 00 01 96 15 56 FE BF E6 A6 41 83 76 C7 2B 71 98 74 D0 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+  guid = { 0xfe561596, 0xe6bf, 0x41a6, {0x83, 0x76, 0xc7, 0x2b, 0x71, 0x98, 0x74, 0xd0} },
+  title = STRING_TOKEN(0x0003),
+  help = STRING_TOKEN(0x0002),
+  classguid = { 0xfe561596, 0xe6bf, 0x41a6, {0x83, 0x76, 0xc7, 0x2b, 0x71, 0x98, 0x74, 0xd0} },
+  form formid = 0x1000,
+>00000033: 01 86 00 10 03 00 
+       title = STRING_TOKEN(0x0003);
+       label 0x1000;
+>00000039: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 10 
+       label 0xffff;
+>0000004E: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>00000063: 29 02 
+  form formid = 0x2000,
+>00000065: 01 86 00 20 06 00 
+       title = STRING_TOKEN(0x0006);
+      string
+>0000006B: 1C 90 08 00 09 00 01 20 00 00 FF FF 04 02 14 00 
+          prompt = STRING_TOKEN(0x0008),
+          help = STRING_TOKEN(0x0009),
+          flags = INTERACTIVE,
+          key = 0x2001,
+          minsize = 2,
+          maxsize = 20,
+      endstring;
+>0000007B: 29 02 
+      subtitle text = STRING_TOKEN(0x0002);
+>0000007D: 02 87 02 00 00 00 00 
+>00000084: 29 02 
+       text
+         help = STRING_TOKEN(0x000A),
+         text = STRING_TOKEN(0x000A),
+         flags = INTERACTIVE,
+>00000086: 0C 8F 0A 00 0A 00 02 20 00 00 FF FF 04 00 00 
+         key = 0x2002;
+>00000095: 29 02 
+       text
+         help = STRING_TOKEN(0x000B),
+         text = STRING_TOKEN(0x000B),
+         flags = INTERACTIVE,
+>00000097: 0C 8F 0B 00 0B 00 03 20 00 00 FF FF 04 00 00 
+         key = 0x2003;
+>000000A6: 29 02 
+  endform;
+>000000A8: 29 02 
+  form formid = 0x3000,
+>000000AA: 01 86 00 30 07 00 
+      title = STRING_TOKEN(0x0007);
+      string
+>000000B0: 1C 90 0E 00 0F 00 01 30 00 00 FF FF 04 02 14 00 
+          prompt = STRING_TOKEN(0x000E),
+          help = STRING_TOKEN(0x000F),
+          flags = INTERACTIVE,
+          key = 0x3001,
+          minsize = 2,
+          maxsize = 20,
+      endstring;
+>000000C0: 29 02 
+      subtitle text = STRING_TOKEN(0x0002);
+>000000C2: 02 87 02 00 00 00 00 
+>000000C9: 29 02 
+      text
+        help = STRING_TOKEN(0x0010),
+        text = STRING_TOKEN(0x0010),
+        flags = INTERACTIVE,
+>000000CB: 0C 8F 10 00 10 00 02 30 00 00 FF FF 04 00 00 
+        key = 0x3002;
+>000000DA: 29 02 
+      text
+        help = STRING_TOKEN(0x0011),
+        text = STRING_TOKEN(0x0011),
+        flags = INTERACTIVE,
+>000000DC: 0C 8F 11 00 11 00 03 30 00 00 FF FF 04 00 00 
+        key = 0x3003;
+>000000EB: 29 02 
+  endform;
+>000000ED: 29 02 
+endformset;
+>000000EF: 29 02 
+
+//
+// All Opcode Record List 
+//
+>00000000: 0E A7 96 15 56 FE BF E6 A6 41 83 76 C7 2B 71 98 74 D0 03 00 02 00 01 96 15 56 FE BF E6 A6 41 83 76 C7 2B 71 98 74 D0 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+>00000033: 01 86 00 10 03 00 
+>00000039: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 10 
+>0000004E: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>00000063: 29 02 
+>00000065: 01 86 00 20 06 00 
+>0000006B: 1C 90 08 00 09 00 01 20 00 00 FF FF 04 02 14 00 
+>0000007B: 29 02 
+>0000007D: 02 87 02 00 00 00 00 
+>00000084: 29 02 
+>00000086: 0C 8F 0A 00 0A 00 02 20 00 00 FF FF 04 00 00 
+>00000095: 29 02 
+>00000097: 0C 8F 0B 00 0B 00 03 20 00 00 FF FF 04 00 00 
+>000000A6: 29 02 
+>000000A8: 29 02 
+>000000AA: 01 86 00 30 07 00 
+>000000B0: 1C 90 0E 00 0F 00 01 30 00 00 FF FF 04 02 14 00 
+>000000C0: 29 02 
+>000000C2: 02 87 02 00 00 00 00 
+>000000C9: 29 02 
+>000000CB: 0C 8F 10 00 10 00 02 30 00 00 FF FF 04 00 00 
+>000000DA: 29 02 
+>000000DC: 0C 8F 11 00 11 00 03 30 00 00 FF FF 04 00 00 
+>000000EB: 29 02 
+>000000ED: 29 02 
+>000000EF: 29 02 
+
+Total Size of all record is 0x000000F1
+
+
+***************************************************************
+		mPackAlign = 8
+		struct EFI_HII_REF : mAlign [16] mTotalSize [0x16]
+
+		struct EFI_HII_REF {
+			+00000000[00000000] QuestionId <UINT16>
+			+00000002[00000002] FormId <UINT16>
+			+00000004[00000004] FormSetGuid <(null)>
+			+00000020[00000014] DevicePath <EFI_STRING_ID>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_TIME : mAlign [1] mTotalSize [0x3]
+
+		struct EFI_HII_TIME {
+			+00000000[00000000] Hours <UINT8>
+			+00000001[00000001] Minutes <UINT8>
+			+00000002[00000002] Seconds <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_STRING_ID : mAlign [2] mTotalSize [0x2]
+
+		struct EFI_STRING_ID {
+		};
+---------------------------------------------------------------
+		struct EFI_HII_DATE : mAlign [2] mTotalSize [0x4]
+
+		struct EFI_HII_DATE {
+			+00000000[00000000] Year <UINT16>
+			+00000002[00000002] Month <UINT8>
+			+00000003[00000003] Day <UINT8>
+		};
+---------------------------------------------------------------
+		struct BOOLEAN : mAlign [1] mTotalSize [0x1]
+
+		struct BOOLEAN {
+		};
+---------------------------------------------------------------
+		struct UINT8 : mAlign [1] mTotalSize [0x1]
+
+		struct UINT8 {
+		};
+---------------------------------------------------------------
+		struct UINT16 : mAlign [2] mTotalSize [0x2]
+
+		struct UINT16 {
+		};
+---------------------------------------------------------------
+		struct UINT32 : mAlign [4] mTotalSize [0x4]
+
+		struct UINT32 {
+		};
+---------------------------------------------------------------
+		struct UINT64 : mAlign [8] mTotalSize [0x8]
+
+		struct UINT64 {
+		};
+---------------------------------------------------------------
+***************************************************************

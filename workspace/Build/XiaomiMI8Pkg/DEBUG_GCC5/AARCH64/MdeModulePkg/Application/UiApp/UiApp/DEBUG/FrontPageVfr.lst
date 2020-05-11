@@ -1,0 +1,151 @@
+//
+//  VFR compiler version  2.01 (UEFI 2.4) Developer Build based on Revision: Unknown
+//
+extern unsigned char UiAppStrings[];
+formset
+>00000000: 0E A7 BC 30 0C 9E 06 3F A6 4B 82 88 09 17 9B 85 5D BE 02 00 0C 00 01 BC 30 0C 9E 06 3F A6 4B 82 88 09 17 9B 85 5D BE 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+  guid = { 0x9e0c30bc, 0x3f06, 0x4ba6, 0x82, 0x88, 0x9, 0x17, 0x9b, 0x85, 0x5d, 0xbe },
+  title = STRING_TOKEN(0x0002),
+  help = STRING_TOKEN(0x000C ),
+  classguid = { 0x9e0c30bc, 0x3f06, 0x4ba6, 0x82, 0x88, 0x9, 0x17, 0x9b, 0x85, 0x5d, 0xbe },
+  form formid = 0x1000,
+>00000033: 01 86 00 10 02 00 
+       title = STRING_TOKEN(0x0002);
+    banner
+>00000039: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 03 00 01 00 00 
+      title = STRING_TOKEN(0x0003),
+      line 1,
+      align left;
+    banner
+>00000051: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 04 00 02 00 00 
+      title = STRING_TOKEN(0x0004),
+      line 2,
+      align left;
+    banner
+>00000069: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 05 00 02 00 02 
+      title = STRING_TOKEN(0x0005),
+      line 2,
+      align right;
+    banner
+>00000081: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 07 00 03 00 00 
+      title = STRING_TOKEN(0x0007),
+      line 3,
+      align left;
+    banner
+>00000099: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 06 00 03 00 02 
+      title = STRING_TOKEN(0x0006),
+      line 3,
+      align right;
+    banner
+>000000B1: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 0E 00 04 00 00 
+      title = STRING_TOKEN(0x000E),
+      line 4,
+      align left;
+    banner
+>000000C9: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 0F 00 04 00 02 
+      title = STRING_TOKEN(0x000F),
+      line 4,
+      align right;
+    banner
+>000000E1: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 10 00 05 00 00 
+      title = STRING_TOKEN(0x0010),
+      line 5,
+      align left;
+    banner
+>000000F9: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 11 00 05 00 02 
+      title = STRING_TOKEN(0x0011),
+      line 5,
+      align right;
+    label 0x1000;
+>00000111: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 10 
+    label 0xffff;
+>00000126: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>0000013B: 29 02 
+endformset;
+>0000013D: 29 02 
+
+//
+// All Opcode Record List 
+//
+>00000000: 0E A7 BC 30 0C 9E 06 3F A6 4B 82 88 09 17 9B 85 5D BE 02 00 0C 00 01 BC 30 0C 9E 06 3F A6 4B 82 88 09 17 9B 85 5D BE 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+>00000033: 01 86 00 10 02 00 
+>00000039: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 03 00 01 00 00 
+>00000051: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 04 00 02 00 00 
+>00000069: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 05 00 02 00 02 
+>00000081: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 07 00 03 00 00 
+>00000099: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 06 00 03 00 02 
+>000000B1: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 0E 00 04 00 00 
+>000000C9: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 0F 00 04 00 02 
+>000000E1: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 10 00 05 00 00 
+>000000F9: 5F 18 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 01 11 00 05 00 02 
+>00000111: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 10 
+>00000126: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>0000013B: 29 02 
+>0000013D: 29 02 
+
+Total Size of all record is 0x0000013F
+
+
+***************************************************************
+		mPackAlign = 8
+		struct EFI_HII_REF : mAlign [16] mTotalSize [0x16]
+
+		struct EFI_HII_REF {
+			+00000000[00000000] QuestionId <UINT16>
+			+00000002[00000002] FormId <UINT16>
+			+00000004[00000004] FormSetGuid <(null)>
+			+00000020[00000014] DevicePath <EFI_STRING_ID>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_TIME : mAlign [1] mTotalSize [0x3]
+
+		struct EFI_HII_TIME {
+			+00000000[00000000] Hours <UINT8>
+			+00000001[00000001] Minutes <UINT8>
+			+00000002[00000002] Seconds <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_STRING_ID : mAlign [2] mTotalSize [0x2]
+
+		struct EFI_STRING_ID {
+		};
+---------------------------------------------------------------
+		struct EFI_HII_DATE : mAlign [2] mTotalSize [0x4]
+
+		struct EFI_HII_DATE {
+			+00000000[00000000] Year <UINT16>
+			+00000002[00000002] Month <UINT8>
+			+00000003[00000003] Day <UINT8>
+		};
+---------------------------------------------------------------
+		struct BOOLEAN : mAlign [1] mTotalSize [0x1]
+
+		struct BOOLEAN {
+		};
+---------------------------------------------------------------
+		struct UINT8 : mAlign [1] mTotalSize [0x1]
+
+		struct UINT8 {
+		};
+---------------------------------------------------------------
+		struct UINT16 : mAlign [2] mTotalSize [0x2]
+
+		struct UINT16 {
+		};
+---------------------------------------------------------------
+		struct UINT32 : mAlign [4] mTotalSize [0x4]
+
+		struct UINT32 {
+		};
+---------------------------------------------------------------
+		struct UINT64 : mAlign [8] mTotalSize [0x8]
+
+		struct UINT64 {
+		};
+---------------------------------------------------------------
+***************************************************************

@@ -1,0 +1,677 @@
+//
+//  VFR compiler version  2.01 (UEFI 2.4) Developer Build based on Revision: Unknown
+//
+extern unsigned char BootMaintenanceManagerUiLibStrings[];
+typedef struct {
+  UINT16 BootTimeOut;
+  UINT32 BootNext;
+  UINT8 COM1BaudRate;
+  UINT8 COM1DataRate;
+  UINT8 COM1StopBits;
+  UINT8 COM1Parity;
+  UINT8 COM1TerminalType;
+  UINT8 COM2BaudRate;
+  UINT8 COM2DataRate;
+  UINT8 COM2StopBits;
+  UINT8 COM2Parity;
+  UINT8 COM2TerminalType;
+  UINT16 DriverAddHandleDesc[100];
+  UINT16 DriverAddHandleOptionalData[100];
+  UINT8 DriverAddActive;
+  UINT8 DriverAddForceReconnect;
+  UINT8 ConsoleInputCOM1;
+  UINT8 ConsoleInputCOM2;
+  UINT8 ConsoleOutputCOM1;
+  UINT8 ConsoleOutputCOM2;
+  UINT8 ConsoleErrorCOM1;
+  UINT8 ConsoleErrorCOM2;
+  UINT8 ConsoleCheck[100];
+  UINT8 ConsoleInCheck[100];
+  UINT8 ConsoleOutCheck[100];
+  UINT8 ConsoleErrCheck[100];
+  UINT32 BootOptionOrder[100];
+  UINT32 DriverOptionOrder[100];
+  BOOLEAN BootOptionDel[100];
+  BOOLEAN DriverOptionDel[100];
+  BOOLEAN BootOptionDelMark[100];
+  BOOLEAN DriverOptionDelMark[100];
+  UINT8 COMBaudRate[100];
+  UINT8 COMDataRate[100];
+  UINT8 COMStopBits[100];
+  UINT8 COMParity[100];
+  UINT8 COMTerminalType[100];
+  UINT8 COMFlowControl[100];
+  UINT8 DisableMap[32];
+  UINT16 ConsoleOutMode;
+  UINT16 BootDescriptionData[100];
+  UINT16 BootOptionalData[127];
+  UINT16 DriverDescriptionData[100];
+  UINT16 DriverOptionalData[127];
+  BOOLEAN BootOptionChanged;
+  BOOLEAN DriverOptionChanged;
+  UINT8 Active;
+  UINT8 ForceReconnect;
+} BMM_FAKE_NV_DATA;
+formset
+>00000000: 0E A7 C7 37 22 64 D4 35 2D 47 83 65 12 E0 CC F2 7A 22 05 00 07 00 01 F8 09 88 E5 C1 FB E2 48 88 3A A3 0F DC 4B 44 1E 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+  guid = { 0x642237c7, 0x35d4, 0x472d, {0x83, 0x65, 0x12, 0xe0, 0xcc, 0xf2, 0x7a, 0x22} },
+  title = STRING_TOKEN(0x0005),
+  help = STRING_TOKEN(0x0007),
+  classguid = { 0xe58809f8, 0xfbc1, 0x48e2, { 0x88, 0x3a, 0xa3, 0x0f, 0xdc, 0x4b, 0x44, 0x1e } },
+  varstore BMM_FAKE_NV_DATA,
+>00000033: 24 1E C7 37 22 64 D4 35 2D 47 83 65 12 E0 CC F2 7A 22 00 10 F8 0D 42 6D 6D 44 61 74 61 00 
+    varid = 0x1000,
+    name = BmmData,
+    guid = { 0x642237c7, 0x35d4, 0x472d, {0x83, 0x65, 0x12, 0xe0, 0xcc, 0xf2, 0x7a, 0x22} };
+  form formid = 0x1001,
+>00000051: 01 86 01 10 05 00 
+       title = STRING_TOKEN(0x0005);
+       suppressif TRUE;
+>00000057: 0A 82 
+>00000059: 46 02 
+          text
+              help = STRING_TOKEN(0x0003),
+              text = STRING_TOKEN(0x0003),
+              flags = INTERACTIVE,
+>0000005B: 0C 8F 03 00 03 00 17 11 00 00 FF FF 04 00 00 
+              key = 0x1117;
+>0000006A: 29 02 
+       endif;
+>0000006C: 29 02 
+    label 0xfffc;
+>0000006E: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FC FF 
+    label 0xfffd;
+>00000083: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FD FF 
+  endform;
+>00000098: 29 02 
+  form formid = 0x1014,
+>0000009A: 01 86 14 10 06 00 
+       title = STRING_TOKEN(0x0006);
+       goto 0x1001,
+>000000A0: 0F 0F 5D 00 5D 00 01 00 00 00 FF FF 00 01 10 
+            prompt = STRING_TOKEN(0x005D),
+            help = STRING_TOKEN(0x005D);
+       goto 0x1014,
+>000000AF: 0F 0F 0B 00 0C 00 02 10 00 00 FF FF 04 14 10 
+            prompt = STRING_TOKEN(0x000B),
+            help = STRING_TOKEN(0x000C),
+            flags = INTERACTIVE,
+            key = 0x1002;
+       goto 0x1003,
+>000000BE: 0F 0F 0D 00 0E 00 03 10 00 00 FF FF 04 03 10 
+            prompt = STRING_TOKEN(0x000D),
+            help = STRING_TOKEN(0x000E),
+            flags = INTERACTIVE,
+            key = 0x1003;
+       goto 0x1004,
+>000000CD: 0F 0F 0F 00 0E 00 04 10 00 00 FF FF 04 04 10 
+            prompt = STRING_TOKEN(0x000F),
+            help = STRING_TOKEN(0x000E),
+            flags = INTERACTIVE,
+            key = 0x1004;
+  endform;
+>000000DC: 29 02 
+  form formid = 0x1015,
+>000000DE: 01 86 15 10 09 00 
+       title = STRING_TOKEN(0x0009);
+       goto 0x1001,
+>000000E4: 0F 0F 5D 00 5D 00 02 00 00 00 FF FF 00 01 10 
+            prompt = STRING_TOKEN(0x005D),
+            help = STRING_TOKEN(0x005D);
+       goto 0x1005,
+>000000F3: 0F 0F 10 00 11 00 05 10 00 00 FF FF 04 05 10 
+            prompt = STRING_TOKEN(0x0010),
+            help = STRING_TOKEN(0x0011),
+            flags = INTERACTIVE,
+            key = 0x1005;
+       goto 0x1006,
+>00000102: 0F 0F 12 00 14 00 06 10 00 00 FF FF 04 06 10 
+            prompt = STRING_TOKEN(0x0012),
+            help = STRING_TOKEN(0x0014),
+            flags = INTERACTIVE,
+            key = 0x1006;
+       goto 0x1007,
+>00000111: 0F 0F 13 00 14 00 07 10 00 00 FF FF 04 07 10 
+            prompt = STRING_TOKEN(0x0013),
+            help = STRING_TOKEN(0x0014),
+            flags = INTERACTIVE,
+            key = 0x1007;
+  endform;
+>00000120: 29 02 
+   form formid = 0x1002,
+>00000122: 01 86 02 10 23 00 
+       title = STRING_TOKEN(0x0023);
+       label 0x1002;
+>00000128: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 02 10 
+       label 0xffff;
+>0000013D: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+       subtitle text = STRING_TOKEN(0x0002);
+>00000152: 02 87 02 00 00 00 00 
+>00000159: 29 02 
+       string varid = BmmData.BootDescriptionData,
+>0000015B: 1C 90 29 00 02 00 0F 11 00 10 66 0A 04 06 4B 00 
+                 questionid = 0x110F,
+                 prompt = STRING_TOKEN(0x0029),
+                 help = STRING_TOKEN(0x0002),
+                 flags = INTERACTIVE,
+                 minsize = 6,
+                 maxsize = 75,
+       endstring;
+>0000016B: 29 02 
+       string varid = BmmData.BootOptionalData,
+>0000016D: 1C 90 60 00 02 00 10 11 00 10 2E 0B 04 00 78 00 
+                 questionid = 0x1110,
+                 prompt = STRING_TOKEN(0x0060),
+                 help = STRING_TOKEN(0x0002),
+                 flags = INTERACTIVE,
+                 minsize = 0,
+                 maxsize = 120,
+       endstring;
+>0000017D: 29 02 
+       subtitle text = STRING_TOKEN(0x0002);
+>0000017F: 02 87 02 00 00 00 00 
+>00000186: 29 02 
+       text
+         help = STRING_TOKEN(0x002B),
+         text = STRING_TOKEN(0x002B),
+         flags = INTERACTIVE,
+>00000188: 0C 8F 2B 00 2B 00 13 11 00 00 FF FF 04 00 00 
+         key = 0x1113;
+>00000197: 29 02 
+       text
+         help = STRING_TOKEN(0x002C),
+         text = STRING_TOKEN(0x002C),
+         flags = INTERACTIVE,
+>00000199: 0C 8F 2C 00 2C 00 14 11 00 00 FF FF 04 00 00 
+         key = 0x1114;
+>000001A8: 29 02 
+  endform;
+>000001AA: 29 02 
+  form formid = 0x1003,
+>000001AC: 01 86 03 10 0D 00 
+       title = STRING_TOKEN(0x000D);
+       label 0x1003;
+>000001B2: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 03 10 
+       label 0xffff;
+>000001C7: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>000001DC: 29 02 
+  form formid = 0x1004,
+>000001DE: 01 86 04 10 0F 00 
+       title = STRING_TOKEN(0x000F);
+       label 0x1004;
+>000001E4: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 04 10 
+       label 0xffff;
+>000001F9: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>0000020E: 29 02 
+  form formid = 0x1005,
+>00000210: 01 86 05 10 10 00 
+       title = STRING_TOKEN(0x0010);
+       goto 0x1001,
+>00000216: 0F 0F 5D 00 5D 00 03 00 00 00 FF FF 00 01 10 
+            prompt = STRING_TOKEN(0x005D),
+            help = STRING_TOKEN(0x005D);
+       goto 0x1015,
+>00000225: 0F 0F 21 00 21 00 0E 10 00 00 FF FF 04 15 10 
+            prompt = STRING_TOKEN(0x0021),
+            help = STRING_TOKEN(0x0021),
+            flags = INTERACTIVE,
+            key = 0x100E;
+  endform;
+>00000234: 29 02 
+  form formid = 0x100E,
+>00000236: 01 86 0E 10 24 00 
+       title = STRING_TOKEN(0x0024);
+       label 0x100E;
+>0000023C: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 0E 10 
+       label 0xffff;
+>00000251: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+       subtitle text = STRING_TOKEN(0x0002);
+>00000266: 02 87 02 00 00 00 00 
+>0000026D: 29 02 
+       string varid = BmmData.DriverDescriptionData,
+>0000026F: 1C 90 29 00 02 00 11 11 00 10 2C 0C 04 06 4B 00 
+                 questionid = 0x1111,
+                 prompt = STRING_TOKEN(0x0029),
+                 help = STRING_TOKEN(0x0002),
+                 flags = INTERACTIVE,
+                 minsize = 6,
+                 maxsize = 75,
+       endstring;
+>0000027F: 29 02 
+       string varid = BmmData.DriverOptionalData,
+>00000281: 1C 90 60 00 02 00 12 11 00 10 F4 0C 04 00 78 00 
+                 questionid = 0x1112,
+                 prompt = STRING_TOKEN(0x0060),
+                 help = STRING_TOKEN(0x0002),
+                 flags = INTERACTIVE,
+                 minsize = 0,
+                 maxsize = 120,
+       endstring;
+>00000291: 29 02 
+       checkbox varid = BmmData.ForceReconnect,
+>00000293: 06 8E 2A 00 2A 00 04 00 00 10 F5 0D 00 01 
+               prompt = STRING_TOKEN(0x002A),
+               help = STRING_TOKEN(0x002A),
+               flags = CHECKBOX_DEFAULT,
+               key = 0,
+       endcheckbox;
+>000002A1: 29 02 
+       subtitle text = STRING_TOKEN(0x0002);
+>000002A3: 02 87 02 00 00 00 00 
+>000002AA: 29 02 
+       text
+         help = STRING_TOKEN(0x002B),
+         text = STRING_TOKEN(0x002B),
+         flags = INTERACTIVE,
+>000002AC: 0C 8F 2B 00 2B 00 15 11 00 00 FF FF 04 00 00 
+         key = 0x1115;
+>000002BB: 29 02 
+       text
+         help = STRING_TOKEN(0x002C),
+         text = STRING_TOKEN(0x002C),
+         flags = INTERACTIVE,
+>000002BD: 0C 8F 2C 00 2C 00 16 11 00 00 FF FF 04 00 00 
+         key = 0x1116;
+>000002CC: 29 02 
+  endform;
+>000002CE: 29 02 
+  form formid = 0x1006,
+>000002D0: 01 86 06 10 12 00 
+       title = STRING_TOKEN(0x0012);
+       label 0x1006;
+>000002D6: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 06 10 
+       label 0xffff;
+>000002EB: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>00000300: 29 02 
+  form formid = 0x1007,
+>00000302: 01 86 07 10 13 00 
+       title = STRING_TOKEN(0x0013);
+       label 0x1007;
+>00000308: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 07 10 
+       label 0xffff;
+>0000031D: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>00000332: 29 02 
+  form formid = 0x1008,
+>00000334: 01 86 08 10 15 00 
+       title = STRING_TOKEN(0x0015);
+       goto 0x1001,
+>0000033A: 0F 0F 5D 00 5D 00 05 00 00 00 FF FF 00 01 10 
+       prompt = STRING_TOKEN(0x005D),
+       help = STRING_TOKEN(0x005D);
+       goto 0x1009,
+>00000349: 0F 0F 17 00 18 00 09 10 00 00 FF FF 04 09 10 
+       prompt = STRING_TOKEN(0x0017),
+       help = STRING_TOKEN(0x0018),
+       flags = INTERACTIVE,
+       key = 0x1009;
+       goto 0x100A,
+>00000358: 0F 0F 19 00 1A 00 0A 10 00 00 FF FF 04 0A 10 
+       prompt = STRING_TOKEN(0x0019),
+       help = STRING_TOKEN(0x001A),
+       flags = INTERACTIVE,
+       key = 0x100A;
+       goto 0x100B,
+>00000367: 0F 0F 1B 00 1C 00 0B 10 00 00 FF FF 04 0B 10 
+       prompt = STRING_TOKEN(0x001B),
+       help = STRING_TOKEN(0x001C),
+       flags = INTERACTIVE,
+       key = 0x100B;
+       goto 0x1021,
+>00000376: 0F 0F 1D 00 1E 00 21 10 00 00 FF FF 04 21 10 
+       prompt = STRING_TOKEN(0x001D),
+       help = STRING_TOKEN(0x001E),
+       flags = INTERACTIVE,
+       key = 0x1021;
+       goto 0x1017,
+>00000385: 0F 0F 1F 00 20 00 17 10 00 00 FF FF 04 17 10 
+       prompt = STRING_TOKEN(0x001F),
+       help = STRING_TOKEN(0x0020),
+       flags = INTERACTIVE,
+       key = 0x1017;
+  endform;
+>00000394: 29 02 
+  form formid = 0x1021,
+>00000396: 01 86 21 10 1D 00 
+       title = STRING_TOKEN(0x001D);
+       label 0x1021;
+>0000039C: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 21 10 
+       label 0xffff;
+>000003B1: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>000003C6: 29 02 
+  form formid = 0x1017,
+>000003C8: 01 86 17 10 1F 00 
+       title = STRING_TOKEN(0x001F);
+       label 0x1017;
+>000003CE: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 17 10 
+       label 0xffff;
+>000003E3: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>000003F8: 29 02 
+  form formid = 0x1018,
+>000003FA: 01 86 18 10 2E 00 
+       title = STRING_TOKEN(0x002E);
+       label 0x1018;
+>00000400: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 18 10 
+       label 0xffff;
+>00000415: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>0000042A: 29 02 
+  form formid = 0x100C,
+>0000042C: 01 86 0C 10 0B 00 
+       title = STRING_TOKEN(0x000B);
+       label 0x100C;
+>00000432: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 0C 10 
+       label 0xffff;
+>00000447: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>0000045C: 29 02 
+  form formid = 0x100D,
+>0000045E: 01 86 0D 10 0B 00 
+       title = STRING_TOKEN(0x000B);
+       label 0x100D;
+>00000464: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 0D 10 
+       label 0xffff;
+>00000479: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>0000048E: 29 02 
+  form formid = 0x100F,
+>00000490: 01 86 0F 10 22 00 
+       title = STRING_TOKEN(0x0022);
+       label 0x100F;
+>00000496: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 0F 10 
+       label 0xffff;
+>000004AB: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>000004C0: 29 02 
+  form formid = 0x1010,
+>000004C2: 01 86 10 10 24 00 
+       title = STRING_TOKEN(0x0024);
+       label 0x1010;
+>000004C8: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 10 10 
+       label 0xffff;
+>000004DD: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>000004F2: 29 02 
+  form formid = 0x1009,
+>000004F4: 01 86 09 10 17 00 
+       title = STRING_TOKEN(0x0017);
+       label 0x1009;
+>000004FA: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 09 10 
+       label 0xffff;
+>0000050F: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>00000524: 29 02 
+  form formid = 0x100A,
+>00000526: 01 86 0A 10 19 00 
+       title = STRING_TOKEN(0x0019);
+       label 0x100A;
+>0000052C: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 0A 10 
+       label 0xffff;
+>00000541: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>00000556: 29 02 
+  form formid = 0x100B,
+>00000558: 01 86 0B 10 1B 00 
+       title = STRING_TOKEN(0x001B);
+       label 0x100B;
+>0000055E: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 0B 10 
+       label 0xffff;
+>00000573: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>00000588: 29 02 
+endformset;
+>0000058A: 29 02 
+
+//
+// All Opcode Record List 
+//
+>00000000: 0E A7 C7 37 22 64 D4 35 2D 47 83 65 12 E0 CC F2 7A 22 05 00 07 00 01 F8 09 88 E5 C1 FB E2 48 88 3A A3 0F DC 4B 44 1E 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+>00000033: 24 1E C7 37 22 64 D4 35 2D 47 83 65 12 E0 CC F2 7A 22 00 10 F8 0D 42 6D 6D 44 61 74 61 00 
+>00000051: 01 86 01 10 05 00 
+>00000057: 0A 82 
+>00000059: 46 02 
+>0000005B: 0C 8F 03 00 03 00 17 11 00 00 FF FF 04 00 00 
+>0000006A: 29 02 
+>0000006C: 29 02 
+>0000006E: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FC FF 
+>00000083: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FD FF 
+>00000098: 29 02 
+>0000009A: 01 86 14 10 06 00 
+>000000A0: 0F 0F 5D 00 5D 00 01 00 00 00 FF FF 00 01 10 
+>000000AF: 0F 0F 0B 00 0C 00 02 10 00 00 FF FF 04 14 10 
+>000000BE: 0F 0F 0D 00 0E 00 03 10 00 00 FF FF 04 03 10 
+>000000CD: 0F 0F 0F 00 0E 00 04 10 00 00 FF FF 04 04 10 
+>000000DC: 29 02 
+>000000DE: 01 86 15 10 09 00 
+>000000E4: 0F 0F 5D 00 5D 00 02 00 00 00 FF FF 00 01 10 
+>000000F3: 0F 0F 10 00 11 00 05 10 00 00 FF FF 04 05 10 
+>00000102: 0F 0F 12 00 14 00 06 10 00 00 FF FF 04 06 10 
+>00000111: 0F 0F 13 00 14 00 07 10 00 00 FF FF 04 07 10 
+>00000120: 29 02 
+>00000122: 01 86 02 10 23 00 
+>00000128: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 02 10 
+>0000013D: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>00000152: 02 87 02 00 00 00 00 
+>00000159: 29 02 
+>0000015B: 1C 90 29 00 02 00 0F 11 00 10 66 0A 04 06 4B 00 
+>0000016B: 29 02 
+>0000016D: 1C 90 60 00 02 00 10 11 00 10 2E 0B 04 00 78 00 
+>0000017D: 29 02 
+>0000017F: 02 87 02 00 00 00 00 
+>00000186: 29 02 
+>00000188: 0C 8F 2B 00 2B 00 13 11 00 00 FF FF 04 00 00 
+>00000197: 29 02 
+>00000199: 0C 8F 2C 00 2C 00 14 11 00 00 FF FF 04 00 00 
+>000001A8: 29 02 
+>000001AA: 29 02 
+>000001AC: 01 86 03 10 0D 00 
+>000001B2: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 03 10 
+>000001C7: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>000001DC: 29 02 
+>000001DE: 01 86 04 10 0F 00 
+>000001E4: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 04 10 
+>000001F9: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>0000020E: 29 02 
+>00000210: 01 86 05 10 10 00 
+>00000216: 0F 0F 5D 00 5D 00 03 00 00 00 FF FF 00 01 10 
+>00000225: 0F 0F 21 00 21 00 0E 10 00 00 FF FF 04 15 10 
+>00000234: 29 02 
+>00000236: 01 86 0E 10 24 00 
+>0000023C: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 0E 10 
+>00000251: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>00000266: 02 87 02 00 00 00 00 
+>0000026D: 29 02 
+>0000026F: 1C 90 29 00 02 00 11 11 00 10 2C 0C 04 06 4B 00 
+>0000027F: 29 02 
+>00000281: 1C 90 60 00 02 00 12 11 00 10 F4 0C 04 00 78 00 
+>00000291: 29 02 
+>00000293: 06 8E 2A 00 2A 00 04 00 00 10 F5 0D 00 01 
+>000002A1: 29 02 
+>000002A3: 02 87 02 00 00 00 00 
+>000002AA: 29 02 
+>000002AC: 0C 8F 2B 00 2B 00 15 11 00 00 FF FF 04 00 00 
+>000002BB: 29 02 
+>000002BD: 0C 8F 2C 00 2C 00 16 11 00 00 FF FF 04 00 00 
+>000002CC: 29 02 
+>000002CE: 29 02 
+>000002D0: 01 86 06 10 12 00 
+>000002D6: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 06 10 
+>000002EB: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>00000300: 29 02 
+>00000302: 01 86 07 10 13 00 
+>00000308: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 07 10 
+>0000031D: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>00000332: 29 02 
+>00000334: 01 86 08 10 15 00 
+>0000033A: 0F 0F 5D 00 5D 00 05 00 00 00 FF FF 00 01 10 
+>00000349: 0F 0F 17 00 18 00 09 10 00 00 FF FF 04 09 10 
+>00000358: 0F 0F 19 00 1A 00 0A 10 00 00 FF FF 04 0A 10 
+>00000367: 0F 0F 1B 00 1C 00 0B 10 00 00 FF FF 04 0B 10 
+>00000376: 0F 0F 1D 00 1E 00 21 10 00 00 FF FF 04 21 10 
+>00000385: 0F 0F 1F 00 20 00 17 10 00 00 FF FF 04 17 10 
+>00000394: 29 02 
+>00000396: 01 86 21 10 1D 00 
+>0000039C: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 21 10 
+>000003B1: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>000003C6: 29 02 
+>000003C8: 01 86 17 10 1F 00 
+>000003CE: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 17 10 
+>000003E3: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>000003F8: 29 02 
+>000003FA: 01 86 18 10 2E 00 
+>00000400: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 18 10 
+>00000415: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>0000042A: 29 02 
+>0000042C: 01 86 0C 10 0B 00 
+>00000432: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 0C 10 
+>00000447: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>0000045C: 29 02 
+>0000045E: 01 86 0D 10 0B 00 
+>00000464: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 0D 10 
+>00000479: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>0000048E: 29 02 
+>00000490: 01 86 0F 10 22 00 
+>00000496: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 0F 10 
+>000004AB: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>000004C0: 29 02 
+>000004C2: 01 86 10 10 24 00 
+>000004C8: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 10 10 
+>000004DD: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>000004F2: 29 02 
+>000004F4: 01 86 09 10 17 00 
+>000004FA: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 09 10 
+>0000050F: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>00000524: 29 02 
+>00000526: 01 86 0A 10 19 00 
+>0000052C: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 0A 10 
+>00000541: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>00000556: 29 02 
+>00000558: 01 86 0B 10 1B 00 
+>0000055E: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 0B 10 
+>00000573: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>00000588: 29 02 
+>0000058A: 29 02 
+
+Total Size of all record is 0x0000058C
+
+
+***************************************************************
+		mPackAlign = 8
+		struct BMM_FAKE_NV_DATA : mAlign [4] mTotalSize [0xdf8]
+
+		struct BMM_FAKE_NV_DATA {
+			+00000000[00000000] BootTimeOut <UINT16>
+			+00000004[00000004] BootNext <UINT32>
+			+00000008[00000008] COM1BaudRate <UINT8>
+			+00000009[00000009] COM1DataRate <UINT8>
+			+00000010[0000000a] COM1StopBits <UINT8>
+			+00000011[0000000b] COM1Parity <UINT8>
+			+00000012[0000000c] COM1TerminalType <UINT8>
+			+00000013[0000000d] COM2BaudRate <UINT8>
+			+00000014[0000000e] COM2DataRate <UINT8>
+			+00000015[0000000f] COM2StopBits <UINT8>
+			+00000016[00000010] COM2Parity <UINT8>
+			+00000017[00000011] COM2TerminalType <UINT8>
+			+00000018[00000012] DriverAddHandleDesc[100] <UINT16>
+			+00000218[000000da] DriverAddHandleOptionalData[100] <UINT16>
+			+00000418[000001a2] DriverAddActive <UINT8>
+			+00000419[000001a3] DriverAddForceReconnect <UINT8>
+			+00000420[000001a4] ConsoleInputCOM1 <UINT8>
+			+00000421[000001a5] ConsoleInputCOM2 <UINT8>
+			+00000422[000001a6] ConsoleOutputCOM1 <UINT8>
+			+00000423[000001a7] ConsoleOutputCOM2 <UINT8>
+			+00000424[000001a8] ConsoleErrorCOM1 <UINT8>
+			+00000425[000001a9] ConsoleErrorCOM2 <UINT8>
+			+00000426[000001aa] ConsoleCheck[100] <UINT8>
+			+00000526[0000020e] ConsoleInCheck[100] <UINT8>
+			+00000626[00000272] ConsoleOutCheck[100] <UINT8>
+			+00000726[000002d6] ConsoleErrCheck[100] <UINT8>
+			+00000828[0000033c] BootOptionOrder[100] <UINT32>
+			+00001228[000004cc] DriverOptionOrder[100] <UINT32>
+			+00001628[0000065c] BootOptionDel[100] <BOOLEAN>
+			+00001728[000006c0] DriverOptionDel[100] <BOOLEAN>
+			+00001828[00000724] BootOptionDelMark[100] <BOOLEAN>
+			+00001928[00000788] DriverOptionDelMark[100] <BOOLEAN>
+			+00002028[000007ec] COMBaudRate[100] <UINT8>
+			+00002128[00000850] COMDataRate[100] <UINT8>
+			+00002228[000008b4] COMStopBits[100] <UINT8>
+			+00002328[00000918] COMParity[100] <UINT8>
+			+00002428[0000097c] COMTerminalType[100] <UINT8>
+			+00002528[000009e0] COMFlowControl[100] <UINT8>
+			+00002628[00000a44] DisableMap[32] <UINT8>
+			+00002660[00000a64] ConsoleOutMode <UINT16>
+			+00002662[00000a66] BootDescriptionData[100] <UINT16>
+			+00002862[00000b2e] BootOptionalData[127] <UINT16>
+			+00003116[00000c2c] DriverDescriptionData[100] <UINT16>
+			+00003316[00000cf4] DriverOptionalData[127] <UINT16>
+			+00003570[00000df2] BootOptionChanged <BOOLEAN>
+			+00003571[00000df3] DriverOptionChanged <BOOLEAN>
+			+00003572[00000df4] Active <UINT8>
+			+00003573[00000df5] ForceReconnect <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_REF : mAlign [16] mTotalSize [0x16]
+
+		struct EFI_HII_REF {
+			+00000000[00000000] QuestionId <UINT16>
+			+00000002[00000002] FormId <UINT16>
+			+00000004[00000004] FormSetGuid <(null)>
+			+00000020[00000014] DevicePath <EFI_STRING_ID>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_TIME : mAlign [1] mTotalSize [0x3]
+
+		struct EFI_HII_TIME {
+			+00000000[00000000] Hours <UINT8>
+			+00000001[00000001] Minutes <UINT8>
+			+00000002[00000002] Seconds <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_STRING_ID : mAlign [2] mTotalSize [0x2]
+
+		struct EFI_STRING_ID {
+		};
+---------------------------------------------------------------
+		struct EFI_HII_DATE : mAlign [2] mTotalSize [0x4]
+
+		struct EFI_HII_DATE {
+			+00000000[00000000] Year <UINT16>
+			+00000002[00000002] Month <UINT8>
+			+00000003[00000003] Day <UINT8>
+		};
+---------------------------------------------------------------
+		struct BOOLEAN : mAlign [1] mTotalSize [0x1]
+
+		struct BOOLEAN {
+		};
+---------------------------------------------------------------
+		struct UINT8 : mAlign [1] mTotalSize [0x1]
+
+		struct UINT8 {
+		};
+---------------------------------------------------------------
+		struct UINT16 : mAlign [2] mTotalSize [0x2]
+
+		struct UINT16 {
+		};
+---------------------------------------------------------------
+		struct UINT32 : mAlign [4] mTotalSize [0x4]
+
+		struct UINT32 {
+		};
+---------------------------------------------------------------
+		struct UINT64 : mAlign [8] mTotalSize [0x8]
+
+		struct UINT64 {
+		};
+---------------------------------------------------------------
+***************************************************************

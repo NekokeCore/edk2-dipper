@@ -1,0 +1,161 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.globl InternalMemScanMem8
+InternalMemScanMem8:
+
+    cbz x1, .Lzero_length
+
+
+
+
+    mov w5, #0x0401
+    movk w5, #0x4010, lsl #16
+    dup v0.16b, w2
+
+    bic x3, x0, #31
+    dup v5.4s, w5
+    ands x9, x0, #31
+    and x10, x1, #31
+    b.eq .Lloop
+
+
+
+
+
+
+
+    ld1 {v1.16b, v2.16b}, [x3], #32
+    sub x4, x9, #32
+    adds x1, x1, x4
+    cmeq v3.16b, v1.16b, v0.16b
+    cmeq v4.16b, v2.16b, v0.16b
+    and v3.16b, v3.16b, v5.16b
+    and v4.16b, v4.16b, v5.16b
+    addp v6.16b, v3.16b, v4.16b
+    addp v6.16b, v6.16b, v6.16b
+    mov x6, v6.d[0]
+
+    lsl x4, x9, #1
+    lsr x6, x6, x4
+    lsl x6, x6, x4
+
+    b.ls .Lmasklast
+
+    cbnz x6, .Ltail
+
+.Lloop:
+    ld1 {v1.16b, v2.16b}, [x3], #32
+    subs x1, x1, #32
+    cmeq v3.16b, v1.16b, v0.16b
+    cmeq v4.16b, v2.16b, v0.16b
+
+    b.ls .Lend
+
+    orr v6.16b, v3.16b, v4.16b
+    addp v6.2d, v6.2d, v6.2d
+    mov x6, v6.d[0]
+
+    cbz x6, .Lloop
+
+.Lend:
+
+    and v3.16b, v3.16b, v5.16b
+    and v4.16b, v4.16b, v5.16b
+    addp v6.16b, v3.16b, v4.16b
+    addp v6.16b, v6.16b, v6.16b
+    mov x6, v6.d[0]
+
+    b.hi .Ltail
+
+.Lmasklast:
+
+    add x4, x10, x9
+    and x4, x4, #31
+    sub x4, x4, #32
+    neg x4, x4, lsl #1
+    lsl x6, x6, x4
+    lsr x6, x6, x4
+
+.Ltail:
+
+    rbit x6, x6
+
+    sub x3, x3, #32
+
+    cmp x6, #0
+
+    clz x6, x6
+
+    add x0, x3, x6, lsr #1
+
+    csel x0, xzr, x0, eq
+    ret
+
+.Lzero_length:
+    mov x0, #0
+    ret

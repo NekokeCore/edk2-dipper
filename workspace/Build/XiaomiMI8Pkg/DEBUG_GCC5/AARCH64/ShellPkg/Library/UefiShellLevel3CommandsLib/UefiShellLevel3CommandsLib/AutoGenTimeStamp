@@ -1,0 +1,15 @@
+/home/core/edk2/ShellPkg/Library/UefiShellLevel3CommandsLib/Touch.c
+/home/core/edk2/ShellPkg/Library/UefiShellLevel3CommandsLib/Help.c
+/home/core/edk2/ShellPkg/Library/UefiShellLevel3CommandsLib/UefiShellLevel3CommandsLib.c
+/home/core/edk2/ShellPkg/Library/UefiShellLevel3CommandsLib/Echo.c
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel3CommandsLib/UefiShellLevel3CommandsLib/DEBUG/UefiShellLevel3CommandsLibStrDefs.h
+/home/core/edk2/ShellPkg/Library/UefiShellLevel3CommandsLib/Alias.c
+/home/core/edk2/ShellPkg/Library/UefiShellLevel3CommandsLib/Ver.c
+/home/core/edk2/ShellPkg/Library/UefiShellLevel3CommandsLib/Type.c
+/home/core/edk2/ShellPkg/Library/UefiShellLevel3CommandsLib/GetMtc.c
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ShellPkg/Library/UefiShellLevel3CommandsLib/UefiShellLevel3CommandsLib/DEBUG/AutoGen.h
+/home/core/edk2/ShellPkg/Library/UefiShellLevel3CommandsLib/UefiShellLevel3CommandsLib.uni
+/home/core/edk2/ShellPkg/Library/UefiShellLevel3CommandsLib/UefiShellLevel3CommandsLib.h
+/home/core/edk2/ShellPkg/Library/UefiShellLevel3CommandsLib/Cls.c
+/home/core/edk2/ShellPkg/Library/UefiShellLevel3CommandsLib/Pause.c
+/home/core/edk2/ShellPkg/Library/UefiShellLevel3CommandsLib/UefiShellLevel3CommandsLib.inf

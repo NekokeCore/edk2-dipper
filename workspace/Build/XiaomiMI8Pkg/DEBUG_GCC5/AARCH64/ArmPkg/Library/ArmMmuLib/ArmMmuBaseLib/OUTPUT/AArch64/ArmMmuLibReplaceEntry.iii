@@ -1,0 +1,74 @@
+#------------------------------------------------------------------------------
+
+# Copyright (c) 2016, Linaro Limited. All rights reserved.
+
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+
+#------------------------------------------------------------------------------
+
+
+
+  .set CTRL_M_BIT, (1 << 0)
+
+  .macro __replace_entry, el
+
+
+  mrs x8, sctlr_el\el
+  bic x9, x8, #CTRL_M_BIT
+  msr sctlr_el\el, x9
+  isb
+
+
+  str x1, [x0]
+
+
+
+  dmb sy
+  dc ivac, x0
+
+
+  lsr x2, x2, #12
+  .if \el == 1
+  tlbi vaae1, x2
+  .else
+  tlbi vae\el, x2
+  .endif
+  dsb nsh
+
+
+  msr sctlr_el\el, x8
+  isb
+  .endm
+
+
+
+
+
+
+
+.global ArmReplaceLiveTranslationEntry ; .section ".text.ArmReplaceLiveTranslationEntry", "ax" ; .type ArmReplaceLiveTranslationEntry, %function ; ArmReplaceLiveTranslationEntry:
+
+
+  mrs x4, daif
+  msr daifset, #0xf
+  isb
+
+
+
+  dc civac, x0
+  dsb nsh
+
+  mrs x3, CurrentEL ; cmp x3, #0x8 ; b.gt 3f ; b.eq 2f ; cbnz x3, 1f ; b . ;
+1:__replace_entry 1
+  b 4f
+2:__replace_entry 2
+  b 4f
+3:__replace_entry 3
+
+4:msr daif, x4
+  ret
+
+.globl ArmReplaceLiveTranslationEntrySize
+
+ArmReplaceLiveTranslationEntrySize:
+  .long . - ArmReplaceLiveTranslationEntry

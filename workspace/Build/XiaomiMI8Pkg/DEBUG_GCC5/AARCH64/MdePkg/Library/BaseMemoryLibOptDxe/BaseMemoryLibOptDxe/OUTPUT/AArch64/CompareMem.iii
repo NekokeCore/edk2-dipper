@@ -1,0 +1,142 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .p2align 6
+.globl InternalMemCompareMem
+InternalMemCompareMem:
+    eor x8, x0, x1
+    tst x8, #7
+    b.ne .Lmisaligned8
+    ands x8, x0, #7
+    b.ne .Lmutual_align
+    add x12, x2, #7
+    lsr x12, x12, #3
+
+
+.Lloop_aligned:
+    ldr x3, [x0], #8
+    ldr x4, [x1], #8
+.Lstart_realigned:
+    subs x12, x12, #1
+    eor x6, x3, x4
+    csinv x7, x6, xzr, ne
+    cbz x7, .Lloop_aligned
+
+
+
+    cbnz x12, .Lnot_limit
+
+
+    ands x2, x2, #7
+    b.eq .Lnot_limit
+
+    lsl x2, x2, #3
+    mov x13, #~0
+    lsl x13, x13, x2
+    bic x3, x3, x13
+    bic x4, x4, x13
+
+    orr x6, x6, x13
+
+.Lnot_limit:
+    rev x6, x6
+    rev x3, x3
+    rev x4, x4
+
+
+
+
+
+    clz x11, x6
+    lsl x3, x3, x11
+    lsl x4, x4, x11
+
+
+
+    lsr x3, x3, #56
+    sub x0, x3, x4, lsr #56
+    ret
+
+.Lmutual_align:
+
+
+
+    bic x0, x0, #7
+    bic x1, x1, #7
+    add x2, x2, x8
+    lsl x8, x8, #3
+    ldr x3, [x0], #8
+    neg x8, x8
+    ldr x4, [x1], #8
+    mov x9, #~0
+
+
+    lsr x9, x9, x8
+    add x12, x2, #7
+    orr x3, x3, x9
+    orr x4, x4, x9
+    lsr x12, x12, #3
+    b .Lstart_realigned
+
+    .p2align 6
+.Lmisaligned8:
+    sub x2, x2, #1
+1:
+
+    ldrb w3, [x0], #1
+    ldrb w4, [x1], #1
+    subs x2, x2, #1
+    ccmp w3, w4, #0, cs
+    b.eq 1b
+    sub x0, x3, x4
+    ret

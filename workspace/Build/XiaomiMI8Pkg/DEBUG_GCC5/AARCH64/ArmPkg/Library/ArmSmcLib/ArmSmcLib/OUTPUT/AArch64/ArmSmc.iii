@@ -1,0 +1,32 @@
+
+
+
+
+
+
+
+
+
+.global ArmCallSmc ; .section ".text.ArmCallSmc", "ax" ; .type ArmCallSmc, %function ; ArmCallSmc:
+
+  str x0, [sp, #-16]!
+
+
+  ldp x6, x7, [x0, #48]
+  ldp x4, x5, [x0, #32]
+  ldp x2, x3, [x0, #16]
+  ldp x0, x1, [x0, #0]
+
+  smc #0
+
+
+  ldr x9, [sp], #16
+
+
+
+  stp x2, x3, [x9, #16]
+  stp x0, x1, [x9, #0]
+
+  mov x0, x9
+
+  ret

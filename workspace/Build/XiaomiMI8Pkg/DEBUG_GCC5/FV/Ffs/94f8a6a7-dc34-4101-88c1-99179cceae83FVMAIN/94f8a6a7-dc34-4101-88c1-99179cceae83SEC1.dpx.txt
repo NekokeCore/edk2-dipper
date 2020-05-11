@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_DXE_DEPEX -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/94f8a6a7-dc34-4101-88c1-99179cceae83FVMAIN/94f8a6a7-dc34-4101-88c1-99179cceae83SEC1.dpx /home/core/edk2-dipper/XiaomiMI8Pkg/Binary/UsbfnDwc3Dxe/UsbfnDwc3Dxe.depex

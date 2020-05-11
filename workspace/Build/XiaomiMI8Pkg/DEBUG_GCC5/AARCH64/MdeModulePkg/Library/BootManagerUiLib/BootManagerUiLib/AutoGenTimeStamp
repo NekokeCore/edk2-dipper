@@ -1,0 +1,7 @@
+/home/core/edk2/MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib.inf
+/home/core/edk2/MdeModulePkg/Library/BootManagerUiLib/BootManagerStrings.uni
+/home/core/edk2/MdeModulePkg/Library/BootManagerUiLib/BootManager.h
+/home/core/edk2/MdeModulePkg/Library/BootManagerUiLib/BootManagerVfr.Vfr
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib/DEBUG/BootManagerUiLibStrDefs.h
+/home/core/edk2/MdeModulePkg/Library/BootManagerUiLib/BootManager.c
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/BootManagerUiLib/BootManagerUiLib/DEBUG/AutoGen.h

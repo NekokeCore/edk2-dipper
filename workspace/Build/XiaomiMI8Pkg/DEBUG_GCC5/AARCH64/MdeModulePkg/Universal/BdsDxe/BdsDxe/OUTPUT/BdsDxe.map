@@ -1,0 +1,1878 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memcpy.obj)
+                              /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memcpy)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib(memset.obj)
+                              /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (memset)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib(BaseStackCheckGcc.obj)
+                              /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a (__stack_chk_fail)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/BdsDxe/BdsDxe/OUTPUT/BdsDxe.lib(AutoGen.obj)
+                              DriverEntryPoint.obj (symbol from plugin) (ProcessLibraryConstructorList)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/BdsDxe/BdsDxe/OUTPUT/BdsDxe.lib(BdsEntry.obj)
+                              AutoGen.obj (symbol from plugin) (BdsInitialize)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/BdsDxe/BdsDxe/OUTPUT/BdsDxe.lib(HwErrRecSupport.obj)
+                              BdsEntry.obj (symbol from plugin) (InitializeHwErrRecSupport)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/BdsDxe/BdsDxe/OUTPUT/BdsDxe.lib(Language.obj)
+                              BdsEntry.obj (symbol from plugin) (InitializeLanguage)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib(DxePcdLib.obj)
+                              BdsEntry.obj (symbol from plugin) (LibPcdGet16)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(MemLibGuid.obj)
+                              BdsEntry.obj (symbol from plugin) (CopyGuid)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMemWrapper.obj)
+                              BdsEntry.obj (symbol from plugin) (CopyMem)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCopyMem)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                              MemLibGuid.obj (symbol from plugin) (InternalMemCompareGuid)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              BdsEntry.obj (symbol from plugin) (MultU64x32)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+                              BdsEntry.obj (symbol from plugin) (LowBitSet32)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuDeadLoop)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              BdsEntry.obj (symbol from plugin) (StrSize)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              MultU64x32.obj (symbol from plugin) (InternalMathMultU64x32)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+                              BaseStackCheckGcc.obj (symbol from plugin) (CpuBreakpoint)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              Math64.obj (symbol from plugin) (SwapBytes32)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              SwapBytes32.obj (symbol from plugin) (SwapBytes16)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              String.obj (symbol from plugin) (StrDecimalToUintnS)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (RShiftU64)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              SafeString.obj (symbol from plugin) (LShiftU64)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              SafeString.obj (symbol from plugin) (DivU64x32)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              BdsEntry.obj (symbol from plugin) (UnicodeSPrint)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              PrintLib.obj (symbol from plugin) (BasePrintLibConvertValueToString)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              AutoGen.obj (symbol from plugin) (BaseDebugLibSerialPortConstructor)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              BdsEntry.obj (symbol from plugin) (AllocatePool)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiRuntimeServicesTableLibConstructor)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiBootServicesTableLibConstructor)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+                              BdsEntry.obj (symbol from plugin) (IsDevicePathValid)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+                              DevicePathUtilities.obj (symbol from plugin) (GetDevicePathSize)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertDeviceNodeToText)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+                              UefiDevicePathLib.obj (symbol from plugin) (UefiDevicePathLibConvertTextToDeviceNode)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+                              BdsEntry.obj (symbol from plugin) (Print)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiLibConstructor)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib(HobLib.obj)
+                              AutoGen.obj (symbol from plugin) (HobLibConstructor)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib(UefiHiiServicesLib.obj)
+                              AutoGen.obj (symbol from plugin) (UefiHiiServicesLibConstructor)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib(DxeServicesTableLib.obj)
+                              AutoGen.obj (symbol from plugin) (DxeServicesTableLibConstructor)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxePerformanceLib/DxePerformanceLib/OUTPUT/DxePerformanceLib.lib(DxePerformanceLib.obj)
+                              BdsEntry.obj (symbol from plugin) (LogPerformanceMeasurement)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib/OUTPUT/DxeReportStatusCodeLib.lib(ReportStatusCodeLib.obj)
+                              BdsEntry.obj (symbol from plugin) (ReportProgressCodeEnabled)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmConnect.obj)
+                              BdsEntry.obj (symbol from plugin) (EfiBootManagerConnectAll)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmConsole.obj)
+                              BdsEntry.obj (symbol from plugin) (EfiBootManagerConnectConsoleVariable)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmBoot.obj)
+                              BdsEntry.obj (symbol from plugin) (EfiBootManagerBoot)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmBootDescription.obj)
+                              BmBoot.obj (symbol from plugin) (BmGetBootDescription)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmLoadOption.obj)
+                              BmBoot.obj (symbol from plugin) (mBmLoadOptionName)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmHotkey.obj)
+                              BdsEntry.obj (symbol from plugin) (EfiBootManagerHotkeyBoot)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmDriverHealth.obj)
+                              BmBoot.obj (symbol from plugin) (BmRepairAllControllers)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib(BmMisc.obj)
+                              BmConsole.obj (symbol from plugin) (BmDelPartMatchInstance)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/XiaomiMI8Pkg/Library/PlatformBootManagerLib/PlatformBootManagerLib/OUTPUT/PlatformBootManagerLib.lib(PlatformBm.obj)
+                              BdsEntry.obj (symbol from plugin) (PlatformBootManagerBeforeConsole)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(ZeroMemWrapper.obj)
+                              String.obj (symbol from plugin) (ZeroMem)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMemWrapper.obj)
+                              BmBoot.obj (symbol from plugin) (CompareMem)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMemWrapper.obj)
+                              DebugLib.obj (symbol from plugin) (SetMem)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                              ZeroMemWrapper.obj (symbol from plugin) (InternalMemZeroMem)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                              CompareMemWrapper.obj (symbol from plugin) (InternalMemCompareMem)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem64Wrapper.obj)
+                              SetMemWrapper.obj (symbol from plugin) (SetMem64)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              DevicePathFromText.obj (symbol from plugin) (SwapBytes64)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              PrintLibInternal.obj (symbol from plugin) (DivU64x32Remainder)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              BmBootDescription.obj (symbol from plugin) (InsertTailList)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              PrintLibInternal.obj (symbol from plugin) (ReadUnaligned16)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              DebugLib.obj (symbol from plugin) (GetDebugPrintErrorLevel)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/XiaomiMI8Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib/OUTPUT/FrameBufferSerialPortLib.lib(FrameBufferSerialPortLib.obj)
+                              DebugLib.obj (symbol from plugin) (SerialPortInitialize)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiNotTiano.obj)
+                              BmBoot.obj (symbol from plugin) (EfiCreateEventLegacyBootEx)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiSortLib/UefiSortLib/OUTPUT/UefiSortLib.lib(UefiSortLib.obj)
+                              BmLoadOption.obj (symbol from plugin) (PerformQuickSort)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLib.obj)
+                              BmDriverHealth.obj (symbol from plugin) (HiiGetHiiHandles)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiString.obj)
+                              BmDriverHealth.obj (symbol from plugin) (HiiGetString)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib(HiiLanguage.obj)
+                              HiiString.obj (symbol from plugin) (HiiGetSupportedLanguages)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesLib/DxeServicesLib/OUTPUT/DxeServicesLib.lib(DxeServicesLib.obj)
+                              BmBoot.obj (symbol from plugin) (GetSectionFromFv)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxeCapsuleLibNull/DxeCapsuleLibNull/OUTPUT/DxeCapsuleLibNull.lib(DxeCapsuleLibNull.obj)
+                              PlatformBm.obj (symbol from plugin) (ProcessCapsules)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/BootLogoLib/BootLogoLib/OUTPUT/BootLogoLib.lib(BootLogoLib.obj)
+                              PlatformBm.obj (symbol from plugin) (BootLogoEnableLogo)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              HiiLib.obj (symbol from plugin) (BitFieldRead32)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                              FrameBufferSerialPortLib.obj (symbol from plugin) (ArmGetInterruptState)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                              FrameBufferSerialPortLib.obj (symbol from plugin) (ArmEnableInterrupts)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmCacheMaintenanceLib/ArmCacheMaintenanceLib/OUTPUT/ArmCacheMaintenanceLib.lib(ArmCacheMaintenanceLib.obj)
+                              FrameBufferSerialPortLib.obj (symbol from plugin) (WriteBackInvalidateDataCacheRange)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLib.obj)
+                              ArmCacheMaintenanceLib.obj (symbol from plugin) (ArmDataCacheLineLength)
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                              ArmCacheMaintenanceLib.obj (symbol from plugin) (ArmInvalidateDataCacheEntryByMVA)
+
+Discarded input sections
+
+ .text          0x0000000000000000       0x10 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data          0x0000000000000000        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .bss           0x0000000000000000        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .text          0x0000000000000000        0x0 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.IsNodeInList
+                0x0000000000000000       0xb0 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.IsNodeInList.str1.1
+                0x0000000000000000       0x44 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata._gDriverUnloadImageCount
+                0x0000000000000000        0x1 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x0000000000000000        0x4 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdPerformanceLibraryPropertyMask
+                0x0000000000000000        0x1 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdUefiLibMaxPrintBufferSize
+                0x0000000000000000        0x4 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata._gUefiDriverRevision
+                0x0000000000000000        0x4 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.gHeight
+                0x0000000000000000        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.gWidth
+                0x0000000000000000        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.mBmContinueKeyOption
+                0x0000000000000000        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x31 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text._DriverUnloadHandler
+                0x0000000000000000        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.ReportDebugCodeEnabled
+                0x0000000000000000        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.BdsDxeOnConnectConInCallBack
+                0x0000000000000000       0x50 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.__memset
+                0x0000000000000000       0x1c /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.BdsDxeOnConnectConInCallBack.str1.1
+                0x0000000000000000       0x24 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x31 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+ .text          0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .bss           0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuBreakpoint.obj)
+ .data          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .bss           0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+ .text          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .data          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .bss           0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadMidr
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetFiqState
+                0x0000000000000000       0x10 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteCpacr
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteAuxCr
+                0x0000000000000000       0x28 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadAuxCr
+                0x0000000000000000       0x28 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmSetTTBR0
+                0x0000000000000000       0x34 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetTTBR0BaseAddress
+                0x0000000000000000       0x30 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetTCR
+                0x0000000000000000       0x34 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmSetTCR
+                0x0000000000000000       0x34 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetMAIR
+                0x0000000000000000       0x34 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmSetMAIR
+                0x0000000000000000       0x34 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmUpdateTranslationTableEntry
+                0x0000000000000000       0x54 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmInvalidateTlb
+                0x0000000000000000       0x38 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteCptr
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteScr
+                0x0000000000000000        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteMVBar
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmCallWFE
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmCallSEV
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadCpuActlr
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteCpuActlr
+                0x0000000000000000       0x10 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmReadSctlr
+                0x0000000000000000       0x30 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmWriteSctlr
+                0x0000000000000000       0x30 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text.ArmGetPhysicalAddressBits
+                0x0000000000000000       0x24 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+ .text          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .data          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .bss           0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmIsMpCore
+                0x0000000000000000       0x14 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmEnableAsynchronousAbort
+                0x0000000000000000        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableAsynchronousAbort
+                0x0000000000000000        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmEnableIrq
+                0x0000000000000000        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableIrq
+                0x0000000000000000        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmEnableFiq
+                0x0000000000000000        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableFiq
+                0x0000000000000000        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ArmDisableAllExceptions
+                0x0000000000000000        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ReadCCSIDR
+                0x0000000000000000       0x10 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text.ReadCLIDR
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+ .text          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .data          0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .bss           0x0000000000000000        0x0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryByMVA
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryToPoUByMVA
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateInstructionCacheEntryToPoUByMVA
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanInvalidateDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCleanDataCacheEntryBySetWay
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInvalidateInstructionCache
+                0x0000000000000000       0x10 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableMmu
+                0x0000000000000000       0x88 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableMmu
+                0x0000000000000000       0x74 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableCachesAndMmu
+                0x0000000000000000       0x6c /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmMmuEnabled
+                0x0000000000000000       0x34 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableDataCache
+                0x0000000000000000       0x68 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableDataCache
+                0x0000000000000000       0x68 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableInstructionCache
+                0x0000000000000000       0x68 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableInstructionCache
+                0x0000000000000000       0x68 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableAlignmentCheck
+                0x0000000000000000       0x58 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableAlignmentCheck
+                0x0000000000000000       0x68 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableStackAlignmentCheck
+                0x0000000000000000       0x58 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableStackAlignmentCheck
+                0x0000000000000000       0x68 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableBranchPrediction
+                0x0000000000000000        0x4 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDisableBranchPrediction
+                0x0000000000000000        0x4 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.AArch64AllDataCachesOperation
+                0x0000000000000000       0xa8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmDataMemoryBarrier
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmInstructionSynchronizationBarrier
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteVBar
+                0x0000000000000000       0x34 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadVBar
+                0x0000000000000000       0x30 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmEnableVFP
+                0x0000000000000000       0x64 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmCallWFI
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadMpidr
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadTpidrurw
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteTpidrurw
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmIsArchTimerImplemented
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadIdPfr0
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadIdPfr1
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteHcr
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadHcr
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadCurrentEL
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmReadCntHctl
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+ .text.ArmWriteCntHctl
+                0x0000000000000000        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+LOAD /tmp/ccrXHJq2.ltrans0.ltrans.o
+LOAD /tmp/ccrXHJq2.ltrans1.ltrans.o
+START GROUP
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/BdsDxe/BdsDxe/OUTPUT/BdsDxe.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxePcdLib/DxePcdLib/OUTPUT/DxePcdLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmCacheMaintenanceLib/ArmCacheMaintenanceLib/OUTPUT/ArmCacheMaintenanceLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic/OUTPUT/BaseIoLibIntrinsic.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib/OUTPUT/CompilerIntrinsicsLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/XiaomiMI8Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib/OUTPUT/FrameBufferSerialPortLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeHobLib/DxeHobLib/OUTPUT/DxeHobLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiServicesLib/UefiHiiServicesLib/OUTPUT/UefiHiiServicesLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiSortLib/UefiSortLib/OUTPUT/UefiSortLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiHiiLib/UefiHiiLib/OUTPUT/UefiHiiLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesTableLib/DxeServicesTableLib/OUTPUT/DxeServicesTableLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxePerformanceLib/DxePerformanceLib/OUTPUT/DxePerformanceLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/DxeServicesLib/DxeServicesLib/OUTPUT/DxeServicesLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib/OUTPUT/DxeReportStatusCodeLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/DxeCapsuleLibNull/DxeCapsuleLibNull/OUTPUT/DxeCapsuleLibNull.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/BootLogoLib/BootLogoLib/OUTPUT/BootLogoLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/OUTPUT/UefiBootManagerLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/XiaomiMI8Pkg/Library/PlatformBootManagerLib/PlatformBootManagerLib/OUTPUT/PlatformBootManagerLib.lib
+LOAD /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib/OUTPUT/BaseStackCheckLib.lib
+END GROUP
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.gnu.version_d  0x0000000000000228        0x0
+ .gnu.version_d
+                0x0000000000000228        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version    0x0000000000000228        0x0
+ .gnu.version   0x0000000000000228        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.gnu.version_r  0x0000000000000228        0x0
+ .gnu.version_r
+                0x0000000000000228        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.text           0x0000000000001000    0x17328
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.BmGenerateKeyShiftState
+                0x0000000000001000      0x10c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmEliminateExtraSpaces
+                0x000000000000110c       0x44 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.DivU64x32.constprop.54
+                0x0000000000001150       0x4c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.InternalBaseLibIsListValid
+                0x000000000000119c       0xb8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.RemoveEntryList
+                0x0000000000001254       0x88 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.GetFirstNode
+                0x00000000000012dc       0x54 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.InsertTailList.constprop.12
+                0x0000000000001330       0x6c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.IsNull   0x000000000000139c       0x5c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.GetNextNode
+                0x00000000000013f8       0x58 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmGetActiveConsoleIn
+                0x0000000000001450       0xe4 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.EfiBootManagerFreeDriverHealthInfo
+                0x0000000000001534       0x5c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.EfiReleaseLock.constprop.24
+                0x0000000000001590       0x6c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.EfiAcquireLock.constprop.23
+                0x00000000000015fc       0x74 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.UnicodeValueToStringS.constprop.0
+                0x0000000000001670      0x140 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.SetMem.constprop.50
+                0x00000000000017b0       0x54 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.EndPerformanceMeasurementEx.constprop.43
+                0x0000000000001804       0xa8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmGetLoadFileDescription
+                0x00000000000018ac       0xec /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.EfiInitializeFwVolDevicepathNode
+                0x0000000000001998       0x38 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.IsZeroGuid.constprop.26
+                0x00000000000019d0       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.GetSectionFromFv.constprop.21
+                0x00000000000019e0      0x170 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmStopHotkeyService
+                0x0000000000001b50      0x26c /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000001b50                BmStopHotkeyService
+ .text.BmRegisterHotkeyNotify
+                0x0000000000001dbc       0xf8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmTxtInExCallback
+                0x0000000000001eb4      0x1a4 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000001eb4                BmTxtInExCallback
+ .text.StrCpyS.constprop.20
+                0x0000000000002058      0x1a8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmGetNetworkDescription
+                0x0000000000002200      0x34c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.EfiBootManagerDeleteLoadOptionVariable
+                0x000000000000254c      0x188 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmGetFreeOptionNumber
+                0x00000000000026d4      0x1a8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmGetSingleControllerHealthStatus
+                0x000000000000287c      0x2cc /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.EfiBootManagerGetDriverHealthInfo
+                0x0000000000002b48      0x290 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.FbConFlush
+                0x0000000000002dd8       0x54 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmRepairNotify
+                0x0000000000002e2c       0x6c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.AddInput.lto_priv.79
+                0x0000000000002e98      0x100 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000002e98                AddInput.lto_priv.79
+ .text.AddOutput.lto_priv.78
+                0x0000000000002f98      0x148 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000002f98                AddOutput.lto_priv.78
+ .text.BmCollectKeyOptions
+                0x00000000000030e0      0x25c /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000030e0                BmCollectKeyOptions
+ .text.EfiBootManagerIsValidLoadOptionVariableName.part.6
+                0x000000000000333c      0x10c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmGetBootDescription
+                0x0000000000003448      0x1ac /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmGetUsbDescription
+                0x00000000000035f4      0x208 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmGetMiscDescription
+                0x00000000000037fc      0x2a8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmGetDescriptionFromDiskInfo
+                0x0000000000003aa4      0x2dc /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.LibPcdGet16.constprop.48
+                0x0000000000003d80       0x1c /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000003d80                LibPcdGet16.constprop.48
+ .text.MultU64x32.constprop.46
+                0x0000000000003d9c       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000003d9c                MultU64x32.constprop.46
+ .text.LShiftU64.constprop.44
+                0x0000000000003dac        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000003dac                LShiftU64.constprop.44
+ .text.ReportStatusCodeEx.constprop.40
+                0x0000000000003db4      0x228 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000003db4                ReportStatusCodeEx.constprop.40
+ .text.ReportStatusCode.constprop.39
+                0x0000000000003fdc       0x70 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000003fdc                ReportStatusCode.constprop.39
+ .text.LogPerformanceMeasurement.constprop.38
+                0x000000000000404c       0xa8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x000000000000404c                LogPerformanceMeasurement.constprop.38
+ .text.LogPerformanceMeasurementEnabled.constprop.37
+                0x00000000000040f4        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000040f4                LogPerformanceMeasurementEnabled.constprop.37
+ .text.FileDevicePath.constprop.34
+                0x00000000000040fc       0xa4 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000040fc                FileDevicePath.constprop.34
+ .text.EfiCreateEventReadyToBootEx.constprop.25
+                0x00000000000041a0       0xcc /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000041a0                EfiCreateEventReadyToBootEx.constprop.25
+ .text.LowBitSet32.constprop.9
+                0x000000000000426c        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x000000000000426c                LowBitSet32.constprop.9
+ .text.EfiGetNameGuidFromFwVolDevicePathNode
+                0x0000000000004274       0x78 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000004274                EfiGetNameGuidFromFwVolDevicePathNode
+ .text.SerialPortWrite
+                0x00000000000042ec      0x418 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000042ec                SerialPortWrite
+ .text.WriteUnaligned16
+                0x0000000000004704       0x5c /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000004704                WriteUnaligned16
+ .text.WriteUnaligned32
+                0x0000000000004760       0x64 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x00000000000047c4       0x68 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000047c4                ReadUnaligned16
+ .text.ReadUnaligned32
+                0x000000000000482c       0x5c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.70
+                0x0000000000004888     0x10ac /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000004888                BasePrintLibSPrintMarker.constprop.70
+ .text.unlikely.BasePrintLibSPrint.constprop.71
+                0x0000000000005934       0x9c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.AsciiSPrint.constprop.68
+                0x00000000000059d0       0xa8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000059d0                AsciiSPrint.constprop.68
+ .text.UnicodeVSPrintAsciiFormat.constprop.19
+                0x0000000000005a78       0x80 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.AsciiPrint.constprop.17
+                0x0000000000005af8      0x158 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000005af8                AsciiPrint.constprop.17
+ .text.ReadUnaligned64
+                0x0000000000005c50       0x64 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000005c50                ReadUnaligned64
+ .text.CompareMem
+                0x0000000000005cb4       0xe4 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000005cb4                CompareMem
+ .text.ZeroMem  0x0000000000005d98       0x7c /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000005d98                ZeroMem
+ .text.UefiDevicePathLibConvertDevicePathToText.constprop.57
+                0x0000000000005e14      0x164 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000005e14                UefiDevicePathLibConvertDevicePathToText.constprop.57
+ .text.FilterAndProcess.constprop.4
+                0x0000000000005f78      0x160 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000005f78                FilterAndProcess.constprop.4
+ .text.BmPrintDp
+                0x00000000000060d8       0x64 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmGetNextLoadOptionBuffer
+                0x000000000000613c      0x5d8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmGetControllerName
+                0x0000000000006714      0x168 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmDisplayMessages
+                0x000000000000687c      0x2cc /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmRepairAllControllers
+                0x0000000000006b48      0x460 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.PrintXY.constprop.52
+                0x0000000000006fa8      0x49c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmGetNvmeDescription
+                0x0000000000007444      0x248 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.PlatformBootManagerWaitCallback
+                0x000000000000768c      0x25c /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x000000000000768c                PlatformBootManagerWaitCallback
+ .text.BmMatchDevicePaths.part.0
+                0x00000000000078e8       0x9c /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000078e8                BmMatchDevicePaths.part.0
+ .text.BdsDxeSetVariableAndReportStatusCodeOnError
+                0x0000000000007984       0xf8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000007984                BdsDxeSetVariableAndReportStatusCodeOnError
+ .text.BmDelPartMatchInstance
+                0x0000000000007a7c      0x110 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000007a7c                BmDelPartMatchInstance
+ .text.BmProcessKeyOption
+                0x0000000000007b8c      0x254 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000007b8c                BmProcessKeyOption
+ .text.EfiBootManagerProcessLoadOption
+                0x0000000000007de0      0x2c0 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000007de0                EfiBootManagerProcessLoadOption
+ .text.EfiBootManagerFreeLoadOption
+                0x00000000000080a0       0x54 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000080a0                EfiBootManagerFreeLoadOption
+ .text.EfiBootManagerFreeLoadOptions
+                0x00000000000080f4       0x64 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000080f4                EfiBootManagerFreeLoadOptions
+ .text.EfiBootManagerFindLoadOption
+                0x0000000000008158       0xc0 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000008158                EfiBootManagerFindLoadOption
+ .text.EfiBootManagerInitializeLoadOption
+                0x0000000000008218       0xd8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000008218                EfiBootManagerInitializeLoadOption
+ .text.EfiBootManagerVariableToLoadOptionEx.part.7
+                0x00000000000082f0      0x274 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000082f0                EfiBootManagerVariableToLoadOptionEx.part.7
+ .text.BmCollectLoadOptions
+                0x0000000000008564      0x16c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmHotkeyCallback
+                0x00000000000086d0      0x2c0 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.EfiBootManagerLoadOptionToVariable
+                0x0000000000008990      0x274 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000008990                EfiBootManagerLoadOptionToVariable
+ .text.EfiBootManagerAddLoadOptionVariable
+                0x0000000000008c04      0x218 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .text.BmForEachVariable
+                0x0000000000008e1c      0x1ac /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000008e1c                BmForEachVariable
+ .text.EfiBootManagerAddKeyOptionVariable.constprop.5
+                0x0000000000008fc8      0x324 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000008fc8                EfiBootManagerAddKeyOptionVariable.constprop.5
+ .text.EfiBootManagerGetLoadOptions
+                0x00000000000092ec      0x260 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000092ec                EfiBootManagerGetLoadOptions
+ .text.PlatformBootManagerAfterConsole
+                0x000000000000954c      0xeac /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x000000000000954c                PlatformBootManagerAfterConsole
+ .text.BmMatchPartitionDevicePathNode.part.6
+                0x000000000000a3f8       0xc4 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x000000000000a3f8                BmMatchPartitionDevicePathNode.part.6
+ .text.EfiBootManagerGetBootManagerMenu
+                0x000000000000a4bc      0x418 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x000000000000a4bc                EfiBootManagerGetBootManagerMenu
+ .text.EfiBootManagerBoot
+                0x000000000000a8d4      0xab4 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x000000000000a8d4                EfiBootManagerBoot
+ .text.ProcessLibraryDestructorList
+                0x000000000000b388        0x4 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b388                EfiEventEmptyFunction
+                0x000000000000b388                ProcessLibraryDestructorList
+ .text.InternalAllocatePool
+                0x000000000000b38c       0x64 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.CpuDeadLoop
+                0x000000000000b3f0       0x18 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.BdsReadKeys.part.0
+                0x000000000000b408       0x68 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.BmEndOfBdsPerfCode
+                0x000000000000b470       0x30 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b470                BmEndOfBdsPerfCode
+ .text.BaseDebugLibSerialPortConstructor
+                0x000000000000b4a0       0x84 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.InternalGetReportStatusCode.part.0
+                0x000000000000b524       0x50 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b524                InternalGetReportStatusCode.part.0
+ .text.ReportErrorCodeEnabled
+                0x000000000000b574        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b574                ReportErrorCodeEnabled
+ .text.ReportProgressCodeEnabled
+                0x000000000000b57c        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b57c                ReportProgressCodeEnabled
+ .text.DevicePathFromHandle
+                0x000000000000b584       0x6c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b584                DevicePathFromHandle
+ .text.AllocateZeroPool
+                0x000000000000b5f0       0x3c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b5f0                AllocateZeroPool
+ .text.AllocatePool
+                0x000000000000b62c        0xc /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b62c                AllocatePool
+ .text.DebugPrintLevelEnabled
+                0x000000000000b638        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b638                DebugPrintLevelEnabled
+ .text.DebugCodeEnabled
+                0x000000000000b640        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b640                DebugCodeEnabled
+ .text.DebugPrintEnabled
+                0x000000000000b648        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b648                DebugPrintEnabled
+ .text.DebugAssertEnabled
+                0x000000000000b650        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b650                DebugAssertEnabled
+ .text.DebugAssert
+                0x000000000000b658       0x7c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b658                DebugAssert
+ .text.BmReportLoadFailure
+                0x000000000000b6d4       0x90 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b6d4                BmReportLoadFailure
+ .text.GetPerformanceMeasurementProtocol
+                0x000000000000b764       0xc0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b764                GetPerformanceMeasurementProtocol
+ .text.SetDevicePathNodeLength
+                0x000000000000b824       0x60 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b824                SetDevicePathNodeLength
+ .text.DevicePathNodeLength
+                0x000000000000b884       0x50 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b884                DevicePathNodeLength
+ .text.NextDevicePathNode
+                0x000000000000b8d4       0x50 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b8d4                NextDevicePathNode
+ .text.DevicePathSubType
+                0x000000000000b924       0x48 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b924                DevicePathSubType
+ .text.DevicePathType
+                0x000000000000b96c       0x48 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b96c                DevicePathType
+ .text.IsDevicePathEndType
+                0x000000000000b9b4       0x58 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000b9b4                IsDevicePathEndType
+ .text.IsDevicePathEnd
+                0x000000000000ba0c       0x70 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000ba0c                IsDevicePathEnd
+ .text.EfiBootManagerConnectDevicePath
+                0x000000000000ba7c      0x1a8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000ba7c                EfiBootManagerConnectDevicePath
+ .text.IsDevicePathValid
+                0x000000000000bc24       0xe0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.UefiDevicePathLibGetDevicePathSize
+                0x000000000000bd04       0x70 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000bd04                UefiDevicePathLibGetDevicePathSize
+ .text.SPrintLength
+                0x000000000000bd74       0x70 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.AsciiStrLen
+                0x000000000000bde4       0xa0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.AsciiStrSize
+                0x000000000000be84       0x18 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.AsciiStrnCmp
+                0x000000000000be9c       0xe4 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.IsLangInSupportedLangCodes
+                0x000000000000bf80       0xd8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.DebugPrint
+                0x000000000000c058       0xc4 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000c058                DebugPrint
+ .text.FreePool
+                0x000000000000c11c       0x7c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000c11c                FreePool
+ .text.BmExpandMediaDevicePath
+                0x000000000000c198      0x2e4 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.BmConnectUsbShortFormDevicePath
+                0x000000000000c47c      0x190 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.GetVariable2
+                0x000000000000c60c      0x164 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000c60c                GetVariable2
+ .text.GetEfiGlobalVariable2
+                0x000000000000c770       0x14 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000c770                GetEfiGlobalVariable2
+ .text.InitializeLangVariable
+                0x000000000000c784       0xf8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.FreePages
+                0x000000000000c87c       0xc4 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.BmDestroyRamDisk
+                0x000000000000c940      0x2a0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000c940                BmDestroyRamDisk
+ .text.BdsFormalizeConsoleVariable
+                0x000000000000cbe0       0xf8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.CheckDeferredLoadImageOnReadyToBoot
+                0x000000000000ccd8      0x13c /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.BasePrintLibValueToString
+                0x000000000000ce14       0x28 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000ce14                BasePrintLibValueToString
+ .text.BasePrintLibFillBuffer
+                0x000000000000ce3c       0x34 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000ce3c                BasePrintLibFillBuffer
+ .text.UnicodeVSPrint
+                0x000000000000ce70       0x9c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000ce70                UnicodeVSPrint
+ .text.Print    0x000000000000cf0c      0x190 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000cf0c                Print
+ .text.UnicodeSPrint
+                0x000000000000d09c       0xa0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000d09c                UnicodeSPrint
+ .text.AsciiStrnLenS
+                0x000000000000d13c       0x3c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000d13c                AsciiStrnLenS
+ .text.AsciiStrToUnicodeStrS
+                0x000000000000d178      0x164 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000d178                AsciiStrToUnicodeStrS
+ .text.StrnLenS
+                0x000000000000d2dc       0x7c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000d2dc                StrnLenS
+ .text.InternalSafeStringNoStrOverlap
+                0x000000000000d358       0x3c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000d358                InternalSafeStringNoStrOverlap
+ .text.StrCatS  0x000000000000d394      0x224 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000d394                StrCatS
+ .text.StrLen   0x000000000000d5b8       0xbc /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000d5b8                StrLen
+ .text.StrSize  0x000000000000d674       0x1c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000d674                StrSize
+ .text.StrnCmp  0x000000000000d690       0xe4 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000d690                StrnCmp
+ .text.StrCmp   0x000000000000d774       0x98 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000d774                StrCmp
+ .text.CopyMem  0x000000000000d80c       0xb0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000d80c                CopyMem
+ .text.GetBestLanguage
+                0x000000000000d8bc      0x1e0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000d8bc                GetBestLanguage
+ .text.SetDevicePathEndNode
+                0x000000000000da9c       0x54 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000da9c                SetDevicePathEndNode
+ .text.ReallocatePool
+                0x000000000000daf0       0x6c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000daf0                ReallocatePool
+ .text.UefiDevicePathLibCatPrint
+                0x000000000000db5c      0x188 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000db5c                UefiDevicePathLibCatPrint
+ .text.DevPathToTextNodeGeneric
+                0x000000000000dce4      0x104 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000dce4                DevPathToTextNodeGeneric
+ .text.DevPathToTextEndInstance
+                0x000000000000dde8        0xc /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000dde8                DevPathToTextEndInstance
+ .text.DevPathToTextBBS
+                0x000000000000ddf4       0xec /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000ddf4                DevPathToTextBBS
+ .text.DevPathRelativeOffsetRange
+                0x000000000000dee0       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000dee0                DevPathRelativeOffsetRange
+ .text.DevPathToTextFvFile
+                0x000000000000def0       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000def0                DevPathToTextFvFile
+ .text.DevPathToTextFv
+                0x000000000000df00       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000df00                DevPathToTextFv
+ .text.DevPathToTextMediaProtocol
+                0x000000000000df10       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000df10                DevPathToTextMediaProtocol
+ .text.DevPathToTextFilePath
+                0x000000000000df20       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000df20                DevPathToTextFilePath
+ .text.DevPathToTextCDROM
+                0x000000000000df30       0x30 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000df30                DevPathToTextCDROM
+ .text.DevPathToTextHardDrive
+                0x000000000000df60       0x8c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000df60                DevPathToTextHardDrive
+ .text.DevPathToTextUri
+                0x000000000000dfec       0x94 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000dfec                DevPathToTextUri
+ .text.DevPathToTextBluetoothLE
+                0x000000000000e080       0x44 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e080                DevPathToTextBluetoothLE
+ .text.DevPathToTextWiFi
+                0x000000000000e0c4       0x6c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e0c4                DevPathToTextWiFi
+ .text.DevPathToTextBluetooth
+                0x000000000000e130       0x24 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e130                DevPathToTextBluetooth
+ .text.DevPathToTextVlan
+                0x000000000000e154       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e154                DevPathToTextVlan
+ .text.DevPathToTextiSCSI
+                0x000000000000e164      0x110 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e164                DevPathToTextiSCSI
+ .text.DevPathToTextUart
+                0x000000000000e274      0x118 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e274                DevPathToTextUart
+ .text.DevPathToTextInfiniBand
+                0x000000000000e38c       0x1c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e38c                DevPathToTextInfiniBand
+ .text.CatIPv6Address
+                0x000000000000e3a8       0x8c /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.CatIPv4Address
+                0x000000000000e434       0x1c /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.DevPathToTextDns
+                0x000000000000e450       0xc0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e450                DevPathToTextDns
+ .text.CatNetworkProtocol
+                0x000000000000e510       0x38 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.DevPathToTextIPv6
+                0x000000000000e548       0xe8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e548                DevPathToTextIPv6
+ .text.DevPathToTextIPv4
+                0x000000000000e630       0xf0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e630                DevPathToTextIPv4
+ .text.DevPathToTextMacAddr
+                0x000000000000e720       0x8c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e720                DevPathToTextMacAddr
+ .text.DevPathToTextI2O
+                0x000000000000e7ac       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e7ac                DevPathToTextI2O
+ .text.DevPathToTextSata
+                0x000000000000e7bc       0x18 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e7bc                DevPathToTextSata
+ .text.DevPathToTextUsbClass
+                0x000000000000e7d4      0x1bc /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e7d4                DevPathToTextUsbClass
+ .text.DevPathToTextLogicalUnit
+                0x000000000000e990       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e990                DevPathToTextLogicalUnit
+ .text.DevPathToTextUsb
+                0x000000000000e9a0       0x14 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e9a0                DevPathToTextUsb
+ .text.DevPathToText1394
+                0x000000000000e9b4       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e9b4                DevPathToText1394
+ .text.DevPathToTextEmmc
+                0x000000000000e9c4       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e9c4                DevPathToTextEmmc
+ .text.DevPathToTextSd
+                0x000000000000e9d4       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e9d4                DevPathToTextSd
+ .text.DevPathToTextUfs
+                0x000000000000e9e4       0x14 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e9e4                DevPathToTextUfs
+ .text.DevPathToTextNVMe
+                0x000000000000e9f8       0x54 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000e9f8                DevPathToTextNVMe
+ .text.DevPathToTextSasEx
+                0x000000000000ea4c      0x184 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000ea4c                DevPathToTextSasEx
+ .text.DevPathToTextFibreEx
+                0x000000000000ebd0       0xa0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000ebd0                DevPathToTextFibreEx
+ .text.DevPathToTextFibre
+                0x000000000000ec70       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000ec70                DevPathToTextFibre
+ .text.DevPathToTextScsi
+                0x000000000000ec80       0x14 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000ec80                DevPathToTextScsi
+ .text.DevPathToTextAtapi
+                0x000000000000ec94       0x60 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000ec94                DevPathToTextAtapi
+ .text.DevPathToTextAcpiAdr
+                0x000000000000ecf4       0x90 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000ecf4                DevPathToTextAcpiAdr
+ .text.DevPathToTextAcpiEx
+                0x000000000000ed84      0x28c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000ed84                DevPathToTextAcpiEx
+ .text.DevPathToTextAcpi
+                0x000000000000f010       0xc0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000f010                DevPathToTextAcpi
+ .text.DevPathToTextBmc
+                0x000000000000f0d0       0x3c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000f0d0                DevPathToTextBmc
+ .text.DevPathToTextController
+                0x000000000000f10c       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000f10c                DevPathToTextController
+ .text.DevPathToTextMemMap
+                0x000000000000f11c       0x14 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000f11c                DevPathToTextMemMap
+ .text.DevPathToTextPccard
+                0x000000000000f130       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000f130                DevPathToTextPccard
+ .text.DevPathToTextPci
+                0x000000000000f140       0x14 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000f140                DevPathToTextPci
+ .text.InternalAllocateCopyPool
+                0x000000000000f154       0xa0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.AllocateCopyPool
+                0x000000000000f1f4       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000f1f4                AllocateCopyPool
+ .text.DevPathToTextUsbWWID
+                0x000000000000f204       0xb0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000f204                DevPathToTextUsbWWID
+ .text.UefiDevicePathLibDuplicateDevicePath
+                0x000000000000f2b4       0x34 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000f2b4                UefiDevicePathLibDuplicateDevicePath
+ .text.BmExpandLoadFile
+                0x000000000000f2e8      0x348 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.BmGetRamDiskDevicePath
+                0x000000000000f630       0xfc /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000f630                BmGetRamDiskDevicePath
+ .text.UefiDevicePathLibGetNextDevicePathInstance
+                0x000000000000f72c       0xd0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000f72c                UefiDevicePathLibGetNextDevicePathInstance
+ .text.UefiDevicePathLibAppendDevicePathInstance
+                0x000000000000f7fc       0xdc /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000f7fc                UefiDevicePathLibAppendDevicePathInstance
+ .text.EfiBootManagerUpdateConsoleVariable
+                0x000000000000f8d8      0x150 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000f8d8                EfiBootManagerUpdateConsoleVariable
+ .text.EfiBootManagerConnectConsoleVariable.part.1
+                0x000000000000fa28      0x268 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.BmCachePartitionDevicePath
+                0x000000000000fc90       0xd8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.UefiDevicePathLibAppendDevicePath
+                0x000000000000fd68       0xcc /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000fd68                UefiDevicePathLibAppendDevicePath
+ .text.UefiDevicePathLibAppendDevicePathNode
+                0x000000000000fe34       0x9c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000000fe34                UefiDevicePathLibAppendDevicePathNode
+ .text.BmAdjustFvFilePath
+                0x000000000000fed0      0x1a4 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.CompareGuid
+                0x0000000000010074       0x6c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x0000000000010074                CompareGuid
+ .text.BmIsBootManagerMenuFilePath
+                0x00000000000100e0       0x90 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x00000000000100e0                BmIsBootManagerMenuFilePath
+ .text.BmUpdateSystemTableConsole
+                0x0000000000010170      0x20c /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.EfiBootManagerConnectAllDefaultConsoles
+                0x000000000001037c      0x14c /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.EfiBootManagerConnectAll
+                0x00000000000104c8       0xcc /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x00000000000104c8                EfiBootManagerConnectAll
+ .text.BmGetNextLoadOptionDevicePath
+                0x0000000000010594      0xd78 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x0000000000010594                BmGetNextLoadOptionDevicePath
+ .text.ProcessLoadOptions
+                0x000000000001130c      0x18c /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.EfiGetSystemConfigurationTable
+                0x0000000000011498       0x94 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x0000000000011498                EfiGetSystemConfigurationTable
+ .text.GetHobList
+                0x000000000001152c       0xb4 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x000000000001152c                GetHobList
+ .text.DevPathToTextRamDisk
+                0x00000000000115e0      0x1a8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x00000000000115e0                DevPathToTextRamDisk
+ .text.DevPathToTextVendor
+                0x0000000000011788      0x350 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x0000000000011788                DevPathToTextVendor
+ .text.CopyGuid
+                0x0000000000011ad8       0x70 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x0000000000011ad8                CopyGuid
+ .text.GetPcdProtocol
+                0x0000000000011b48       0xc0 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x0000000000011b48                GetPcdProtocol
+ .text.BdsEntry
+                0x0000000000011c08     0x15f8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .text.__stack_chk_fail
+                0x0000000000013200       0x34 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x0000000000013200                __stack_chk_fail
+ .text._ModuleEntryPoint
+                0x0000000000013234      0x4e4 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x0000000000013234                _ModuleEntryPoint
+ .text.memcpy   0x0000000000013718       0x20 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x0000000000013718                memcpy
+ *fill*         0x0000000000013738        0x8 
+ .text          0x0000000000013740      0x218 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CopyMem.obj)
+                0x00000000000138ac                InternalMemCopyMem
+ *fill*         0x0000000000013958        0x8 
+ .text          0x0000000000013960       0x20 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareGuid.obj)
+                0x0000000000013960                InternalMemCompareGuid
+ .text          0x0000000000013980      0x200 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(SetMem.obj)
+                0x0000000000013980                InternalMemSetMem16
+                0x000000000001398c                InternalMemSetMem32
+                0x0000000000013998                InternalMemSetMem64
+                0x00000000000139a4                InternalMemZeroMem
+                0x00000000000139ac                InternalMemSetMem
+ .text          0x0000000000013b80       0xe0 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe/OUTPUT/BaseMemoryLibOptDxe.lib(CompareMem.obj)
+                0x0000000000013b80                InternalMemCompareMem
+ .text.ArmCacheInfo
+                0x0000000000013c60        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000013c60                ArmCacheInfo
+ .text.ArmGetInterruptState
+                0x0000000000013c68       0x10 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupport.obj)
+                0x0000000000013c68                ArmGetInterruptState
+ .text.ArmEnableInterrupts
+                0x0000000000013c78        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x0000000000013c78                ArmEnableInterrupts
+ .text.ArmDisableInterrupts
+                0x0000000000013c84        0xc /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(ArmLibSupportV8.obj)
+                0x0000000000013c84                ArmDisableInterrupts
+ .text.ArmCleanInvalidateDataCacheEntryByMVA
+                0x0000000000013c90        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000013c90                ArmCleanInvalidateDataCacheEntryByMVA
+ .text.ArmDataSynchronizationBarrier
+                0x0000000000013c98        0x8 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/ArmPkg/Library/ArmLib/ArmBaseLib/OUTPUT/ArmBaseLib.lib(AArch64Support.obj)
+                0x0000000000013c98                ArmDataSynchronizationBarrier
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.BmGenerateKeyShiftState
+                0x0000000000013ca0        0x5 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ *fill*         0x0000000000013ca5        0x3 
+ .rodata.PlatformBootManagerAfterConsole
+                0x0000000000013ca8        0x9 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.AddInput.lto_priv.79.str1.1
+                0x0000000000013cb1       0x6b /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.AddOutput.lto_priv.78.str1.1
+                0x0000000000013d1c       0x3c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.AsciiPrint.constprop.17.str1.1
+                0x0000000000013d58       0x4e /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.AsciiSPrint.constprop.68.str1.1
+                0x0000000000013da6       0x18 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.70.str1.1
+                0x0000000000013dbe      0x227 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmCollectKeyOptions.str1.1
+                0x0000000000013fe5       0x3c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ *fill*         0x0000000000014021        0x1 
+ .rodata.BmCollectKeyOptions.str2.2
+                0x0000000000014022       0x12 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmCollectLoadOptions.str1.1
+                0x0000000000014034       0x1f /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmDisplayMessages.str1.1
+                0x0000000000014053       0x60 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ *fill*         0x00000000000140b3        0x1 
+ .rodata.BmDisplayMessages.str2.2
+                0x00000000000140b4       0x2c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmForEachVariable.str1.1
+                0x00000000000140e0       0x15 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmGetBootDescription.str1.1
+                0x00000000000140f5       0x38 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmGetControllerName.str1.1
+                0x000000000001412d        0xa /tmp/ccrXHJq2.ltrans0.ltrans.o
+                                          0xb (size before relaxing)
+ *fill*         0x0000000000014137        0x1 
+ .rodata.BmGetControllerName.str2.2
+                0x0000000000014138       0x1a /tmp/ccrXHJq2.ltrans0.ltrans.o
+                                         0x24 (size before relaxing)
+ .rodata.BmGetDescriptionFromDiskInfo.str2.2
+                0x0000000000014152       0x2c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmGetFreeOptionNumber.str1.1
+                0x000000000001417e       0x92 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmGetFreeOptionNumber.str2.2
+                0x0000000000014210       0x12 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmGetMiscDescription.str1.1
+                0x0000000000014222       0x92 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                                         0x1b (size before relaxing)
+ .rodata.BmGetMiscDescription.str2.2
+                0x0000000000014222       0xc8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmGetNetworkDescription.str1.1
+                0x00000000000142ea       0x4c /tmp/ccrXHJq2.ltrans0.ltrans.o
+                                         0x68 (size before relaxing)
+ .rodata.BmGetNetworkDescription.str2.2
+                0x0000000000014336       0xb4 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmGetNextLoadOptionBuffer.str1.1
+                0x00000000000143ea       0x13 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                                         0x15 (size before relaxing)
+ .rodata.BmGetSingleControllerHealthStatus.str1.1
+                0x00000000000143fd       0x8e /tmp/ccrXHJq2.ltrans0.ltrans.o
+ *fill*         0x000000000001448b        0x1 
+ .rodata.BmGetUsbDescription.str2.2
+                0x000000000001448c        0x4 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmHotkeyCallback.str1.1
+                0x0000000000014490       0xad /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmPrintDp.str1.1
+                0x000000000001453d        0x3 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmProcessKeyOption.str1.1
+                0x0000000000014540       0x66 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmRegisterHotkeyNotify.str1.1
+                0x00000000000145a6       0x30 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmRepairAllControllers.str1.1
+                0x00000000000145d6       0x76 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmRepairNotify.str1.1
+                0x000000000001464c       0x1a /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmRepairNotify.str2.2
+                0x0000000000014666       0x34 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.BmStopHotkeyService.str1.1
+                0x000000000001469a       0x9b /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.CompareMem.str1.1
+                0x0000000000014735      0x107 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.DivU64x32.constprop.54.str1.1
+                0x000000000001483c       0x40 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EfiAcquireLock.constprop.23.str1.1
+                0x000000000001487c       0x1e /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EfiBootManagerAddKeyOptionVariable.constprop.5.str2.2
+                0x000000000001489a       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EfiBootManagerAddLoadOptionVariable.str1.1
+                0x00000000000148aa       0x1f /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EfiBootManagerBoot.str1.1
+                0x00000000000148c9      0x275 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EfiBootManagerBoot.str2.2
+                0x0000000000014b3e       0x44 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EfiBootManagerDeleteLoadOptionVariable.str1.1
+                0x0000000000014b82       0xb6 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EfiBootManagerDeleteLoadOptionVariable.str2.2
+                0x0000000000014c38        0xe /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EfiBootManagerGetBootManagerMenu.str1.1
+                0x0000000000014c46       0xa4 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EfiBootManagerGetBootManagerMenu.str2.2
+                0x0000000000014cea       0x24 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EfiBootManagerGetDriverHealthInfo.str1.1
+                0x0000000000014d0e       0x24 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EfiBootManagerGetLoadOptions.str1.1
+                0x0000000000014d32       0x7f /tmp/ccrXHJq2.ltrans0.ltrans.o
+                                         0x97 (size before relaxing)
+ .rodata.EfiBootManagerLoadOptionToVariable.str1.1
+                0x0000000000014db1       0x19 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EfiBootManagerProcessLoadOption.str1.1
+                0x0000000000014dca       0x34 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EfiBootManagerVariableToLoadOptionEx.part.7.str1.1
+                0x0000000000014dfe       0x23 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EfiCreateEventReadyToBootEx.constprop.25.str1.1
+                0x0000000000014e21       0x5d /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EfiGetNameGuidFromFwVolDevicePathNode.str1.1
+                0x0000000000014e7e       0x21 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EfiReleaseLock.constprop.24.str1.1
+                0x0000000000014e9f       0x4f /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.EndPerformanceMeasurementEx.constprop.43.str1.1
+                0x0000000000014eee       0x68 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.FileDevicePath.constprop.34.str2.2
+                0x0000000000014f56       0x2e /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.FilterAndProcess.constprop.4.str1.1
+                0x0000000000014f84       0x6a /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.GetFirstNode.str1.1
+                0x0000000000014fee       0x22 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.GetSectionFromFv.constprop.21.str1.1
+                0x0000000000015010       0x74 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                                         0x90 (size before relaxing)
+ .rodata.InternalBaseLibIsListValid.str1.1
+                0x0000000000015084       0x75 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                                         0x8a (size before relaxing)
+ .rodata.PlatformBootManagerAfterConsole.str1.1
+                0x00000000000150f9      0x110 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ *fill*         0x0000000000015209        0x1 
+ .rodata.PlatformBootManagerAfterConsole.str2.2
+                0x000000000001520a       0x22 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.PlatformBootManagerWaitCallback.str2.2
+                0x000000000001522c        0x4 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.PrintXY.constprop.52.str1.1
+                0x0000000000015230       0xd6 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.PrintXY.constprop.52.str2.2
+                0x0000000000015306       0x4c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.RemoveEntryList.str1.1
+                0x0000000000015352       0x3b /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.ReportStatusCodeEx.constprop.40.str1.1
+                0x000000000001538d       0xcc /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.SetMem.constprop.50.str1.1
+                0x0000000000015459       0x7b /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.StrCpyS.constprop.20.str1.1
+                0x00000000000154d4      0x136 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.UefiDevicePathLibConvertDevicePathToText.constprop.57.str2.2
+                0x000000000001560a        0x4 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.UnicodeVSPrintAsciiFormat.constprop.19.str1.1
+                0x000000000001560e       0x87 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.UnicodeValueToStringS.constprop.0.str1.1
+                0x0000000000015695       0xb0 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.WriteUnaligned16.str1.1
+                0x0000000000015745       0x37 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                                         0x4e (size before relaxing)
+ .rodata.ZeroMem.str1.1
+                0x000000000001577c       0x7a /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15270
+                0x00000000000157f6       0x11 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15282
+                0x0000000000015807        0xa /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.15289
+                0x0000000000015811        0x9 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.18480
+                0x000000000001581a       0x17 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdBootManagerMenuFile
+                0x0000000000015831       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000015831                _gPcd_FixedAtBuild_PcdBootManagerMenuFile
+ .rodata._gPcd_FixedAtBuild_PcdDriverHealthConfigureForm
+                0x0000000000015841       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ *fill*         0x0000000000015851        0x7 
+ .rodata.mBdsLoadOptionName
+                0x0000000000015858       0x20 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000015858                mBdsLoadOptionName
+ .rodata.mBmBootDescriptionHandlers
+                0x0000000000015878       0x30 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.mBmHealthStatusText
+                0x00000000000158a8       0x30 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.mBmLoadOptionOrderName
+                0x00000000000158d8       0x20 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.mStatusString
+                0x00000000000158f8      0x138 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.mUefiDevicePathLibToTextTable
+                0x0000000000015a30      0x320 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x0000000000015d50      0x224 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                                        0x235 (size before relaxing)
+ .rodata.str2.2
+                0x0000000000015f74      0x116 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                                        0x138 (size before relaxing)
+ *fill*         0x000000000001608a        0x2 
+ .rodata.DevPathToTextBBS
+                0x000000000001608c        0x6 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ *fill*         0x0000000000016092        0x2 
+ .rodata.DevPathToTextUart
+                0x0000000000016094        0x4 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.AsciiStrLen.str1.1
+                0x0000000000016098       0x7f /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.AsciiStrToUnicodeStrS.str1.1
+                0x0000000000016117       0x64 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0xf4 (size before relaxing)
+ .rodata.AsciiStrnCmp.str1.1
+                0x000000000001617b       0x70 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.BdsEntry.str1.1
+                0x00000000000161eb      0x3b2 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                        0x50a (size before relaxing)
+ *fill*         0x000000000001659d        0x1 
+ .rodata.BdsEntry.str2.2
+                0x000000000001659e      0x12e /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                        0x178 (size before relaxing)
+ .rodata.BdsFormalizeConsoleVariable.str1.1
+                0x00000000000166cc       0x39 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.BmDestroyRamDisk.str1.1
+                0x0000000000016705       0x82 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.BmEndOfBdsPerfCode.str1.1
+                0x0000000000016787        0x4 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.BmExpandLoadFile.str1.1
+                0x000000000001678b       0x56 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.BmExpandMediaDevicePath.str1.1
+                0x00000000000167e1       0x21 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0x62 (size before relaxing)
+ .rodata.BmGetNextLoadOptionDevicePath.str1.1
+                0x0000000000016802       0x19 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ *fill*         0x000000000001681b        0x1 
+ .rodata.BmGetNextLoadOptionDevicePath.str2.2
+                0x000000000001681c        0xa /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.BmUpdateSystemTableConsole.str1.1
+                0x0000000000016826       0x98 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0xb6 (size before relaxing)
+ .rodata.CSWTCH.42
+                0x00000000000168be        0x6 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.CatIPv4Address.str2.2
+                0x00000000000168c4       0x18 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.CatIPv6Address.str2.2
+                0x00000000000168dc       0x90 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.CatNetworkProtocol.str2.2
+                0x000000000001696c        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0x12 (size before relaxing)
+ .rodata.CheckDeferredLoadImageOnReadyToBoot.str1.1
+                0x0000000000016974       0x2e /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.CompareGuid.str1.1
+                0x00000000000169a2       0x70 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.CopyGuid.str1.1
+                0x0000000000016a12       0x3b /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.CopyMem.str1.1
+                0x0000000000016a4d       0x44 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0xc5 (size before relaxing)
+ .rodata.DebugAssert.str1.1
+                0x0000000000016a91        0x7 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0x1f (size before relaxing)
+ .rodata.DevPathRelativeOffsetRange.str2.2
+                0x0000000000016a98       0x28 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToText1394.str2.2
+                0x0000000000016ac0       0x1c /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextAcpi.str2.2
+                0x0000000000016adc       0xc2 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextAcpiAdr.str2.2
+                0x0000000000016b9e       0x26 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextAcpiEx.str2.2
+                0x0000000000016bc4      0x12c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                        0x148 (size before relaxing)
+ .rodata.DevPathToTextAtapi.str2.2
+                0x0000000000016cf0       0x72 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextBBS.str2.2
+                0x0000000000016d62       0x58 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0x80 (size before relaxing)
+ .rodata.DevPathToTextBluetooth.str2.2
+                0x0000000000016dba       0x48 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextBluetoothLE.str2.2
+                0x0000000000016e02       0x5a /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextBmc.str2.2
+                0x0000000000016e5c       0x20 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextCDROM.str2.2
+                0x0000000000016e7c       0x48 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextController.str2.2
+                0x0000000000016ec4       0x16 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextDns.str2.2
+                0x0000000000016eda        0xa /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextEmmc.str2.2
+                0x0000000000016ee4       0x16 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextFibre.str2.2
+                0x0000000000016efa       0x26 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextFibreEx.str2.2
+                0x0000000000016f20       0x16 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextFilePath.str2.2
+                0x0000000000016f36        0x6 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextFv.str2.2
+                0x0000000000016f3c        0xe /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextFvFile.str2.2
+                0x0000000000016f4a       0x16 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextHardDrive.str2.2
+                0x0000000000016f60       0x64 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0x7e (size before relaxing)
+ .rodata.DevPathToTextI2O.str2.2
+                0x0000000000016fc4       0x14 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextIPv4.str2.2
+                0x0000000000016fd8       0x24 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextIPv6.str2.2
+                0x0000000000016ffc       0x80 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0x8e (size before relaxing)
+ .rodata.DevPathToTextInfiniBand.str2.2
+                0x000000000001707c       0x4c /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextLogicalUnit.str2.2
+                0x00000000000170c8       0x16 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextMacAddr.str2.2
+                0x00000000000170de        0xa /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextMediaProtocol.str2.2
+                0x00000000000170e8       0x14 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextMemMap.str2.2
+                0x00000000000170fc       0x3e /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextNVMe.str2.2
+                0x000000000001713a       0x66 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextNodeGeneric.str2.2
+                0x00000000000171a0       0x22 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0x34 (size before relaxing)
+ .rodata.DevPathToTextPccard.str2.2
+                0x00000000000171c2       0x1a /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextPci.str2.2
+                0x00000000000171dc       0x1e /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextRamDisk.str2.2
+                0x00000000000171fa       0xca /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                        0x136 (size before relaxing)
+ .rodata.DevPathToTextSasEx.str2.2
+                0x00000000000172c4       0xb4 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0xc0 (size before relaxing)
+ .rodata.DevPathToTextSata.str2.2
+                0x0000000000017378       0x2a /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextScsi.str2.2
+                0x00000000000173a2       0x20 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextSd.str2.2
+                0x00000000000173c2       0x12 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextUart.str2.2
+                0x00000000000173d4       0x5c /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0x74 (size before relaxing)
+ .rodata.DevPathToTextUfs.str2.2
+                0x0000000000017430       0x1e /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextUri.str1.1
+                0x000000000001744e       0x17 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ *fill*         0x0000000000017465        0x1 
+ .rodata.DevPathToTextUri.str2.2
+                0x0000000000017466       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextUsb.str2.2
+                0x0000000000017476       0x1e /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextUsbClass.str2.2
+                0x0000000000017494      0x250 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextUsbWWID.str1.1
+                0x00000000000176e4       0x17 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ *fill*         0x00000000000176fb        0x1 
+ .rodata.DevPathToTextUsbWWID.str2.2
+                0x00000000000176fc       0x3a /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextVendor.str2.2
+                0x0000000000017736      0x154 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                        0x166 (size before relaxing)
+ .rodata.DevPathToTextVlan.str2.2
+                0x000000000001788a       0x12 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextWiFi.str2.2
+                0x000000000001789c       0x14 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.DevPathToTextiSCSI.str2.2
+                0x00000000000178b0       0x76 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0x90 (size before relaxing)
+ .rodata.DevicePathNodeLength.str1.1
+                0x0000000000017926       0x17 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0x15 (size before relaxing)
+ .rodata.EfiBootManagerConnectAllDefaultConsoles.str1.1
+                0x0000000000017926       0x23 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ *fill*         0x0000000000017949        0x1 
+ .rodata.EfiBootManagerConnectAllDefaultConsoles.str2.2
+                0x000000000001794a       0x28 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.EfiBootManagerConnectDevicePath.str1.1
+                0x0000000000017972       0x93 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.FreePages.str1.1
+                0x0000000000017a05        0xb /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.FreePool.str1.1
+                0x0000000000017a10       0x4d /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0x82 (size before relaxing)
+ .rodata.GetBestLanguage.str1.1
+                0x0000000000017a5d       0x23 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.GetHobList.str1.1
+                0x0000000000017a80       0x19 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0x4b (size before relaxing)
+ .rodata.GetPcdProtocol.str1.1
+                0x0000000000017a99       0x4a /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.GetPerformanceMeasurementProtocol.str1.1
+                0x0000000000017ae3       0x27 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0x72 (size before relaxing)
+ .rodata.GetVariable2.str1.1
+                0x0000000000017b0a       0x5d /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0x8e (size before relaxing)
+ .rodata.InitializeLangVariable.str1.1
+                0x0000000000017b67       0x81 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.InternalAllocateCopyPool.str1.1
+                0x0000000000017be8       0x3f /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.Print.str1.1
+                0x0000000000017c27       0x23 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0x88 (size before relaxing)
+ .rodata.ProcessLoadOptions.str1.1
+                0x0000000000017c4a       0x55 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.SPrintLength.str1.1
+                0x0000000000017c9f       0x27 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                         0x5e (size before relaxing)
+ .rodata.SetDevicePathNodeLength.str1.1
+                0x0000000000017cc6       0x8e /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.StrCatS.str1.1
+                0x0000000000017d54       0x61 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                        0x107 (size before relaxing)
+ .rodata.StrLen.str1.1
+                0x0000000000017db5       0x3a /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.StrnCmp.str1.1
+                0x0000000000017def       0x72 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.StrnLenS.str1.1
+                0x0000000000017e61       0x23 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.UefiDevicePathLibCatPrint.str1.1
+                0x0000000000017e61       0x5d /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.UnicodeVSPrint.str1.1
+                0x0000000000017ebe       0x28 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata._ModuleEntryPoint.str1.1
+                0x0000000000017ebe      0x252 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.__FUNCTION__.18626
+                0x0000000000018110       0x11 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.__stack_chk_fail.str1.1
+                0x0000000000018121       0x2e /tmp/ccrXHJq2.ltrans1.ltrans.o
+ *fill*         0x000000000001814f        0x1 
+ .rodata._gPcd_FixedAtBuild_PcdFirmwareVendor
+                0x0000000000018150        0xe /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultLang
+                0x000000000001815e        0x4 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultLangCodes
+                0x0000000000018162        0xd /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultPlatformLang
+                0x000000000001816f        0x6 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdUefiVariableDefaultPlatformLangCodes
+                0x0000000000018175       0x12 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ *fill*         0x0000000000018187        0x1 
+ .rodata.mConVarName
+                0x0000000000018188       0x30 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.mHexStr
+                0x00000000000181b8       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.mReadOnlyVariables
+                0x00000000000181c8       0x28 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.mUefiDevicePathLibEndDevicePath
+                0x00000000000181f0        0x4 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ *fill*         0x00000000000181f4        0x4 
+ .rodata.mUefiDevicePathLibToTextTableGeneric
+                0x00000000000181f8       0x60 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .rodata.str2.2
+                0x0000000000018258       0xaa /tmp/ccrXHJq2.ltrans1.ltrans.o
+ *(.got .got.*)
+ *fill*         0x0000000000018302        0x6 
+ .got           0x0000000000018308        0x8 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+                0x0000000000018308                _GLOBAL_OFFSET_TABLE_
+ .got.plt       0x0000000000018310       0x18 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x0000000000018328        0x0
+ .plt           0x0000000000018328        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.data           0x0000000000019000      0x928
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.ro   0x0000000000019000        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .data.Fallback.15272
+                0x0000000000019000       0x34 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.font5x12
+                0x0000000000019034      0x300 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEdkiiBootLogo2ProtocolGuid
+                0x0000000000019334       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEdkiiPlatformBootManagerProtocolGuid
+                0x0000000000019344       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEdkiiPlatformLogoProtocolGuid
+                0x0000000000019354       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEdkiiStatusCodeDataTypeVariableGuid
+                0x0000000000019364       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEdkiiVariableLockProtocolGuid
+                0x0000000000019374       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019374                gEdkiiVariableLockProtocolGuid
+ .data.gEfiBlockIoProtocolGuid
+                0x0000000000019384       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019384                gEfiBlockIoProtocolGuid
+ .data.gEfiBootLogoProtocolGuid
+                0x0000000000019394       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEfiCallerIdGuid
+                0x00000000000193a4       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000193a4                gEfiCallerIdGuid
+ .data.gEfiComponentName2ProtocolGuid
+                0x00000000000193b4       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEfiComponentNameProtocolGuid
+                0x00000000000193c4       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEfiDevicePathProtocolGuid
+                0x00000000000193d4       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000193d4                gEfiDevicePathProtocolGuid
+ .data.gEfiDiskInfoAhciInterfaceGuid
+                0x00000000000193e4       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEfiDiskInfoIdeInterfaceGuid
+                0x00000000000193f4       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEfiDiskInfoProtocolGuid
+                0x0000000000019404       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEfiDiskInfoScsiInterfaceGuid
+                0x0000000000019414       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEfiDiskInfoSdMmcInterfaceGuid
+                0x0000000000019424       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEfiDriverHealthProtocolGuid
+                0x0000000000019434       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEfiEventReadyToBootGuid
+                0x0000000000019444       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019444                gEfiEventReadyToBootGuid
+ .data.gEfiFileInfoGuid
+                0x0000000000019454       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEfiFirmwareVolume2ProtocolGuid
+                0x0000000000019464       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019464                gEfiFirmwareVolume2ProtocolGuid
+ .data.gEfiFormBrowser2ProtocolGuid
+                0x0000000000019474       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEfiGlobalVariableGuid
+                0x0000000000019484       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019484                gEfiGlobalVariableGuid
+ .data.gEfiGraphicsOutputProtocolGuid
+                0x0000000000019494       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019494                gEfiGraphicsOutputProtocolGuid
+ .data.gEfiHiiFontProtocolGuid
+                0x00000000000194a4       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000194a4                gEfiHiiFontProtocolGuid
+ .data.gEfiLoadFileProtocolGuid
+                0x00000000000194b4       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000194b4                gEfiLoadFileProtocolGuid
+ .data.gEfiLoadedImageProtocolGuid
+                0x00000000000194c4       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000194c4                gEfiLoadedImageProtocolGuid
+ .data.gEfiMemoryTypeInformationGuid
+                0x00000000000194d4       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEfiNvmExpressPassThruProtocolGuid
+                0x00000000000194e4       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEfiSimpleFileSystemProtocolGuid
+                0x00000000000194f4       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000194f4                gEfiSimpleFileSystemProtocolGuid
+ .data.gEfiSimpleTextInputExProtocolGuid
+                0x0000000000019504       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019504                gEfiSimpleTextInputExProtocolGuid
+ .data.gEfiSimpleTextOutProtocolGuid
+                0x0000000000019514       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019514                gEfiSimpleTextOutProtocolGuid
+ .data.gEfiStatusCodeSpecificDataGuid
+                0x0000000000019524       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEfiUgaDrawProtocolGuid
+                0x0000000000019534       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.gEfiUsbIoProtocolGuid
+                0x0000000000019544       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019544                gEfiUsbIoProtocolGuid
+ .data.gEsrtManagementProtocolGuid
+                0x0000000000019554       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019554                gEsrtManagementProtocolGuid
+ .data.gUefiShellFileGuid
+                0x0000000000019564       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.mBmAutoCreateBootOptionGuid
+                0x0000000000019574       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ *fill*         0x0000000000019584        0x4 
+ .data.mBmHotkeyBootOption
+                0x0000000000019588       0x58 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019588                mBmHotkeyBootOption
+ .data.mBmHotkeyList
+                0x00000000000195e0       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.mBmHotkeyLock
+                0x00000000000195f0       0x18 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.mBmUefiPrefix
+                0x0000000000019608        0xc /tmp/ccrXHJq2.ltrans0.ltrans.o
+ *fill*         0x0000000000019614        0x4 
+ .data.mPlatformBootDescriptionHandlers
+                0x0000000000019618       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .data.__stack_chk_guard
+                0x0000000000019628        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                0x0000000000019628                __stack_chk_guard
+ .data.gBds     0x0000000000019630        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEFIDroidKeypadDeviceProtocolGuid
+                0x0000000000019638       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEdkiiPerformanceMeasurementProtocolGuid
+                0x0000000000019648       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiBdsArchProtocolGuid
+                0x0000000000019658       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiDebugPortProtocolGuid
+                0x0000000000019668       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiDeferredImageLoadProtocolGuid
+                0x0000000000019678       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiDxeServicesTableGuid
+                0x0000000000019688       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiEndOfDxeEventGroupGuid
+                0x0000000000019698       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiHiiConfigRoutingProtocolGuid
+                0x00000000000196a8       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiHiiDatabaseProtocolGuid
+                0x00000000000196b8       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiHiiImageProtocolGuid
+                0x00000000000196c8       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiHiiStringProtocolGuid
+                0x00000000000196d8       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiHobListGuid
+                0x00000000000196e8       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiPcAnsiGuid
+                0x00000000000196f8       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiPciIoProtocolGuid
+                0x0000000000019708       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiPersistentVirtualCdGuid
+                0x0000000000019718       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiPersistentVirtualDiskGuid
+                0x0000000000019728       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiRamDiskProtocolGuid
+                0x0000000000019738       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiSasDevicePathGuid
+                0x0000000000019748       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiSimpleTextInProtocolGuid
+                0x0000000000019758       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiStatusCodeRuntimeProtocolGuid
+                0x0000000000019768       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiTtyTermGuid
+                0x0000000000019778       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiUartDevicePathGuid
+                0x0000000000019788       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiVT100Guid
+                0x0000000000019798       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiVT100PlusGuid
+                0x00000000000197a8       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiVTUTF8Guid
+                0x00000000000197b8       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiVirtualCdGuid
+                0x00000000000197c8       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gEfiVirtualDiskGuid
+                0x00000000000197d8       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.gPcdProtocolGuid
+                0x00000000000197e8       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.mBmHardDriveBootVariableGuid
+                0x00000000000197f8       0x10 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.mSerialConsole
+                0x0000000000019808       0x3f /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .data.mUsbKeyboard
+                0x0000000000019847        0xf /tmp/ccrXHJq2.ltrans1.ltrans.o
+ *(.bss .bss.*)
+ *fill*         0x0000000000019856        0x2 
+ .bss.gBS       0x0000000000019858        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019858                gBS
+ .bss.gHiiDatabase
+                0x0000000000019860        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019860                gHiiDatabase
+ .bss.gHiiString
+                0x0000000000019868        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019868                gHiiString
+ .bss.gImageHandle
+                0x0000000000019870        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019870                gImageHandle
+ .bss.gRT       0x0000000000019878        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019878                gRT
+ .bss.gST       0x0000000000019880        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019880                gST
+ .bss.mBmHotkeyServiceStarted
+                0x0000000000019888        0x1 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019888                mBmHotkeyServiceStarted
+ *fill*         0x0000000000019889        0x7 
+ .bss.mBmHotkeySupportCount
+                0x0000000000019890        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019890                mBmHotkeySupportCount
+ .bss.mBmHotkeyTriggered
+                0x0000000000019898        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x0000000000019898                mBmHotkeyTriggered
+ .bss.mBmTxtInExRegistration
+                0x00000000000198a0        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000198a0                mBmTxtInExRegistration
+ .bss.mPerformanceMeasurement
+                0x00000000000198a8        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000198a8                mPerformanceMeasurement
+ .bss.mReportStatusCodeLibStatusCodeProtocol
+                0x00000000000198b0        0x8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000198b0                mReportStatusCodeLibStatusCodeProtocol
+ .bss.m_Color   0x00000000000198b8       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000198b8                m_Color
+ .bss.m_Initialized
+                0x00000000000198c8        0x1 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000198c8                m_Initialized
+ *fill*         0x00000000000198c9        0x7 
+ .bss.m_MaxPosition
+                0x00000000000198d0       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000198d0                m_MaxPosition
+ .bss.m_Position
+                0x00000000000198e0       0x10 /tmp/ccrXHJq2.ltrans0.ltrans.o
+                0x00000000000198e0                m_Position
+ .bss.gDS       0x00000000000198f0        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .bss.gHiiConfigRouting
+                0x00000000000198f8        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .bss.gHiiFont  0x0000000000019900        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .bss.gHiiImage
+                0x0000000000019908        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .bss.mHobList  0x0000000000019910        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .bss.mPcd      0x0000000000019918        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+ .bss.mRamDisk  0x0000000000019920        0x8 /tmp/ccrXHJq2.ltrans1.ltrans.o
+
+.dynbss         0x0000000000019928        0x0
+ .dynbss        0x0000000000019928        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x0000000000019928      0xc00
+ *(.rela .rela.*)
+ .rela.got      0x0000000000019928        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.plt      0x0000000000019928        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.bss      0x0000000000019928        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.rel.ro
+                0x0000000000019928        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.ifunc    0x0000000000019928        0x0 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mBmHotkeyList
+                0x0000000000019928       0x30 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.mPlatformBootDescriptionHandlers
+                0x0000000000019958       0x30 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mBdsLoadOptionName
+                0x0000000000019988       0x60 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mBmBootDescriptionHandlers
+                0x00000000000199e8       0x90 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mBmHealthStatusText
+                0x0000000000019a78       0x90 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mBmLoadOptionOrderName
+                0x0000000000019b08       0x48 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mStatusString
+                0x0000000000019b50      0x3a8 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mUefiDevicePathLibToTextTable
+                0x0000000000019ef8      0x498 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.data.gBds
+                0x000000000001a390       0x18 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mConVarName
+                0x000000000001a3a8       0x90 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mReadOnlyVariables
+                0x000000000001a438       0x78 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+ .rela.rodata.mUefiDevicePathLibToTextTableGeneric
+                0x000000000001a4b0       0x78 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+.hii
+ *(.hii)
+
+.build-id       0x000000000001a528       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x000000000001a528       0x24 /home/core/edk2/ArmPkg/Library/GccLto/liblto-aarch64.a
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+ *(COMMON)
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+OUTPUT(/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/BdsDxe/BdsDxe/DEBUG/BdsDxe.dll elf64-littleaarch64)
+
+.debug_info     0x0000000000000000    0x2ba05
+ .debug_info    0x0000000000000000    0x1690c /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .debug_info    0x000000000001690c    0x150f9 /tmp/ccrXHJq2.ltrans1.ltrans.o
+
+.debug_abbrev   0x0000000000000000     0x1061
+ .debug_abbrev  0x0000000000000000      0x878 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .debug_abbrev  0x0000000000000878      0x7e9 /tmp/ccrXHJq2.ltrans1.ltrans.o
+
+.debug_loc      0x0000000000000000    0x1dbc0
+ .debug_loc     0x0000000000000000     0xf391 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .debug_loc     0x000000000000f391     0xe82f /tmp/ccrXHJq2.ltrans1.ltrans.o
+
+.debug_aranges  0x0000000000000000      0xf60
+ .debug_aranges
+                0x0000000000000000      0x610 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .debug_aranges
+                0x0000000000000610      0x950 /tmp/ccrXHJq2.ltrans1.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x2dc0
+ .debug_ranges  0x0000000000000000     0x1870 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .debug_ranges  0x0000000000001870     0x1550 /tmp/ccrXHJq2.ltrans1.ltrans.o
+
+.debug_line     0x0000000000000000     0x5663
+ .debug_line    0x0000000000000000     0x2c3b /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .debug_line    0x0000000000002c3b     0x2a28 /tmp/ccrXHJq2.ltrans1.ltrans.o
+
+.debug_str      0x0000000000000000     0xa686
+ .debug_str     0x0000000000000000     0x795f /tmp/ccrXHJq2.ltrans0.ltrans.o
+                                       0x869c (size before relaxing)
+ .debug_str     0x000000000000795f     0x2d27 /tmp/ccrXHJq2.ltrans1.ltrans.o
+                                       0x6e2b (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x3280
+ .debug_frame   0x0000000000000000     0x16c8 /tmp/ccrXHJq2.ltrans0.ltrans.o
+ .debug_frame   0x00000000000016c8     0x1bb8 /tmp/ccrXHJq2.ltrans1.ltrans.o

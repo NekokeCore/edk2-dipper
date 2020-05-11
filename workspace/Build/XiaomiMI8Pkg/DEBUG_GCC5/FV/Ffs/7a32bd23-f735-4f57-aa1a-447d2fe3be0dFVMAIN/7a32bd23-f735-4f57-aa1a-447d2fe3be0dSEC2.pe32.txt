@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/7a32bd23-f735-4f57-aa1a-447d2fe3be0dFVMAIN/7a32bd23-f735-4f57-aa1a-447d2fe3be0dSEC2.pe32 /home/core/edk2-dipper/XiaomiMI8Pkg/Binary/SPI/SPI.efi

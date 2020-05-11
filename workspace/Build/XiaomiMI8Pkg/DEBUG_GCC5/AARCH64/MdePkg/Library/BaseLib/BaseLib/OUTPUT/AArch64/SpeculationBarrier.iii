@@ -1,0 +1,33 @@
+##------------------------------------------------------------------------------
+
+# SpeculationBarrier() for AArch64
+
+# Copyright (c) 2019, Linaro Ltd. All rights reserved.
+
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+
+##------------------------------------------------------------------------------
+
+.text
+.p2align 2
+
+.global SpeculationBarrier ; .type SpeculationBarrier, %function
+
+
+
+
+
+
+
+
+
+ #void
+ #
+ #SpeculationBarrier (
+# void
+ # );
+
+SpeculationBarrier:
+    dsb sy
+    isb
+    ret

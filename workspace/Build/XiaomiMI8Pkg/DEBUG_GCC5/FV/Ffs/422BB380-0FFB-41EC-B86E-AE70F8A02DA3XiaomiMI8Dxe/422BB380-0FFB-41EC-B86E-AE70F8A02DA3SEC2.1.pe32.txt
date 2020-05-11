@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/422BB380-0FFB-41EC-B86E-AE70F8A02DA3XiaomiMI8Dxe/422BB380-0FFB-41EC-B86E-AE70F8A02DA3SEC2.1.pe32 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/XiaomiMI8Pkg/XiaomiMI8Dxe/XiaomiMI8Dxe/OUTPUT/XiaomiMI8Dxe.efi

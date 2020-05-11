@@ -1,0 +1,120 @@
+#/** @file
+#
+#  (C) Copyright 2015 Hewlett-Packard Development Company, L.P.<BR>
+#  Copyright (c) 2011-2017, ARM Ltd. All rights reserved.<BR>
+#
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+#**/
+
+# DO NOT EDIT
+# FILE auto-generated
+
+[Defines]
+  INF_VERSION                = 0x00010017
+  BASE_NAME                  = ArmPlatformPrePiUniCore
+  FILE_GUID                  = d959e387-7b91-452c-90e0-a1dbac90ddb8
+  MODULE_TYPE                = SEC
+  VERSION_STRING             = 1.0
+
+[Packages.AARCH64]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  EmbeddedPkg/EmbeddedPkg.dec
+  ArmPkg/ArmPkg.dec
+
+[Binaries.AARCH64]
+  PE32|ArmPlatformPrePiUniCore.efi
+
+[PatchPcd.AARCH64]
+
+[Protocols.AARCH64]
+  gPeCoffLoaderProtocolGuid
+
+
+[Ppis.AARCH64]
+  gArmMpCoreInfoPpiGuid
+
+
+[Guids.AARCH64]
+  gArmMpCoreInfoGuid
+
+  gEfiFirmwarePerformanceGuid
+
+  gEfiHobMemoryAllocModuleGuid
+
+  gEfiHobMemoryAllocStackGuid
+
+  gEfiMemoryTypeInformationGuid
+
+  ## PRODUCES  ## UNDEFINED # specifies LZMA custom decompress algorithm.
+  gLzmaCustomDecompressGuid
+
+
+[PcdEx.AARCH64]
+
+[LibraryClasses.AARCH64]
+## @LIB_INSTANCES
+#  MdePkg/Library/BasePcdLibNull/BasePcdLibNull.inf
+#  MdePkg/Library/BaseMemoryLib/BaseMemoryLib.inf
+#  MdePkg/Library/BaseLib/BaseLib.inf
+#  ArmPkg/Library/ArmLib/ArmBaseLib.inf
+#  ArmPlatformPkg/Library/PrePiHobListPointerLib/PrePiHobListPointerLib.inf
+#  ArmPkg/Library/CompilerIntrinsicsLib/CompilerIntrinsicsLib.inf
+#  EmbeddedPkg/Library/PrePiHobLib/PrePiHobLib.inf
+#  MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic.inf
+#  ArmPkg/Library/ArmCacheMaintenanceLib/ArmCacheMaintenanceLib.inf
+#  MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib.inf
+#  MdePkg/Library/BasePrintLib/BasePrintLib.inf
+#  XiaomiMI8Pkg/Library/FrameBufferSerialPortLib/FrameBufferSerialPortLib.inf
+#  MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort.inf
+#  ArmPkg/Library/DebugPeCoffExtraActionLib/DebugPeCoffExtraActionLib.inf
+#  ArmPkg/Library/ArmGenericTimerPhyCounterLib/ArmGenericTimerPhyCounterLib.inf
+#  MdePkg/Library/BasePerformanceLibNull/BasePerformanceLibNull.inf
+#  MdePkg/Library/BasePeCoffLib/BasePeCoffLib.inf
+#  MdePkg/Library/BaseUefiDecompressLib/BaseUefiDecompressLib.inf
+#  EmbeddedPkg/Library/PrePiExtractGuidedSectionLib/PrePiExtractGuidedSectionLib.inf
+#  ArmPkg/Library/ArmArchTimerLib/ArmArchTimerLib.inf
+#  EmbeddedPkg/Library/PrePiLib/PrePiLib.inf
+#  EmbeddedPkg/Library/PrePiMemoryAllocationLib/PrePiMemoryAllocationLib.inf
+#  XiaomiMI8Pkg/Library/XiaomiMI8Lib/XiaomiMI8Lib.inf
+#  ArmPkg/Library/ArmMmuLib/ArmMmuBaseLib.inf
+#  MdeModulePkg/Library/DebugAgentLibNull/DebugAgentLibNull.inf
+#  MdeModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib.inf
+#  ArmPlatformPkg/Library/ArmPlatformStackLib/ArmPlatformStackLib.inf
+#  XiaomiMI8Pkg/Library/PlatformPeiLib/PlatformPeiLib.inf
+#  XiaomiMI8Pkg/Library/MemoryInitPeiLib/PeiMemoryAllocationLib.inf
+#  MdePkg/Library/BaseStackCheckLib/BaseStackCheckLib.inf
+
+[Depex.AARCH64]
+#  (gEfiPeiMemoryDiscoveredPpiGuid) AND (TRUE)
+
+
+
+
+
+[BuildOptions.AARCH64]
+## @AsBuilt
+##   GCC:DEBUG_GCC5_AARCH64_ASLPP_FLAGS = -x c -E -include AutoGen.h
+##   GCC:DEBUG_GCC5_AARCH64_ASLDLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -Wl,--entry,ReferenceAcpiTable -u $(IMAGE_ENTRY_POINT) -Wl,--defsym=PECOFF_HEADER_SIZE=0 -Wl,--script=$(EDK_TOOLS_PATH)/Scripts/GccBase.lds -z common-page-size=0x20
+##   GCC:DEBUG_GCC5_AARCH64_GENFW_FLAGS = 
+##   GCC:DEBUG_GCC5_AARCH64_OBJCOPY_FLAGS = objcopy not needed for
+##   GCC:DEBUG_GCC5_AARCH64_ASM_FLAGS = $(ARCHASM_FLAGS) $(PLATFORM_FLAGS) -c -x assembler -imacros $(DEST_DIR_DEBUG)/AutoGen.h -mlittle-endian
+##   GCC:DEBUG_GCC5_AARCH64_CC_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -g -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -ffunction-sections -fdata-sections -include AutoGen.h -fno-common -DSTRING_ARRAY_NAME=$(BASE_NAME)Strings -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -mlittle-endian -fno-short-enums -fverbose-asm -funsigned-char  -ffunction-sections -fdata-sections -Wno-address -fno-asynchronous-unwind-tables -fno-unwind-tables -fno-pic -fno-pie -ffixed-x18 -mcmodel=small -flto -Wno-unused-but-set-variable -Wno-unused-const-variable
+##   GCC:DEBUG_GCC5_AARCH64_ASMLINK_FLAGS = /nologo /tiny
+##   GCC:DEBUG_GCC5_AARCH64_VFR_FLAGS = -l -n
+##   GCC:DEBUG_GCC5_AARCH64_ASLCC_FLAGS = -x c -fno-lto
+##   GCC:DEBUG_GCC5_AARCH64_APP_FLAGS = 
+##   GCC:DEBUG_GCC5_AARCH64_OPTROM_FLAGS = -e
+##   GCC:DEBUG_GCC5_AARCH64_DTC_FLAGS = -H epapr
+##   GCC:DEBUG_GCC5_AARCH64_MAKE_FLAGS = -s
+##   GCC:DEBUG_GCC5_AARCH64_SYMRENAME_FLAGS = Symbol renaming not needed for
+##   GCC:DEBUG_GCC5_AARCH64_RC_FLAGS = -I binary -O elf64-littleaarch64 -B aarch64 --rename-section .data=.hii
+##   GCC:DEBUG_GCC5_AARCH64_PP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -E -x assembler-with-cpp -include $(DEST_DIR_DEBUG)/AutoGen.h
+##   GCC:DEBUG_GCC5_AARCH64_VFRPP_FLAGS = $(ARCHCC_FLAGS) $(PLATFORM_FLAGS) -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
+##   GCC:DEBUG_GCC5_AARCH64_DLINK_FLAGS = -Wl,--emit-relocs -nostdlib -Wl,--gc-sections -u $(IMAGE_ENTRY_POINT) -Wl,-e,$(IMAGE_ENTRY_POINT),-Map,$(DEST_DIR_DEBUG)/$(BASE_NAME).map -z common-page-size=0x20 -z common-page-size=0x1000 -flto -Os -L/home/core/edk2/ArmPkg/Library/GccLto -llto-aarch64 -Wl,-plugin-opt=-pass-through=-llto-aarch64 -Wno-lto-type-mismatch
+##   GCC:DEBUG_GCC5_AARCH64_PLATFORM_FLAGS = 
+##   GCC:DEBUG_GCC5_AARCH64_ASL_FLAGS = 
+##   GCC:DEBUG_GCC5_AARCH64_NASMB_FLAGS = -f bin
+##   GCC:DEBUG_GCC5_AARCH64_DLINK2_FLAGS = -Wl,--script=$(EDK_TOOLS_PATH)/Scripts/GccBase.lds -Wl,--defsym=PECOFF_HEADER_SIZE=0x228 -Wno-error
+##   GCC:DEBUG_GCC5_AARCH64_DTCPP_FLAGS = -E -x assembler-with-cpp -imacros $(DEST_DIR_DEBUG)/AutoGen.h -nostdinc -undef

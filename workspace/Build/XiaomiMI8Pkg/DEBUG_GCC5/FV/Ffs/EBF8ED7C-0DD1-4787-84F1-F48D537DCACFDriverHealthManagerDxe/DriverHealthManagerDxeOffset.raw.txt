@@ -1,0 +1,1 @@
+GenSec -s EFI_SECTION_RAW -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFDriverHealthManagerDxe/DriverHealthManagerDxeOffset.raw /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/EBF8ED7C-0DD1-4787-84F1-F48D537DCACFDriverHealthManagerDxe/DriverHealthManagerDxe.offset

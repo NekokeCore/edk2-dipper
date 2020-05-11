@@ -1,0 +1,11 @@
+/home/core/edk2/MdeModulePkg/Library/UefiBootManagerLib/BmLoadOption.c
+/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib/DEBUG/AutoGen.h
+/home/core/edk2/MdeModulePkg/Library/UefiBootManagerLib/BmConnect.c
+/home/core/edk2/MdeModulePkg/Library/UefiBootManagerLib/UefiBootManagerLib.inf
+/home/core/edk2/MdeModulePkg/Library/UefiBootManagerLib/BmHotkey.c
+/home/core/edk2/MdeModulePkg/Library/UefiBootManagerLib/InternalBm.h
+/home/core/edk2/MdeModulePkg/Library/UefiBootManagerLib/BmConsole.c
+/home/core/edk2/MdeModulePkg/Library/UefiBootManagerLib/BmDriverHealth.c
+/home/core/edk2/MdeModulePkg/Library/UefiBootManagerLib/BmBootDescription.c
+/home/core/edk2/MdeModulePkg/Library/UefiBootManagerLib/BmMisc.c
+/home/core/edk2/MdeModulePkg/Library/UefiBootManagerLib/BmBoot.c
