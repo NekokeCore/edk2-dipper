@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/02b01ad5-7e59-43e8-a6d8-238180613a5aFVMAIN/02b01ad5-7e59-43e8-a6d8-238180613a5aSEC2.pe32 /home/core/edk2-dipper/XiaomiMI8Pkg/Binary/EmuVariableRuntimeDxe/EmuVariableRuntimeDxe.efi

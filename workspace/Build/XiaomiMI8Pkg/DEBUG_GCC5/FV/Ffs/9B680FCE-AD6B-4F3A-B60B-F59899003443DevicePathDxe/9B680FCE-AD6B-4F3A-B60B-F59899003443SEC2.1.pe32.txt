@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/9B680FCE-AD6B-4F3A-B60B-F59899003443DevicePathDxe/9B680FCE-AD6B-4F3A-B60B-F59899003443SEC2.1.pe32 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/DevicePathDxe/DevicePathDxe/OUTPUT/DevicePathDxe.efi

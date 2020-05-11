@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/9E863906-A40F-4875-977F-5B93FF237FC6TerminalDxe/9E863906-A40F-4875-977F-5B93FF237FC6SEC2.1.pe32 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/Console/TerminalDxe/TerminalDxe/OUTPUT/TerminalDxe.efi

@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/9622E42C-8E38-4a08-9E8F-54F784652F6BAcpiTableDxe/9622E42C-8E38-4a08-9E8F-54F784652F6BSEC2.1.pe32 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe/OUTPUT/AcpiTableDxe.efi

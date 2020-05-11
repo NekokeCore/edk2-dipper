@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/4bce7f36-428e-4393-99e3-7e0844404dbaFVMAIN/4bce7f36-428e-4393-99e3-7e0844404dbaSEC2.pe32 /home/core/edk2-dipper/XiaomiMI8Pkg/Binary/QcomChargerDxeLA/QcomChargerDxeLA.efi

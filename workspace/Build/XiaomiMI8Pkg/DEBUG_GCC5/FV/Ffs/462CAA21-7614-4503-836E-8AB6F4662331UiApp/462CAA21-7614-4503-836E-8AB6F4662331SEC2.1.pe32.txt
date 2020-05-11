@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/462CAA21-7614-4503-836E-8AB6F4662331UiApp/462CAA21-7614-4503-836E-8AB6F4662331SEC2.1.pe32 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Application/UiApp/UiApp/OUTPUT/UiApp.efi

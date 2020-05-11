@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_RAW -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/462CAA21-7614-4503-836E-8AB6F4662331UiApp/UiAppOffset.raw /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/462CAA21-7614-4503-836E-8AB6F4662331UiApp/UiApp.offset

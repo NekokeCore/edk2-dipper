@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_DXE_DEPEX -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/4db5dea6-5302-4d1a-8a82-677a683b0d29FVMAIN/4db5dea6-5302-4d1a-8a82-677a683b0d29SEC1.dpx /home/core/edk2-dipper/XiaomiMI8Pkg/Binary/ClockDxe/ClockDxe.depex

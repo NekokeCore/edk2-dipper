@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/5bd181db-0487-4f1a-ae73-820e165611b3FVMAIN/5bd181db-0487-4f1a-ae73-820e165611b3SEC2.pe32 /home/core/edk2-dipper/XiaomiMI8Pkg/Binary/ButtonsDxe/ButtonsDxe.efi

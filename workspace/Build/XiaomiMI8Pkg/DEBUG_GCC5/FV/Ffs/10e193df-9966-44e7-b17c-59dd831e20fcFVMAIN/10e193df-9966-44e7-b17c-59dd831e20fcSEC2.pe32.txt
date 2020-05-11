@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/10e193df-9966-44e7-b17c-59dd831e20fcFVMAIN/10e193df-9966-44e7-b17c-59dd831e20fcSEC2.pe32 /home/core/edk2-dipper/XiaomiMI8Pkg/Binary/ChipInfo/ChipInfo.efi

@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/907125c0-a5f1-11e3-a3fe-a3198b49350cFvSimpleFileSystem/907125c0-a5f1-11e3-a3fe-a3198b49350cSEC2.1.pe32 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/FvSimpleFileSystemDxe/FvSimpleFileSystemDxe/OUTPUT/FvSimpleFileSystem.efi

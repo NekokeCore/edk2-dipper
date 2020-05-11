@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/f541d663-4a48-40aa-aabf-ff158ccae34cFVMAIN/f541d663-4a48-40aa-aabf-ff158ccae34cSEC2.pe32 /home/core/edk2-dipper/XiaomiMI8Pkg/Binary/SmemDxe/SmemDxe.efi

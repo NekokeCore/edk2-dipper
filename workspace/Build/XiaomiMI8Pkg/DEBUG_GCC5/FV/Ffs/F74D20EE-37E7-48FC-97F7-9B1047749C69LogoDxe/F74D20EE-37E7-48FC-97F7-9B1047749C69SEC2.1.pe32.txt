@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/F74D20EE-37E7-48FC-97F7-9B1047749C69LogoDxe/F74D20EE-37E7-48FC-97F7-9B1047749C69SEC2.1.pe32 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/XiaomiMI8Pkg/Drivers/LogoDxe/LogoDxe/OUTPUT/LogoDxe.efi

@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/5776232e-082d-4b75-9a0e-fe1d13f7a5d9FVMAIN/5776232e-082d-4b75-9a0e-fe1d13f7a5d9SEC2.pe32 /home/core/edk2-dipper/XiaomiMI8Pkg/Binary/PmicDxe/PmicDxe.efi

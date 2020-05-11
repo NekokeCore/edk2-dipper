@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_RAW -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/7E374E25-8E01-4FEE-87F2-390C23C606CDFVMAIN/7E374E25-8E01-4FEE-87F2-390C23C606CDSEC9.raw /home/core/edk2-dipper/XiaomiMI8Pkg/AcpiTables/SDM850/PPTT.aml

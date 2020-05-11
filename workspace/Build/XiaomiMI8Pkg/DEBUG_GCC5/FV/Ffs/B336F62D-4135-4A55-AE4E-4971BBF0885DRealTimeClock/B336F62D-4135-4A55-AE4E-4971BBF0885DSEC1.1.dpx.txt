@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_DXE_DEPEX -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/B336F62D-4135-4A55-AE4E-4971BBF0885DRealTimeClock/B336F62D-4135-4A55-AE4E-4971BBF0885DSEC1.1.dpx /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/RealTimeClockRuntimeDxe/RealTimeClockRuntimeDxe/OUTPUT/RealTimeClock.depex

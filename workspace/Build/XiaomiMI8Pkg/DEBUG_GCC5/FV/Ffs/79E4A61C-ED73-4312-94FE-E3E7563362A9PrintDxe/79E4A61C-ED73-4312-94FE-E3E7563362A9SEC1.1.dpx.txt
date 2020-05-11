@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_DXE_DEPEX -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/79E4A61C-ED73-4312-94FE-E3E7563362A9PrintDxe/79E4A61C-ED73-4312-94FE-E3E7563362A9SEC1.1.dpx /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/PrintDxe/PrintDxe/OUTPUT/PrintDxe.depex

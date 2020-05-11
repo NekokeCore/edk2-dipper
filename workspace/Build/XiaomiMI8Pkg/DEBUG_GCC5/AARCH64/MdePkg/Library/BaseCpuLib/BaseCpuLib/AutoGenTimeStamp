@@ -1,6 +1,0 @@
-/home/core/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuSleep.S
-/home/core/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuFlushTlb.asm
-/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/DEBUG/AutoGen.h
-/home/core/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuFlushTlb.S
-/home/core/edk2/MdePkg/Library/BaseCpuLib/AArch64/CpuSleep.asm
-/home/core/edk2/MdePkg/Library/BaseCpuLib/BaseCpuLib.inf

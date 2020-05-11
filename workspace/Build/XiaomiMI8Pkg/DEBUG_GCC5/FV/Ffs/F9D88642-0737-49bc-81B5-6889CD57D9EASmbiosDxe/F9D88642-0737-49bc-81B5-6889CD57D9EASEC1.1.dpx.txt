@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_DXE_DEPEX -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/F9D88642-0737-49bc-81B5-6889CD57D9EASmbiosDxe/F9D88642-0737-49bc-81B5-6889CD57D9EASEC1.1.dpx /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/SmbiosDxe/SmbiosDxe/OUTPUT/SmbiosDxe.depex

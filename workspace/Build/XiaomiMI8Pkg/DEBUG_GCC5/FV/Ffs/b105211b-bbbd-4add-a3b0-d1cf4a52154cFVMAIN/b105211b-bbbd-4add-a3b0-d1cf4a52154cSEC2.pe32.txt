@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/b105211b-bbbd-4add-a3b0-d1cf4a52154cFVMAIN/b105211b-bbbd-4add-a3b0-d1cf4a52154cSEC2.pe32 /home/core/edk2-dipper/XiaomiMI8Pkg/Binary/PlatformInfoDxeDriver/PlatformInfoDxeDriver.efi

@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/51ccf399-4fdf-4e55-a45b-e123f84d456aConPlatformDxe/51ccf399-4fdf-4e55-a45b-e123f84d456aSEC2.1.pe32 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe/OUTPUT/ConPlatformDxe.efi

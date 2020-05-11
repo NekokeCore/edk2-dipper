@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/9588502a-5370-11e3-8631-d7c5951364c8AndroidFastbootApp/9588502a-5370-11e3-8631-d7c5951364c8SEC2.1.pe32 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/EmbeddedPkg/Application/AndroidFastboot/AndroidFastbootApp/OUTPUT/AndroidFastbootApp.efi

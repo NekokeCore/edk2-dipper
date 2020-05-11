@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/CCCB0C28-4B24-11d5-9A5A-0090273FC14DGraphicsConsoleDxe/CCCB0C28-4B24-11d5-9A5A-0090273FC14DSEC2.1.pe32 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/Console/GraphicsConsoleDxe/GraphicsConsoleDxe/OUTPUT/GraphicsConsoleDxe.efi

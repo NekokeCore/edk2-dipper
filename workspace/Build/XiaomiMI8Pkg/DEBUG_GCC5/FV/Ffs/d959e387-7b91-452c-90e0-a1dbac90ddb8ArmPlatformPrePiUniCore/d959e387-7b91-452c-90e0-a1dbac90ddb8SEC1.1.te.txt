@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_TE -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/d959e387-7b91-452c-90e0-a1dbac90ddb8ArmPlatformPrePiUniCore/d959e387-7b91-452c-90e0-a1dbac90ddb8SEC1.1.te /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/d959e387-7b91-452c-90e0-a1dbac90ddb8ArmPlatformPrePiUniCore/d959e387-7b91-452c-90e0-a1dbac90ddb8Te.raw

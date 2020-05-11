@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/af9763a2-033b-4109-8e17-56a98d380c92FVMAIN/af9763a2-033b-4109-8e17-56a98d380c92SEC2.pe32 /home/core/edk2-dipper/XiaomiMI8Pkg/Binary/HWIODxeDriver/HWIODxeDriver.efi

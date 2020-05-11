@@ -1,9 +1,0 @@
-/home/core/edk2/MdePkg/Library/UefiLib/UefiNotTiano.c
-/home/core/edk2/MdePkg/Library/UefiLib/UefiLib.c
-/home/core/edk2/MdePkg/Library/UefiLib/UefiDriverModel.c
-/home/core/edk2/MdePkg/Library/UefiLib/Acpi.c
-/home/core/edk2/MdePkg/Library/UefiLib/Console.c
-/home/core/edk2/MdePkg/Library/UefiLib/UefiLibInternal.h
-/home/core/edk2/MdePkg/Library/UefiLib/UefiLibPrint.c
-/home/core/edk2/MdePkg/Library/UefiLib/UefiLib.inf
-/home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdePkg/Library/UefiLib/UefiLib/DEBUG/AutoGen.h

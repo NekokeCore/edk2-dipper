@@ -1,1 +1,0 @@
-GenSec -s EFI_SECTION_PE32 -o /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/FV/Ffs/CD3BAFB6-50FB-4fe8-8E4E-AB74D2C1A600EnglishDxe/CD3BAFB6-50FB-4fe8-8E4E-AB74D2C1A600SEC2.1.pe32 /home/core/edk2-dipper/workspace/Build/XiaomiMI8Pkg/DEBUG_GCC5/AARCH64/MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe/OUTPUT/EnglishDxe.efi

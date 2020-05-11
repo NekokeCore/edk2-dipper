@@ -1,9 +1,0 @@
-EFI_FV_TOTAL_SIZE = 0x1f8000
-EFI_FV_TAKEN_SIZE = 0x1461a8
-EFI_FV_SPACE_SIZE = 0xb1e58
-
-ArmPlatformPrePiUniCore (Fixed Flash Address, BaseAddress=0x00d0009160, EntryPoint=0x00d00107f8)
-(GUID=D959E387-7B91-452C-90E0-A1DBAC90DDB8 .textbaseaddress=0x00d0009240 .databaseaddress=0x00d0012480)
-
-
-
