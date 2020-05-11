@@ -66,6 +66,17 @@ sudo apt install gcc-aarch64-linux-gnu
 
 ## Building
 1.Clone edk2 and edk2-platforms (Place three directories side by side.)
+
+edk2:
+```
+3a3713e62cfad00d78bb938b0d9fb1eedaeff314
+```
+
+edk2-platforms:
+```
+cfdc7f907d545b14302295b819ea078bc36c6a40
+```
+
 ```
 mkdir workspace
 cd workspace
