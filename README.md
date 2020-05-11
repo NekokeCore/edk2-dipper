@@ -28,7 +28,7 @@ It's very unstable and you may lost your data.
 
 2020.4.17 Fix UFS drive and Fix MemoryMap（Thanks [Lemon1Ice](https://github.com/Lemon1Ice)）.
 
-2020.4.19 Add ACPI etc. Tables and Fix DSDT 24 Errors. （PS.The ACPI and SSDT etc. Tables Provided by [Lemon1Ice](https://github.com/Lemon1Ice)）
+2020.4.19 Add ACPI etc. Tables and Fix DSDT 24 Errors. （PS.The ACPI and SSDT etc. Tables Provided by [5超级菜鸟5](https://github.com/sunshuyu)
 
 2020.4.24 Fix Clock and The Clock is work well && Add SmemDxe SPI SPMI HWIODxeDriver PmicDxe ButtonsDxe ChipInfoDxe to Binary && Add USB driver
 
@@ -42,6 +42,9 @@ It's very unstable and you may lost your data.
 
 ## To-Do
 1.Fix fts touchscreen
+2.Fix ACPI tables
+3.Partition UFS
+4.make USB work
 
 ## Dependencies
 
@@ -69,28 +72,34 @@ sudo apt install gcc-aarch64-linux-gnu
 
 edk2:
 ```
-3a3713e62cfad00d78bb938b0d9fb1eedaeff314
+commit:3a3713e62cfad00d78bb938b0d9fb1eedaeff314
 ```
 
 edk2-platforms:
 ```
-cfdc7f907d545b14302295b819ea078bc36c6a40
+commit:cfdc7f907d545b14302295b819ea078bc36c6a40
 ```
 
 ```
-mkdir workspace
-cd workspace
+mkdir workspaceedk2
+cd workspaceedk2
 git clone https://github.com/tianocore/edk2.git --recursive
 git clone https://github.com/tianocore/edk2-platforms.git
+cd edk2
+git checkout 3a3713e62cfad00d78bb938b0d9fb1eedaeff314
+cd ..
+cd edk2-platforms
+git checkout cfdc7f907d545b14302295b819ea078bc36c6a40
 ```
 
 2.Clone this project
 ```
-git clone https://github.com/NekokeCore/edk2_dipper_SDM845_Xiaomi_mi_8.git
+git clone https://github.com/NekokeCore/edk2-dipper.git
 ```
 
 3.Build eenvironment
 ```
+mkdir workspace
 bash firstrun.sh
 ```
 
@@ -104,7 +113,9 @@ fastboot boot uefi.img
 ```
 
 ## Credits
-MemoryMap and ACPI etc. tables thanks [Lemon1Ice](https://github.com/Lemon1Ice).
+MemoryMap thanks [Lemon1Ice](https://github.com/Lemon1Ice).
+
+ACPI etc. tables thanks [5超级菜鸟5](https://github.com/sunshuyu)
 
 Orther edk2 project [EngLearnsh](https://github.com/EngLearnsh/edk2-dipper).
 
