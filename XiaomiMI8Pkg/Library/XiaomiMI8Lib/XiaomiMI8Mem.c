@@ -80,7 +80,7 @@ ArmPlatformGetVirtualMemoryMap (
         MemoryDescriptor[Index].PhysicalBase = gDeviceMemoryDescriptorEx[Index].Address;
         MemoryDescriptor[Index].VirtualBase = gDeviceMemoryDescriptorEx[Index].Address;
         MemoryDescriptor[Index].Length = gDeviceMemoryDescriptorEx[Index].Length;
-	MemoryDescriptor[Index].Attributes = gDeviceMemoryDescriptorEx[Index].ArmAttributes;
+	      MemoryDescriptor[Index].Attributes = gDeviceMemoryDescriptorEx[Index].ArmAttributes;
 
         Index++;
     }
