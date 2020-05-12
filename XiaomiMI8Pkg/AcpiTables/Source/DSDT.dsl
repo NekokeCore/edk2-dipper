@@ -12,13 +12,13 @@
  *     Length           0x000410EA (266474)
  *     Revision         0x02
  *     Checksum         0xE1
- *     OEM ID           "HUAWEI"
+ *     OEM ID           "QCOM  "
  *     OEM Table ID     "SDM850 "
  *     OEM Revision     0x00000003 (3)
  *     Compiler ID      "MSFT"
  *     Compiler Version 0x05000000 (83886080)
  */
-DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
+DefinitionBlock ("", "DSDT", 2, "QCOM  ", "SDM850 ", 0x00000003)
 {
     External (_SB_.ECOK, UnknownObj)
     External (_SB_.I2C8.BLN1, UnknownObj)
