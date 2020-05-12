@@ -29,64 +29,6 @@ echo [BuildTools] Now Moveing DSDT Table to Target Folder
 mv XiaomiMI8Pkg/AcpiTables/Source/DSDT.aml XiaomiMI8Pkg/AcpiTables/SDM850/DSDT.aml
 echo [BuildTools] Done.
 
-#Will be enabled in the future
-
-#echo [BuildTools] Now Building CSRT Table
-#iasl -f XiaomiMI8Pkg/AcpiTables/Source/CSRT.dsl
-#echo [BuildTools] Done.
-#echo [BuildTools] Now Moveing CSRT Table to Target Folder
-#mv XiaomiMI8Pkg/AcpiTables/Source/CSRT.aml XiaomiMI8Pkg/AcpiTables/SDM850/CSRT.aml
-#echo [BuildTools] Done.
-
-#echo [BuildTools] Now Building DBG2 Table
-#iasl -f XiaomiMI8Pkg/AcpiTables/Source/DBG2.dsl
-#echo [BuildTools] Done.
-#echo [BuildTools] Now Copying DBG2 Table to Target Folder
-#mv XiaomiMI8Pkg/AcpiTables/Source/DBG2.aml XiaomiMI8Pkg/AcpiTables/SDM850/DBG2.aml
-#echo [BuildTools] Done.
-
-#echo [BuildTools] Now Building FACS Table
-#iasl -f XiaomiMI8Pkg/AcpiTables/Source/FACS.dsl
-#echo [BuildTools] Done.
-#echo [BuildTools] Now Copying FACS Table to Target Folder
-#mv XiaomiMI8Pkg/AcpiTables/Source/FACS.aml XiaomiMI8Pkg/AcpiTables/SDM850/FACS.aml
-#echo [BuildTools] Done.
-
-#echo [BuildTools] Now Building FADT Table
-#iasl -f XiaomiMI8Pkg/AcpiTables/Source/FADT.dsl
-#echo [BuildTools] Done.
-#echo [BuildTools] Now Copying FADT Table to Target Folder
-#mv XiaomiMI8Pkg/AcpiTables/Source/FADT.aml XiaomiMI8Pkg/AcpiTables/SDM850/FADT.aml
-#echo [BuildTools] Done.
-
-#echo [BuildTools] Now Building GTDT Table
-#iasl -f XiaomiMI8Pkg/AcpiTables/Source/GTDT.dsl
-#echo [BuildTools] Done.
-#echo [BuildTools] Now Copying GTDT Table to Target Folder
-#mv XiaomiMI8Pkg/AcpiTables/Source/GTDT.aml XiaomiMI8Pkg/AcpiTables/SDM850/GTDT.aml
-#echo [BuildTools] Done.
-
-#echo [BuildTools] Now Building MADT Table
-#iasl -f XiaomiMI8Pkg/AcpiTables/Source/MADT.dsl
-#echo [BuildTools] Done.
-#echo [BuildTools] Now Copying MADT Table to Target Folder
-#mv XiaomiMI8Pkg/AcpiTables/Source/MADT.aml XiaomiMI8Pkg/AcpiTables/SDM850/MADT.aml
-#echo [BuildTools] Done.
-
-#echo [BuildTools] Now Building MCFG Table
-#iasl -f XiaomiMI8Pkg/AcpiTables/Source/MCFG.dsl
-#echo [BuildTools] Done.
-#echo [BuildTools] Now Copying MCFG Table to Target Folder
-#mv XiaomiMI8Pkg/AcpiTables/Source/MCFG.aml XiaomiMI8Pkg/AcpiTables/SDM850/MCFG.aml
-#echo [BuildTools] Done.
-
-#echo [BuildTools] Now Building PPTT Table
-#iasl -f XiaomiMI8Pkg/AcpiTables/Source/PPTT.dsl
-#echo [BuildTools] Done.
-#echo [BuildTools] Now Copying PPTT Table to Target Folder
-#mv XiaomiMI8Pkg/AcpiTables/Source/PPTT.aml XiaomiMI8Pkg/AcpiTables/SDM850/PPTT.aml
-#echo [BuildTools] Done.
-
 echo [BuildTools] Build ACPI Tables Done.
 
 echo [BuildTools] Building UEFI Firmware
