@@ -2,7 +2,7 @@
 set -e
 echo [BuildTools] Now Start CIBuid
 sudo apt update
-sudo apt install -y build-essential uuid-dev iasl git nasm gcc-aarch64-linux-gnu bc figlet
+sudo apt install -y build-essential uuid-dev iasl git nasm gcc-aarch64-linux-gnu bc abootimg figlet
 figlet Edk2-Dipper-CI
 curdir="$PWD"
 cd ..
