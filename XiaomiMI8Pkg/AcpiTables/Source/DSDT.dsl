@@ -45203,7 +45203,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 {
                     Memory32Fixed (ReadWrite,
                         0x17184000,         // Address Base
-                        0x00032000,         // Address Length
+                        0x0002a000,         // Address Length
                         )
                     Interrupt (ResourceConsumer, Edge, ActiveHigh, Exclusive, ,, )
                     {
@@ -45226,7 +45226,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 {
                     Memory32Fixed (ReadWrite,
                         0x17204000,         // Address Base
-                        0x00026000,         // Address Length
+                        0x00020000,         // Address Length
                         )
                     Interrupt (ResourceConsumer, Edge, ActiveHigh, Exclusive, ,, )
                     {
@@ -45260,7 +45260,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
             }
         }
 
-        Device (BAMD)
+    /*    Device (BAMD)
         {
             Name (_HID, "QCOM0213")  // _HID: Hardware ID
             Alias (\_SB.PSUB, _SUB)
@@ -45279,9 +45279,10 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                         0x000000A9,
                     }
                 })
-                Return (RBUF) /* \_SB_.BAMD._CRS.RBUF */
+                Return (RBUF) // \_SB_.BAMD._CRS.RBUF
             }
         }
+    */
 
         Device (BAME)
         {
@@ -48536,7 +48537,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                     }
                 }
             }
-
+            /*
             Device (SLM2)
             {
                 Name (_ADR, One)  // _ADR: Address
@@ -48554,9 +48555,10 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                             0x00000143,
                         }
                     })
-                    Return (RBUF) /* \_SB_.ADSP.SLM2._CRS.RBUF */
+                    Return (RBUF) // \_SB_.ADSP.SLM2._CRS.RBUF
                 }
             }
+            */
         }
 
         Device (AMSS)
@@ -48631,10 +48633,12 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                             0x18800000,         // Address Base
                             0x00800000,         // Address Length
                             )
+                        /*
                         Memory32Fixed (ReadWrite,
                             0x0C250000,         // Address Base
                             0x00000010,         // Address Length
                             )
+                        */
                         Memory32Fixed (ReadWrite,
                             0x8C400000,         // Address Base
                             0x00100000,         // Address Length
@@ -48737,7 +48741,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 }
             }
         }
-
+        /*
         Device (QSM)
         {
             Name (_HID, "QCOM02B9")  // _HID: Hardware ID
@@ -48758,7 +48762,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                         0x00600000,         // Address Length
                         )
                 })
-                Return (RBUF) /* \_SB_.QSM_._CRS.RBUF */
+                Return (RBUF) // \_SB_.QSM_._CRS.RBUF 
             }
 
             Method (_STA, 0, NotSerialized)  // _STA: Status
@@ -48766,6 +48770,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 Return (0x0F)
             }
         }
+        */
 
         Device (SSDD)
         {
@@ -48856,7 +48861,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 }
             }
         }
-
+        /*
         Device (LLC)
         {
             Name (_DEP, Package (One)  // _DEP: Dependencies
@@ -48876,6 +48881,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 })
             }
         }
+        */
 
         Device (MMU0)
         {
@@ -48892,11 +48898,11 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 {
                     Memory32Fixed (ReadWrite,
                         0x15000000,         // Address Base
-                        0x0007FFB8,         // Address Length
+                        0x00080000,         // Address Length
                         )
                     Memory32Fixed (ReadWrite,
-                        0x01F46000,         // Address Base
-                        0x00000004,         // Address Length
+                        0x150c2000,         // Address Base
+                        0x00000020,         // Address Length
                         )
                     Interrupt (ResourceConsumer, Edge, ActiveHigh, Exclusive, ,, )
                     {
@@ -49176,11 +49182,15 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 {
                     Memory32Fixed (ReadWrite,
                         0x0AE00000,         // Address Base
-                        0x00140000,         // Address Length
+                        0x00081d40,         // Address Length
+                        )
+                    Memory32Fixed (ReadWrite,
+                        0x0AE00000,         // Address Base
+                        0x000ac000,         // Address Length
                         )
                     Memory32Fixed (ReadWrite,
                         0x088E0000,         // Address Base
-                        0x000F4000,         // Address Length
+                        0x00002000,         // Address Length
                         )
                     Interrupt (ResourceConsumer, Level, ActiveHigh, Exclusive, ,, )
                     {
@@ -49188,19 +49198,21 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                     }
                     Memory32Fixed (ReadWrite,
                         0x05000000,         // Address Base
-                        0x0003F010,         // Address Length
+                        0x00040000,         // Address Length
                         )
+                    /*
                     Memory32Fixed (ReadWrite,
                         0x05060000,         // Address Base
                         0x0003F000,         // Address Length
                         )
+                    */
                     Interrupt (ResourceConsumer, Level, ActiveHigh, Exclusive, ,, )
                     {
                         0x0000014C,
                     }
                     Memory32Fixed (ReadWrite,
                         0x0B280000,         // Address Base
-                        0x0000FFFF,         // Address Length
+                        0x00010000,         // Address Length
                         )
                     Memory32Fixed (ReadWrite,
                         0x0B480000,         // Address Base
@@ -49210,10 +49222,12 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                         0x05090000,         // Address Base
                         0x00009000,         // Address Length
                         )
+                    /*
                     Memory32Fixed (ReadWrite,
                         0x0C200000,         // Address Base
                         0x0000FFFF,         // Address Length
                         )
+                    */
                     Memory32Fixed (ReadWrite,
                         0x0AA00000,         // Address Base
                         0x00200000,         // Address Length
@@ -58585,7 +58599,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 {
                     Memory32Fixed (ReadWrite,
                         0x0C400000,         // Address Base
-                        0x02800000,         // Address Length
+                        0x00001100,         // Address Length
                         )
                 })
                 Return (RBUF) /* \_SB_.SPMI._CRS.RBUF */
@@ -59436,7 +59450,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 {
                     Memory32Fixed (ReadWrite,
                         0x60200000,         // Address Base
-                        0x00DF0000,         // Address Length
+                        0x00100000,         // Address Length
                         )
                     WordBusNumber (ResourceProducer, MinFixed, MaxFixed, PosDecode,
                         0x0000,             // Granularity
@@ -60675,7 +60689,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 {
                     Memory32Fixed (ReadWrite,
                         0x40200000,         // Address Base
-                        0x01FDF000,         // Address Length
+                        0x00100000,         // Address Length
                         )
                     WordBusNumber (ResourceProducer, MinFixed, MaxFixed, PosDecode,
                         0x0000,             // Granularity
@@ -61135,8 +61149,8 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 Return (ResourceTemplate ()
                 {
                     Memory32Fixed (ReadWrite,
-                        0x01E40000,         // Address Base
-                        0x0001FFFF,         // Address Length
+                        0x01e00000,         // Address Base
+                        0x00034000,         // Address Length
                         )
                     Interrupt (ResourceConsumer, Edge, ActiveHigh, Exclusive, ,, )
                     {
@@ -61160,8 +61174,8 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 Name (RBUF, ResourceTemplate ()
                 {
                     Memory32Fixed (ReadWrite,
-                        0x01E00000,         // Address Base
-                        0x00030000,         // Address Length
+                        0x01e04000,         // Address Base
+                        0x0002c000,         // Address Length
                         )
                     Interrupt (ResourceConsumer, Edge, ActiveHigh, Exclusive, ,, )
                     {
@@ -62715,7 +62729,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
             Name (_CID, "ACPIQCOM24B4")  // _CID: Compatible ID
             Name (_UID, Zero)  // _UID: Unique ID
         }
-
+/*
         Device (QGP0)
         {
             Name (_HID, "QCOM02F4")  // _HID: Hardware ID
@@ -62735,7 +62749,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                         0x00000119,
                     }
                 })
-                Return (RBUF) /* \_SB_.QGP0._CRS.RBUF */
+                Return (RBUF) // \_SB_.QGP0._CRS.RBUF
             }
 
             Method (GPII, 0, Serialized)
@@ -62775,7 +62789,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                         0x0000013A,
                     }
                 })
-                Return (RBUF) /* \_SB_.QGP1._CRS.RBUF */
+                Return (RBUF) // \_SB_.QGP1._CRS.RBUF
             }
 
             Method (GPII, 0, Serialized)
@@ -62798,6 +62812,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 })
             }
         }
+    */
 
         Device (SARM)
         {
@@ -62820,15 +62835,15 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 {
                     Memory32Fixed (ReadWrite,
                         0x0AC40000,         // Address Base
-                        0x0000006C,         // Address Length
+                        0x00001000,         // Address Length
                         )
                     Memory32Fixed (ReadWrite,
                         0x0AC42000,         // Address Base
-                        0x00004E8C,         // Address Length
+                        0x00005000,         // Address Length
                         )
                     Memory32Fixed (ReadWrite,
                         0x0AC4A000,         // Address Base
-                        0x00000C1C,         // Address Length
+                        0x00004000,         // Address Length
                         )
                     Interrupt (ResourceConsumer, Edge, ActiveHigh, Exclusive, ,, )
                     {
@@ -63338,15 +63353,15 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 {
                     Memory32Fixed (ReadWrite,
                         0x0AC65000,         // Address Base
-                        0x00000900,         // Address Length
+                        0x00001000,         // Address Length
                         )
                     Memory32Fixed (ReadWrite,
                         0x0AC66000,         // Address Base
-                        0x00000900,         // Address Length
+                        0x00001000,         // Address Length
                         )
                     Memory32Fixed (ReadWrite,
                         0x0AC67000,         // Address Base
-                        0x00000900,         // Address Length
+                        0x00001000,         // Address Length
                         )
                     Interrupt (ResourceConsumer, Edge, ActiveHigh, Exclusive, ,, )
                     {
@@ -63380,11 +63395,11 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 {
                     Memory32Fixed (ReadWrite,
                         0x0AC4E000,         // Address Base
-                        0x00000340,         // Address Length
+                        0x00004000,         // Address Length
                         )
                     Memory32Fixed (ReadWrite,
                         0x0AC52000,         // Address Base
-                        0x000001B4,         // Address Length
+                        0x00004000,         // Address Length
                         )
                     Interrupt (ResourceConsumer, Edge, ActiveHigh, Exclusive, ,, )
                     {
@@ -63465,7 +63480,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 {
                     Memory32Fixed (ReadWrite,
                         0x0AC00000,         // Address Base
-                        0x00020000,         // Address Length
+                        0x00006000,         // Address Length
                         )
                     Memory32Fixed (ReadWrite,
                         0x0AC48000,         // Address Base
@@ -63473,35 +63488,35 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                         )
                     Memory32Fixed (ReadWrite,
                         0x0AC5A000,         // Address Base
-                        0x00004000,         // Address Length
+                        0x00001000,         // Address Length
                         )
                     Memory32Fixed (ReadWrite,
                         0x0AC6B000,         // Address Base
-                        0x00001000,         // Address Length
+                        0x00000a00,         // Address Length
                         )
                     Memory32Fixed (ReadOnly,
                         0x0AC6F000,         // Address Base
-                        0x00008000,         // Address Length
+                        0x00003000,         // Address Length
                         )
                     Memory32Fixed (ReadOnly,
                         0x0AC87000,         // Address Base
-                        0x0000A000,         // Address Length
+                        0x00003000,         // Address Length
                         )
                     Memory32Fixed (ReadOnly,
                         0x0AC91000,         // Address Base
-                        0x0000A000,         // Address Length
+                        0x00003000,         // Address Length
                         )
                     Memory32Fixed (ReadWrite,
                         0x0ACAF000,         // Address Base
-                        0x00005000,         // Address Length
+                        0x00004000,         // Address Length
                         )
                     Memory32Fixed (ReadWrite,
                         0x0ACB6000,         // Address Base
-                        0x00005000,         // Address Length
+                        0x00004000,         // Address Length
                         )
                     Memory32Fixed (ReadWrite,
                         0x0ACC4000,         // Address Base
-                        0x00005000,         // Address Length
+                        0x00004000,         // Address Length
                         )
                     Memory32Fixed (ReadWrite,
                         0x8BF00000,         // Address Base
@@ -63993,7 +64008,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
             {
                 Memory32Fixed (ReadWrite,
                     0x0A600000,         // Address Base
-                    0x000FFFFF,         // Address Length
+                    0x000f8c00,         // Address Length
                     )
             })
             Device (USB0)
@@ -64616,7 +64631,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 {
                     Memory32Fixed (ReadWrite,
                         0x0A800000,         // Address Base
-                        0x000FFFFF,         // Address Length
+                        0x000f8c00,         // Address Length
                         )
                     Interrupt (ResourceConsumer, Level, ActiveHigh, Shared, ,, )
                     {
