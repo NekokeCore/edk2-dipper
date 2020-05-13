@@ -6,5 +6,5 @@ pool:
 
 steps:
 - script: |
-    ./ci-build.sh
+    bash ci-build.sh
   displayName: 'ci-build'
