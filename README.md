@@ -63,11 +63,11 @@ Ubuntu 18.04:
 
 ```
 sudo apt update
-sudo apt install build-essential uuid-dev iasl git nasm python3-distutils gcc-aarch64-linux-gnu
+sudo apt install build-essential uuid-dev iasl git nasm python3-distutils gcc-aarch64-linux-gnu figlet
 ```
 Or
 ```
-sudo apt update
+sudo apt install build-essential
 sudo apt install build-essential
 sudo apt install uuid-dev
 sudo apt install iasl
@@ -75,6 +75,7 @@ sudo apt install git
 sudo apt install nasm
 sudo apt install python3-distutils
 sudo apt install gcc-aarch64-linux-gnu
+sudo apt install figlet
 ```
 
 
