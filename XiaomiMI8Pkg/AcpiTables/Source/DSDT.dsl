@@ -12,13 +12,13 @@
  *     Length           0x000410EA (266474)
  *     Revision         0x02
  *     Checksum         0xE1
- *     OEM ID           "HUAWEI"
+ *     OEM ID           "QCOM  "
  *     OEM Table ID     "SDM850 "
  *     OEM Revision     0x00000003 (3)
  *     Compiler ID      "MSFT"
  *     Compiler Version 0x05000000 (83886080)
  */
-DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
+DefinitionBlock ("DSDT.aml", "DSDT", 2, "QCOM  ", "SDM850 ", 0x00000003)
 {
     External (_SB_.ECOK, UnknownObj)
     External (_SB_.I2C8.BLN1, UnknownObj)
@@ -141,7 +141,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                         "\\_SB.GIO0", 0x00, ResourceConsumer, ,
                         )
                         {   // Pin list
-                            0x00C0
+                            0x002e
                         }
                     GpioIo (Shared, PullUp, 0x0000, 0x0000, IoRestrictionNone,
                         "\\_SB.GIO0", 0x00, ResourceConsumer, ,
@@ -233,6 +233,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
             }
         }
 
+        //spmi??
         Device (PM01)
         {
             Name (_HID, "QCOM0269")  // _HID: Hardware ID
@@ -45260,7 +45261,7 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
             }
         }
 
-    /*    Device (BAMD)
+       Device (BAMD)
         {
             Name (_HID, "QCOM0213")  // _HID: Hardware ID
             Alias (\_SB.PSUB, _SUB)
@@ -45282,7 +45283,6 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 Return (RBUF) // \_SB_.BAMD._CRS.RBUF
             }
         }
-    */
 
         Device (BAME)
         {
@@ -48537,7 +48537,6 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                     }
                 }
             }
-            /*
             Device (SLM2)
             {
                 Name (_ADR, One)  // _ADR: Address
@@ -48558,7 +48557,6 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                     Return (RBUF) // \_SB_.ADSP.SLM2._CRS.RBUF
                 }
             }
-            */
         }
 
         Device (AMSS)
@@ -48741,7 +48739,6 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 }
             }
         }
-        /*
         Device (QSM)
         {
             Name (_HID, "QCOM02B9")  // _HID: Hardware ID
@@ -48770,7 +48767,6 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 Return (0x0F)
             }
         }
-        */
 
         Device (SSDD)
         {
@@ -48861,7 +48857,6 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 }
             }
         }
-        /*
         Device (LLC)
         {
             Name (_DEP, Package (One)  // _DEP: Dependencies
@@ -48881,7 +48876,6 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                 })
             }
         }
-        */
 
         Device (MMU0)
         {
@@ -49200,12 +49194,10 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                         0x05000000,         // Address Base
                         0x00040000,         // Address Length
                         )
-                    /*
                     Memory32Fixed (ReadWrite,
                         0x05060000,         // Address Base
                         0x0003F000,         // Address Length
                         )
-                    */
                     Interrupt (ResourceConsumer, Level, ActiveHigh, Exclusive, ,, )
                     {
                         0x0000014C,
@@ -49222,12 +49214,10 @@ DefinitionBlock ("", "DSDT", 2, "HUAWEI", "SDM850 ", 0x00000003)
                         0x05090000,         // Address Base
                         0x00009000,         // Address Length
                         )
-                    /*
                     Memory32Fixed (ReadWrite,
                         0x0C200000,         // Address Base
                         0x0000FFFF,         // Address Length
                         )
-                    */
                     Memory32Fixed (ReadWrite,
                         0x0AA00000,         // Address Base
                         0x00200000,         // Address Length
