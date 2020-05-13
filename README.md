@@ -3,6 +3,7 @@ Attempt to create a normal EDK2 for Xiaomi MI8 - dipper.
 
 Based on zhuowei's port for [Pixel3XL](https://github.com/Pixel3Dev/edk2-pixel3/).
 
+[![Build Status](https://dev.azure.com/nekokecore/edk2-dipper/_apis/build/status/nekokecore.edk2-dipper?branchName=master)](https://dev.azure.com/nekokecore/edk2-dipper/_build/latest?definitionId=1&branchName=master)
 ![Github](https://img.shields.io/github/last-commit/NekokeCore/edk2-dipper)
 ![Github](https://img.shields.io/github/downloads/NekokeCore/edk2-dipper/total)
 ![Github](https://img.shields.io/github/issues/NekokeCore/edk2-dipper)
