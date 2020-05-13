@@ -7,7 +7,6 @@ Based on zhuowei's port for [Pixel3XL](https://github.com/Pixel3Dev/edk2-pixel3/
 ![Github](https://img.shields.io/github/last-commit/NekokeCore/edk2-dipper)
 ![Github](https://img.shields.io/github/downloads/NekokeCore/edk2-dipper/total)
 ![Github](https://img.shields.io/github/issues/NekokeCore/edk2-dipper)
-![Github](https://img.shields.io/github/v/release/NekokeCore/edk2-dipper)
 ![Github](https://img.shields.io/github/v/release/NekokeCore/edk2-dipper?include_prereleases)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNekokeCore%2Fedk2-dipper.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FNekokeCore%2Fedk2-dipper?ref=badge_shield)
 
